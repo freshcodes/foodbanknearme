@@ -1,9 +1,9 @@
 {
-  "name": "shipit",
+  "name": "foodbanknear.me",
   "private": true,
   "scripts": {
     "clean:parcel": "rm -rf ./public",
-    "dev:hugo": "hugo -DFv --cleanDestinationDir --gc --cacheDir .cache-hugo; onchange '{archetypes,content,data,layouts,static}/**/*.*' -p -- hugo -DFv --gc --cacheDir .cache-hugo"
+    "dev:hugo": "hugo -DFv --cleanDestinationDir --gc --cacheDir .cache-hugo; onchange '{archetypes,content,data,layouts,static}/**/*.*' -p -- hugo -DFv --gc --cacheDir .cache-hugo",
     "prod:hugo": "hugo -v --cleanDestinationDir --gc --cacheDir .cache-hugo",
     "dev:parcel": "parcel watch './dist-hugo/**/*.html' --out-dir ./public --cache-dir .cache-parcel --no-autoinstall",
     "prod:parcel": "npm run clean:parcel && parcel build './dist-hugo/**/*.html' --out-dir ./public --cache-dir .cache-parcel --detailed-report --experimental-scope-hoisting",
