@@ -1,0 +1,53 @@
+publishDir = "./dist-hugo"
+baseURL = "/"
+languageCode = "en-us"
+title = ""
+
+relativeURLs = true
+
+disableKinds = ["taxonomy", "taxonomyTerm"]
+disableAliases = true
+disableHugoGeneratorInject = true
+
+[params]
+disallowSearchEngines = true # set robots.txt to disallow everything
+themeColor = "#2b5797"
+safariPinnedTabColor = "#2b5797"
+appName = ""
+googleAnalyticsUA = false
+siteImage = ""
+siteDescription = ""
+siteKeywords = ""
+siteUrl = ""
+ogTitle = ""
+
+# add redirects/headers
+[outputs]
+home = ["HTML", "REDIRECTS", "HEADERS", "WEBMANIFEST", "BROWSERCONFIG"]
+
+
+# remove .{ext} from text/netlify
+[mediaTypes."text/netlify"]
+delimiter = ""
+
+# add output format for netlify _redirects
+[outputFormats.REDIRECTS]
+baseName = "_redirects"
+isPlainText = true
+notAlternative = true
+
+# add output format for netlify _headers
+[outputFormats.HEADERS]
+baseName = "_headers"
+isPlainText = true
+notAlternative = true
+
+[outputFormats.WEBMANIFEST]
+baseName = "manifest.webmanifest"
+isPlainText = true
+notAlternative = true
+
+[outputFormats.BROWSERCONFIG]
+baseName = "browserconfig.xml"
+isPlainText = true
+notAlternative = true

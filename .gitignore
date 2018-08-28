@@ -1,0 +1,7 @@
+.DS_Store
+.cache-hugo
+.cache-parcel
+.vagrant
+/dist-hugo
+/public
+/node_modules
