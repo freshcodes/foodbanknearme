@@ -19,7 +19,7 @@
 {{ with .Next }}<link rel="next" href="{{ . }}">{{ end }}
 {{ with .Prev }}<link rel="prev" href="{{ . }}">{{ end }}
 {{ with .Site.Params.siteImage }}
-  <meta name="image" content="{{ .Site.Params.siteImage }}">
+  <meta name="image" content="{{ . }}">
   <meta name="twitter:image" content="{{ . }}">
   <meta property="og:image" content="{{ . }}">
 {{ end }}
