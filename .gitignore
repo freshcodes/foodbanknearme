@@ -5,3 +5,4 @@
 /dist-hugo
 /public
 /node_modules
+*.log
