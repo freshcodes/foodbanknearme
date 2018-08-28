@@ -35,4 +35,4 @@ workbox.precaching.precacheAndRoute([])
 //   })
 // )
 
-// workbox.googleAnalytics.initialize()
+workbox.googleAnalytics.initialize()
