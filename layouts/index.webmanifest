@@ -1,6 +1,6 @@
 {
   "name": "{{ .Site.Params.appName }}",
-  "short_name": "{{ .Site.Params.appName }}",
+  "short_name": "{{ .Site.Params.appShortName }}",
   "start_url": "/",
   "display": "standalone",
   "orientation": "portrait",
