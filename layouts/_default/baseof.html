@@ -1,27 +1,26 @@
 <!doctype html>
-<html lang="{{ .Site.LanguageCode | default "en" }}">
+<html>
   <head>
-    {{ block "site/meta" . }}{{ partial "site/meta.html" . }}{{ end }}
-
-    <title>{{ block "title" . }}
-        {{- with .Title }}{{ . }} | {{ end }}{{ .Site.Title -}}
-    {{ end }}</title>
-
-    {{ range .AlternativeOutputFormats }}
-        <link rel="{{ .Rel }}" type="{{ .MediaType.Type }}" href="{{ .Permalink | relURL }}">
-    {{ end }}
-
-    {{ block "site/styles" . }}{{ partial "site/styles.html" . }}{{ end }}
+    <meta name="twitter:site_name" content="FoodBankNear.Me">
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:description" content="Find a food bank or pantry near you.">
+    <meta property="og:url" content="https://www.foodbanknear.me/">
+    <meta property="og:site_name" content="FoodBankNear.Me">
+    <meta property="og:title" content="FoodBankNear.Me">
+    <meta property="og:description" content="Find a food bank or pantry near you.">
+    <meta property="og:type" content="website">
+    <meta name="description" content="Find a food bank or pantry near you.">
+    <meta name="keywords" content="food, bank, pantry, near, close, free">
+    <title>FoodBankNear.Me</title>
   </head>
   <body>
-    {{ block "header" . }}{{ partial "site/header.html" . }}{{ end }}
-
-    <main role="main">
-      {{ block "main" . }}{{ end }}
-    </main>
-
-    {{ block "footer" . }}{{ partial "site/footer.html" . }}{{ end }}
-
-    {{ block "site/scripts" . }}{{ partial "site/scripts.html" . }}{{ end }}
+    coming soon...
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-69614204-6"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'UA-69614204-6');
+    </script>
   </body>
 </html>
