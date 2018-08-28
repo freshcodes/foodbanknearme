@@ -1,5 +1,11 @@
 # Netlify redirects. See https://www.netlify.com/docs/redirects/
 
+http://foodbanknearme-ef1a10.netlify.com/*   https://www.foodbanknear.me/:splat 301!
+https://foodbanknearme-ef1a10.netlify.com/*  https://www.foodbanknear.me/:splat 301!
+http://foodbanknear.me/*                     https://www.foodbanknear.me/:splat 301!
+https://foodbanknear.me/*                    https://www.foodbanknear.me/:splat 301!
+http://www.foodbanknear.me/*                 https://www.foodbanknear.me/:splat 301!
+
 {{ range $p := .Site.Pages }}
 {{ range .Aliases }}
 {{ . | printf "%-35s" }}  {{ $p.RelPermalink }}
