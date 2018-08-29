@@ -11,9 +11,10 @@
     "prod:cms": "cp ./static/admin/config.yml ./public/admin/",
     "prod:netlify": "cp ./dist-hugo/_* ./public/",
     "prod:uncss": "find ./public -name app.*.css -print0 | xargs -0 -I out uncss -n -H ./public -o out './public/*.html'",
+    "prod:absolute404": "sed -i 's|=\"\\./|=\"/|g' ./public/404.html",
     "dev:serve": "static-server ./public",
     "dev": "run-p dev:lint dev:hugo dev:parcel dev:serve",
-    "build": "HUGO_ENV=production NODE_ENV=production run-s prod:hugo prod:parcel prod:workbox prod:cms prod:netlify prod:uncss",
+    "build": "HUGO_ENV=production NODE_ENV=production run-s prod:hugo prod:parcel prod:workbox prod:cms prod:netlify prod:uncss prod:absolute404",
     "dev:lint": "onchange 'static/js/**/*.js' 'static/sw.js' -- npm run lint",
     "lint": "standard --fix 'static/js/**/*.js' 'static/sw.js'"
   },
