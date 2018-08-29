@@ -22,6 +22,14 @@ siteKeywords = "food, bank, pantry, near, close, free"
 siteUrl = "https://foodbanknear.me/"
 ogTitle = "FoodBankNear.Me"
 
+# redirect any alternate hosts to the primary host
+[params.host]
+primary = "foodbanknear.me"
+alternates = [
+  "www.foodbanknear.me",
+  "foodbanknearme-ef1a10.netlify.com"
+]
+
 # add redirects/headers
 [outputs]
 home = ["HTML", "REDIRECTS", "HEADERS", "WEBMANIFEST", "BROWSERCONFIG"]

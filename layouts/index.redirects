@@ -1,13 +1,16 @@
 # Netlify redirects. See https://www.netlify.com/docs/redirects/
-
-http://foodbanknearme-ef1a10.netlify.com/*   https://www.foodbanknear.me/:splat 301!
-https://foodbanknearme-ef1a10.netlify.com/*  https://www.foodbanknear.me/:splat 301!
-http://foodbanknear.me/*                     https://www.foodbanknear.me/:splat 301!
-https://foodbanknear.me/*                    https://www.foodbanknear.me/:splat 301!
-http://www.foodbanknear.me/*                 https://www.foodbanknear.me/:splat 301!
-
-{{ range $p := .Site.Pages }}
-{{ range .Aliases }}
-{{ . | printf "%-35s" }}  {{ $p.RelPermalink }}
-{{ end }}
-{{ end }}
+# redirect non-ssl host to ssl host
+{{- $h := .Site.Params.Host.Primary }}
+http://{{ $h }}/*   https://{{ $h }}/:splat  301!
+# redirect non-ssl and ssl alternate hosts to specified host domain
+{{- range $a := .Site.Params.Host.Alternates -}}
+{{- range slice "http" "https" }}
+{{ . }}://{{ $a }}/*   https://{{ $h }}/:splat  301!
+{{- end -}}
+{{- end }}
+# redirect any page aliases
+{{- range $p := .Site.Pages -}}
+{{- range .Aliases }}
+{{ . }}   {{ $p.RelPermalink -}}  301!
+{{- end -}}
+{{- end }}
