@@ -26,7 +26,6 @@ ogTitle = "FoodBankNear.Me"
 [params.host]
 primary = "foodbanknear.me"
 alternates = [
-  "www.foodbanknear.me",
   "foodbanknearme-ef1a10.netlify.com"
 ]
 
