@@ -1,2 +1,40 @@
 @import "bulma.sass";
 @import "bulma-extensions.scss";
+
+.hero .navbar {
+	background-color: rgba(0,0,0,.7);
+}
+.navbar-brand {
+	font-family: Baskerville,Baskerville Old Face,Hoefler Text,Garamond,Times New Roman,serif;
+	font-weight: bold;
+	font-size: 1.8rem;
+	display: flex;
+	justify-content: center;
+
+	img, span { align-self: center; }
+
+	img { margin-bottom: 4px; margin-right: 10px; }
+}
+
+$hero-bg: "https://ucarecdn.com/4c74d42f-8949-41fc-abd4-2523d032ba34/-/format/auto/-/progressive/yes/";
+$hero-bg-suffix: "hero";
+.hero-body {
+  background-size: cover;
+  background-position: center center;
+
+  @include mobile {
+    background-image: url('#{$hero-bg}-/resize/768x/#{$hero-bg-suffix}');
+  }
+  @include tablet {
+    background-image: url('#{$hero-bg}-/resize/1024x/#{$hero-bg-suffix}');
+  }
+  @include desktop {
+    background-image: url('#{$hero-bg}-/resize/1216x/#{$hero-bg-suffix}');
+  }
+  @include widescreen {
+    background-image: url('#{$hero-bg}-/resize/1408x/#{$hero-bg-suffix}');
+  }
+  @include fullhd {
+    background-image: url('#{$hero-bg}-/resize/2000x/#{$hero-bg-suffix}');
+  }
+}
