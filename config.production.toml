@@ -1,0 +1,4 @@
+baseURL = "https://foodbanknear.me"
+
+[params]
+googleAnalyticsUA = "UA-69614204-6"

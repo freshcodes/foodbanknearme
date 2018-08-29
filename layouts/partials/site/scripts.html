@@ -1,16 +1,30 @@
 <script src="{{ "js/app.js" | relURL }}"></script>
 {{ if eq (getenv "HUGO_ENV") "production" }}
+{{ if .Site.Params.enableServiceWorker }}
 <script>
   if ('serviceWorker' in navigator) {
-    window.addEventListener('load', () => {
-      navigator.serviceWorker.register('/sw.js').then(registration => {
-        console.log('SW registered: ', registration)
-      }).catch(registrationError => {
-        console.log('SW registration failed: ', registrationError)
+    const host = 'https://{{ .Site.Params.Host.Primary }}'
+    // Unregister service workers that are on different domains
+    // navigator.serviceWorker.getRegistrations().then(function (registrations) {
+    //   for (let registration of registrations) {
+    //     if (registration.scope.indexOf(host) !== 0) {
+    //       console.log('SW unregistered due to origin mismatch: ', registration.scope, host)
+    //       registration.unregister()
+    //     }
+    //   }
+    // })
+    if (window.location.origin.indexOf(host) === 0) {
+      window.addEventListener('load', () => {
+        navigator.serviceWorker.register('/sw.js').then(registration => {
+          console.log('SW registered: ', registration)
+        }).catch(registrationError => {
+          console.log('SW registration failed: ', registrationError)
+        })
       })
-    })
+    }
   }
 </script>
+{{ end }}
 {{ with .Site.Params.googleAnalyticsUA }}
 <!-- Google Analytics -->
 <script>

@@ -1,5 +1,5 @@
 publishDir = "./dist-hugo"
-baseURL = "/"
+baseURL = "http://localhost:9080"
 languageCode = "en-us"
 title = "FoodBankNear.Me"
 
@@ -8,18 +8,19 @@ relativeURLs = true
 disableKinds = ["taxonomy", "taxonomyTerm"]
 disableAliases = true
 disableHugoGeneratorInject = true
+enableRobotsTXT = true
 
 [params]
+enableServiceWorker = false
 disallowSearchEngines = true # set robots.txt to disallow everything
 themeColor = "#2b5797"
 safariPinnedTabColor = "#2b5797"
 appName = "FoodBankNear.Me"
 appShortName = "FBN.Me" # should be less than 12 characters
-googleAnalyticsUA = "UA-69614204-6"
+googleAnalyticsUA = false
 siteImage = "https://ucarecdn.com/4c74d42f-8949-41fc-abd4-2523d032ba34/-/format/auto/-/progressive/yes/-/scale_crop/1200x630/center/foodbanknearme"
 siteDescription = "Find a food bank or pantry near you."
 siteKeywords = "food, bank, pantry, near, close, free"
-siteUrl = "https://foodbanknear.me/"
 ogTitle = "FoodBankNear.Me"
 
 # redirect any alternate hosts to the primary host
