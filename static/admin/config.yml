@@ -62,11 +62,11 @@ collections:
     slug: "{{slug}}"
     create: true
     fields:
-      - { label: "Slug", name: "title", widget: "string" }
+      - { label: "Slug", name: "slug", widget: "string" }
+      - { label: "Title", name: "title", widget: "string" }
       - { label: "Name", name: "name", widget: "string" }
       - { label: "Address", name: "address", widget: "string" }
       - { label: "City", name: "city", widget: "string" }
-      - { label: "County", name: "county", widget: "string" }
       - label: State
         name: state
         widget: select
@@ -148,6 +148,13 @@ collections:
         required: false
       - label: Phone
         name: phone
+        widget: string
+        pattern:
+          - "(\\d{3}-){2}\\d{4}"
+          - "000-000-0000"
+        required: false
+      - label: Fax
+        name: fax
         widget: string
         pattern:
           - "(\\d{3}-){2}\\d{4}"
