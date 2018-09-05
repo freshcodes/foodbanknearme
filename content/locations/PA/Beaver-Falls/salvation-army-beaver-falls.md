@@ -1,0 +1,11 @@
+---
+slug = "salvation-army-beaver-falls"
+name = "Salvation Army Beaver Falls"
+address = "414 16th Street"
+city = "Beaver Falls"
+state = "PA"
+postal = "15010"
+website = "http://www.pittsburghfoodbank.org/about/network/beaver/"
+phone = "724-891-3605"
+fax = "724-846-9551"
+---
