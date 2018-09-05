@@ -1,4 +1,4 @@
----
++++
 slug = "josephine-county-food-bank"
 name = "Josephine County Food Bank"
 address = "3658 Upper River Road"
@@ -8,4 +8,4 @@ postal = "97526"
 website = "www.jocofoodbank.org/"
 phone = "541-479-5556"
 fax = "541-476-6268"
----
++++

@@ -1,4 +1,4 @@
----
++++
 slug = "feed-my-people-food-bank"
 name = "Feed My People Food Bank"
 address = "2610 Alpine Road"
@@ -8,4 +8,4 @@ postal = "54703"
 website = "http://www.fmpfoodbank.org"
 phone = "715-835-9415"
 fax = "715-835-3844"
----
++++

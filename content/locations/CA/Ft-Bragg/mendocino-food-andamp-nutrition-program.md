@@ -1,4 +1,4 @@
----
++++
 slug = "mendocino-food-andamp-nutrition-program"
 name = "Mendocino Food &amp; Nutrition Program"
 address = "910 N Franklin Street"
@@ -8,4 +8,4 @@ postal = "95437"
 website = "http://www.fortbraggfoodbank.org/"
 phone = "707-964-9404"
 fax = "707-964-0435"
----
++++

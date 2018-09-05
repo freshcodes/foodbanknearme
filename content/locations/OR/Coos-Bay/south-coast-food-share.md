@@ -1,4 +1,4 @@
----
++++
 slug = "south-coast-food-share"
 name = "South Coast Food Share"
 address = "PO Box 899"
@@ -8,4 +8,4 @@ postal = "97420"
 website = "http://www.orcca.us/food-share"
 phone = "541-435-7754"
 fax = "541-888-7563"
----
++++

@@ -1,4 +1,4 @@
----
++++
 slug = "bread-of-life-missions-inc."
 name = "Bread of Life Missions, Inc.,"
 address = "1575 Sullivan Lane PO Box 2991"
@@ -8,4 +8,4 @@ postal = "86322"
 website = ""
 phone = "928-567-6931"
 fax = "928-567-6931"
----
++++

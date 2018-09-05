@@ -1,4 +1,4 @@
----
++++
 slug = "food-bank-of-north-central-arkansas"
 name = "Food Bank of North Central Arkansas"
 address = "14215 HWY 5 SOUTH"
@@ -8,4 +8,4 @@ postal = "72658"
 website = "http://www.foodbanknca.org/"
 phone = "870-499-7565"
 fax = "870-499-3500"
----
++++

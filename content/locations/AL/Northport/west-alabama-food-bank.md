@@ -1,4 +1,4 @@
----
++++
 slug = "west-alabama-food-bank"
 name = "West Alabama Food Bank"
 address = "3160 McFarland Blvd"
@@ -8,4 +8,4 @@ postal = "35476"
 website = "http://www.westalabamafoodbank.org/"
 phone = "205-333-5353"
 fax = "205-752-5547"
----
++++

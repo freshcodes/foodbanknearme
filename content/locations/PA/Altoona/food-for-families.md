@@ -1,4 +1,4 @@
----
++++
 slug = "food-for-families"
 name = "Food for Families"
 address = "2201 Union Street"
@@ -8,4 +8,4 @@ postal = "16601"
 website = "http://https://www.svdpcares.org/food-for-families.html"
 phone = "814-944-6302"
 fax = "814-944-4357"
----
++++

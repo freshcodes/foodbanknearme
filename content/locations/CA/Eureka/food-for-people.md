@@ -1,4 +1,4 @@
----
++++
 slug = "food-for-people"
 name = "Food For People"
 address = "307 West 14th Street"
@@ -8,4 +8,4 @@ postal = "95501"
 website = "http://www.foodforpeople.org/"
 phone = "707-445-3166"
 fax = "707-445-5946"
----
++++

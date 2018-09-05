@@ -1,4 +1,4 @@
----
++++
 slug = "chester-county-food-bank"
 name = "Chester County Food Bank"
 address = "650 Pennsylvania Drive"
@@ -8,4 +8,4 @@ postal = "19341"
 website = "http://chestercountyfoodbank.org/"
 phone = "610-873-6000"
 fax = "484-359-4346"
----
++++

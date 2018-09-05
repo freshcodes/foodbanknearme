@@ -1,4 +1,4 @@
----
++++
 slug = "pcceo"
 name = "PCCEO"
 address = "721 W McBean"
@@ -8,4 +8,4 @@ postal = "61605"
 website = "http://www.peoriafoodbank.org/leadership-team/"
 phone = "309-671-3906"
 fax = "309-671-3925"
----
++++

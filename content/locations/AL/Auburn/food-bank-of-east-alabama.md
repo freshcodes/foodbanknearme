@@ -1,4 +1,4 @@
----
++++
 slug = "food-bank-of-east-alabama"
 name = "Food Bank of East Alabama"
 address = "375 Industry Drive"
@@ -8,4 +8,4 @@ postal = "36832"
 website = "http://www.foodbankofeastalabama.com"
 phone = "334-821-9006"
 fax = "334-821-4697"
----
++++

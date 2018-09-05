@@ -1,4 +1,4 @@
----
++++
 slug = "kenai-peninsula-food-bank"
 name = "Kenai Peninsula Food Bank"
 address = "33955 Community College Dr"
@@ -8,4 +8,4 @@ postal = "99611"
 website = "http://kpfoodbank.org"
 phone = "907-262-3111"
 fax = "907-262-3112"
----
++++

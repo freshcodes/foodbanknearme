@@ -1,4 +1,4 @@
----
++++
 slug = "western-upper-peninsula-food-bank-bhkcaa"
 name = "Western Upper Peninsula Food Bank - BHKCAA"
 address = "310 E Sharon Ave"
@@ -8,4 +8,4 @@ postal = "49931"
 website = "http://www.bhkcaa.org"
 phone = "906-482-5528"
 fax = "906-482-5512"
----
++++

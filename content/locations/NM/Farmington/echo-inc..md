@@ -1,4 +1,4 @@
----
++++
 slug = "echo-inc."
 name = "ECHO Inc."
 address = "401 S. Commercial"
@@ -8,4 +8,4 @@ postal = "87401"
 website = "http://www.echoinc.org"
 phone = "505-326-3770"
 fax = "505-326-5025"
----
++++
