@@ -2,7 +2,7 @@
 # vi: set ft=ruby :
 
 NODE_VERSION = 10
-HUGO_VERSION = '0.47.1'
+HUGO_VERSION = '0.48'
 
 Vagrant.configure(2) do |config|
   config.vm.box = 'ubuntu/xenial64'

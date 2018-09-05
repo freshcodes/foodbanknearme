@@ -3,7 +3,7 @@ command = "npm run build"
 publish = "./public"
 
 [build.environment]
-HUGO_VERSION = "0.46"
+HUGO_VERSION = "0.48"
 
 [context.production.environment]
 HUGO_ENV = "production"
