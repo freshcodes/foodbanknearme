@@ -16,8 +16,6 @@
 <link rel="mask-icon" href="{{ "assets/icons/safari-pinned-tab.svg" | relURL }}" color="{{ .Site.Params.safariPinnedTabColor }}">
 {{ with .Description }}<meta name="description" content="{{ . }}">{{ end }}
 {{ with .Keywords }}<meta name="keywords" content="{{ . }}">{{ end }}
-{{ with .Next }}<link rel="next" href="{{ . }}">{{ end }}
-{{ with .Prev }}<link rel="prev" href="{{ . }}">{{ end }}
 {{ with .Site.Params.siteImage }}
   <meta name="image" content="{{ . }}">
   <meta name="twitter:image" content="{{ . }}">
