@@ -1,0 +1,12 @@
++++
+slug = "muncie-mission-ministries"
+title = "Muncie Mission Ministries"
+name = "Muncie Mission Ministries"
+address = "1725 S Liberty St"
+city = "Muncie"
+state = "IN"
+postal = "47302"
+website = ""
+phone = "765 288-9122"
+fax = ""
++++

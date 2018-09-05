@@ -1,0 +1,12 @@
++++
+slug = "trinity-church"
+title = "Trinity Church"
+name = "Trinity Church"
+address = "655 NW 125 Street"
+city = "North Miami"
+state = "FL"
+postal = "33168"
+website = ""
+phone = "305 688-9129"
+fax = ""
++++

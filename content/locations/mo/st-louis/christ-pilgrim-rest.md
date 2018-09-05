@@ -1,0 +1,12 @@
++++
+slug = "christ-pilgrim-rest"
+title = "Christ Pilgrim Rest"
+name = "Christ Pilgrim Rest"
+address = "1341 North Kingshighway Blvd"
+city = "St Louis"
+state = "MO"
+postal = "63113"
+website = ""
+phone = "314-367-2974"
+fax = ""
++++
