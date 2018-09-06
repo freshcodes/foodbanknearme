@@ -17,9 +17,9 @@
 {{ with .Description }}<meta name="description" content="{{ . }}">{{ end }}
 {{ with .Keywords }}<meta name="keywords" content="{{ . }}">{{ end }}
 {{ with .Site.Params.siteImage }}
-  <meta name="image" content="{{ . }}">
-  <meta name="twitter:image" content="{{ . }}">
-  <meta property="og:image" content="{{ . }}">
+<meta name="image" content="{{ . }}">
+<meta name="twitter:image" content="{{ . }}">
+<meta property="og:image" content="{{ . }}">
 {{ end }}
 <meta name="twitter:site_name" content="{{ .Site.Params.appName }}">
 <meta name="twitter:card" content="summary">
