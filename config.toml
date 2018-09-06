@@ -1,4 +1,4 @@
-publishDir = "./dist-hugo"
+publishDir = "./public"
 baseURL = "http://localhost:9080"
 languageCode = "en-us"
 title = "FoodBankNear.Me"

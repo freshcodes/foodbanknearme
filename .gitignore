@@ -1,8 +1,9 @@
 .DS_Store
-.cache-hugo
-.cache-parcel
 .vagrant
-/dist-hugo
+.cache
+.cache-parcel
 /public
 /node_modules
 *.log
+/static/css/app.css
+/static/js/app.js

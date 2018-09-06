@@ -12,7 +12,6 @@ Vagrant.configure(2) do |config|
     v.cpus = 1
   end
   config.vm.network :forwarded_port, guest: 9080, host: 9080
-  config.vm.network :forwarded_port, guest: 38644, host: 38644
 
   config.vm.provision :shell, inline: <<-SHELL
     sudo apt-get update
