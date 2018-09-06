@@ -9,7 +9,7 @@ const critical = require('critical')
 // a height of 500 covers us well across all widths due to the hero resizing
 const dimensions = [768, 1024, 1216, 1408].map((w) => ({ width: w, height: 500 }))
 
-const files = ['index', '404']
+const files = ['index']
 let current = 0
 
 function process (file) {
