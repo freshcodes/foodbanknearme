@@ -7,3 +7,4 @@
 *.log
 /static/css/app.css
 /static/js/app.js
+/static/js/app.map
