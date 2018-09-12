@@ -5,10 +5,21 @@ title = "FoodBankNear.Me"
 
 relativeURLs = true
 
-disableKinds = ["taxonomy", "taxonomyTerm"]
+disableKinds = [ "taxonomy", "taxonomyTerm" ]
 disableAliases = true
 disableHugoGeneratorInject = true
 enableRobotsTXT = true
+
+[related]
+includeNewer = true
+toLower = false
+threshold = 1.0
+[[related.indices]]
+  name = "stateIndexKey"
+  weight = 1.0
+[[related.indices]]
+  name = "cityIndexKey"
+  weight = 1.0
 
 [params]
 enableServiceWorker = false

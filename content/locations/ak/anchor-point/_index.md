@@ -1,3 +1,0 @@
-+++
-title = 'Anchor Point, AK'
-+++

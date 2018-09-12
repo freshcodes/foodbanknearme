@@ -3,6 +3,7 @@ slug = "somerville-homeless-coalition-main-food-pantry-saint-benedict's-church-(
 title = "Somerville Homeless Coalition Main Food Pantry - Saint Benedict's Church (rear basement)"
 name = "Somerville Homeless Coalition Main Food Pantry - Saint Benedict's Church (rear basement)"
 address = "15 Franklin Street"
+cityIndexKey = "city-ma-east-somerville"
 city = "East Somerville"
 state = "MA"
 postal = "02145"
