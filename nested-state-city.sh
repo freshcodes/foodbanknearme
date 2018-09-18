@@ -18,7 +18,7 @@ while getopts ":f" opt; do
 done
 
 if [ "$locationFiles" = '' ]; then
-  locationFiles=`grep '^cityIndexKey =' -rL content/locations | grep -v -e '_index.md$' -e 'single.html$' | sort`
+  locationFiles=`grep '^cityIndexKey =' -rL content/locations | grep -v '_index.md$' | sort`
 fi
 
 printf "processing `echo "$locationFiles" | grep -c ".md"` location files."
@@ -40,9 +40,13 @@ for f in $locationFiles; do
 
   if [[ ! -e "$newStateFilePath" ]]; then
     state=`cat "$f" | sed -n 's/^.*\(state = "\)//p' | sed -n 's/"$//p'`
+    stateName=`grep -m1 "^$state:" ./data/states.yml | sed "s/^$state: //"`
+    if [ "$stateName" = '' ]; then
+      stateName="$state"
+    fi
     cat << EOF > "$newStateFilePath"
 ---
-title: $state
+title: $stateName
 stateIndexKey: $stateIndexKey
 layout: list_all_cities
 ---

@@ -1,3 +1,15 @@
 {{ define "main" -}}
 <h1>All States</h1>
+<ul class="posts">
+  {{ range sort .Site.Pages "Title" -}}
+    {{ $p := . }}
+    {{ with .Params.StateIndexKey }}
+      {{ with $p.Params.CityIndexKey }}
+      {{ else }}
+        <li><a href="{{ $p.Permalink }}">{{ $p.Title }}</a>
+        </li>
+      {{ end }}
+    {{ end }}
+  {{- end }}
+</ul>
 {{- end }}

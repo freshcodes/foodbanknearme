@@ -12,7 +12,7 @@
     "prod:parcel:css": "parcel build static/css/src/app.scss --out-dir ./static/css --detailed-report --experimental-scope-hoisting",
     "prod:workbox": "workbox injectManifest",
     "prod:inlinecriticalcss": "DEBUG=critical:* node critical.build.js",
-    "build": "npm run buildNestedCityStateData; HUGO_ENV=production NODE_ENV=production run-s prod:parcel:js prod:parcel:css prod:hugo prod:workbox prod:inlinecriticalcss",
+    "build": "HUGO_ENV=production NODE_ENV=production run-s buildNestedCityStateData prod:parcel:js prod:parcel:css prod:hugo prod:workbox prod:inlinecriticalcss",
     "buildNestedCityStateData": "./nested-state-city.sh",
     "lint": "standard --fix 'static/js/src/**/*.js' 'static/sw.js'"
   },
