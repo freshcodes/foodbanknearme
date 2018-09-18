@@ -1,0 +1,16 @@
+{{ define "main" }}
+
+  <div class="container">
+    <div itemscope itemtype="http://schema.org/LocalBusiness">
+      <h1><span itemprop="name">{{ .Title }}</span></h1>
+      <div itemprop="address" itemscope itemtype="http://schema.org/PostalAddress">
+        <span itemprop="streetAddress">{{ .Params.address }}</span>
+        <span itemprop="addressLocality">{{ .Params.city }}</span>,
+        <span itemprop="addressRegion">{{ .Params.state }}</span>
+      </div>
+      <a href="tel:{{ .Params.phone }}" itemprop="telephone">{{ .Params.phone }}</a>
+    </div>
+    <div class="content">{{ .Content }}</div>
+  </div>
+
+{{ end }}
