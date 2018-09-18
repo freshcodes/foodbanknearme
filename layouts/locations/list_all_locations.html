@@ -1,3 +1,39 @@
 {{ define "main" -}}
-All Locations
+<div class="container">
+  <h1>{{ .Title }}</h1>
+  {{ .Content }}
+
+  <p><a href="../">show all cities</a></p>
+
+  <h2>Locations in {{ .Page.Title }}</h2>
+  {{ $locations := sort (.Site.RegularPages.RelatedIndices . "cityIndexKey") "Title" }}
+  {{ if gt (len $locations) 0 }}
+    <div class="columns">
+    {{ range $locations }}
+      <div class="column is-half-tablet">
+        <div class="card" itemscope itemtype="http://schema.org/LocalBusiness">
+          <div class="card-content">
+            <h3 class="subtitle">
+              <a href="{{ .Permalink }}" itemprop="name">{{ .Title }}</a>
+            </h3>
+            <div itemprop="address" itemscope itemtype="http://schema.org/PostalAddress">
+              <span itemprop="streetAddress">{{ .Params.address }}</span>
+              <span itemprop="addressLocality">{{ .Params.city }}</span>,
+              <span itemprop="addressRegion">{{ .Params.state }}</span>
+            </div>
+            <a href="tel:{{ .Params.phone }}" itemprop="telephone">{{ .Params.phone }}</a>
+          </div>
+        </div>
+      </div>
+    {{ end }}
+    </div>
+  {{ else }}
+    <p>no locations...</p>
+  {{ end }}
+</div>
+
+{{ if .Site.DisqusShortname -}}
+<h2>Comments</h2>
+{{ template "_internal/disqus.html" . }}
+{{- end }}
 {{- end }}
