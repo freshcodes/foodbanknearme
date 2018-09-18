@@ -6,8 +6,9 @@ currentStateSlug=''
 while getopts ":f" opt; do
   case ${opt} in
     f ) # process all locations, cities, states
-      rm -r ./content/cities
-      locationFiles=`find ./content/locations -depth 3 -type f | sort`
+      find ./content/locations -maxdepth 3 -name _index.md -exec rm {} \;
+      find ./layouts/locations -type d -mindepth 1 -maxdepth 1 -exec rm -r {} \;
+      locationFiles=`find ./content/locations -depth 3 -type f -not -name _index.md | sort`
       ;;
     \? )
       echo "Usage: cmd [-f]"
@@ -17,7 +18,7 @@ while getopts ":f" opt; do
 done
 
 if [ "$locationFiles" = '' ]; then
-  locationFiles=`grep '^cityIndexKey =' -rL content/locations | sort`
+  locationFiles=`grep '^cityIndexKey =' -rL content/locations | grep -v -e '_index.md$' -e 'single.html$' | sort`
 fi
 
 printf "processing `echo "$locationFiles" | grep -c ".md"` location files."
@@ -27,12 +28,10 @@ for f in $locationFiles; do
   stateDir=`dirname "$cityDir"`
   stateSlug=`basename "$stateDir"`
   stateIndexKey="state-$stateSlug"
-  newStateFilePath="./content/states/$stateSlug.md"
-  newStateDir=`dirname "$newStateFilePath"`
+  newStateFilePath="$stateDir/_index.md"
   citySlug=`basename "$cityDir"`
   cityIndexKey="city-$stateSlug-$citySlug"
-  newCityFilePath="./content/cities/$stateSlug/$citySlug.md"
-  newCityDir=`dirname "$newCityFilePath"`
+  newCityFilePath="./$cityDir/_index.md"
 
   if [ "$currentStateSlug" != "$stateSlug" ]; then
     currentStateSlug="$stateSlug"
@@ -40,16 +39,27 @@ for f in $locationFiles; do
   fi
 
   if [[ ! -e "$newStateFilePath" ]]; then
-    mkdir -p $newStateDir
     state=`cat "$f" | sed -n 's/^.*\(state = "\)//p' | sed -n 's/"$//p'`
-    echo "---\ntitle: $state\nstateIndexKey: $stateIndexKey\n---" > "$newStateFilePath"
+    cat << EOF > "$newStateFilePath"
+---
+title: $state
+stateIndexKey: $stateIndexKey
+layout: list_all_cities
+---
+EOF
   fi
 
   if [[ ! -e "$newCityFilePath" ]]; then
-    mkdir -p $newCityDir
     state=`cat "$f" | sed -n 's/^.*\(state = "\)//p' | sed -n 's/"$//p'`
     city=`cat "$f" | sed -n 's/^.*\(city = "\)//p' | sed -n 's/"$//p'`
-    echo "---\ntitle: $city, $state\nstateIndexKey: $stateIndexKey\ncityIndexKey: $cityIndexKey\n---" > "$newCityFilePath"
+    cat << EOF > "$newCityFilePath"
+---
+title: $city, $state
+stateIndexKey: $stateIndexKey
+cityIndexKey: $cityIndexKey
+layout: list_all_locations
+---
+EOF
   fi
 
   if grep -q '^cityIndexKey = ' $f; then
