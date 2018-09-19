@@ -1,6 +1,0 @@
----
-title: Thibodaux, LA
-stateIndexKey: state-la
-cityIndexKey: city-la-thibodaux
-layout: list_all_locations
----

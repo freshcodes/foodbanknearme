@@ -1,13 +1,15 @@
-+++
-slug = "foodshare"
-title = "Foodshare"
-name = "Foodshare"
-address = "450 Woodland Avenue"
-cityIndexKey = "city-ct-bloomfield"
-city = "Bloomfield"
-state = "CT"
-postal = "06002-1342"
-website = ""
-phone = "860-288-4251"
-fax = ""
-+++
+---
+slug: foodshare
+title: Foodshare
+address: 450 Woodland Avenue
+address2: 
+cityIndexKey: city-ct-bloomfield
+city: Bloomfield
+state: CT
+postal: 6002
+longitude: -72.7260981
+latitude: 41.8671548
+website: www.foodshare.org
+phone: 860-286-9999
+fax: 860-286-7860
+---
