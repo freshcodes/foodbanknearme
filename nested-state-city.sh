@@ -6,9 +6,8 @@ currentStateSlug=''
 while getopts ":f" opt; do
   case ${opt} in
     f ) # process all locations, cities, states
-      find ./content/locations -maxdepth 3 -name _index.md -exec rm {} \;
-      find ./layouts/locations -type d -mindepth 1 -maxdepth 1 -exec rm -r {} \;
-      locationFiles=`find ./content/locations -depth 3 -type f -not -name _index.md | sort`
+      find ./content/locations -mindepth 2 -maxdepth 3 -name _index.md -exec rm {} \;
+      locationFiles=`ls ./content/locations/*/*/*.md | grep -v 'index.md$' | sort`
       ;;
     \? )
       echo "Usage: cmd [-f]"
@@ -18,7 +17,7 @@ while getopts ":f" opt; do
 done
 
 if [ "$locationFiles" = '' ]; then
-  locationFiles=`find ./content/locations -depth 3 -type f -not -name _index.md -exec grep '^cityIndexKey =' -L {} \; | sort`
+  locationFiles=`grep '^cityIndexKey =' -rL content/locations/*/*/*.md | grep -v 'index.md$' | sort`
 fi
 
 printf "processing `echo "$locationFiles" | grep -c ".md"` location files."
