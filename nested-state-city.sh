@@ -18,7 +18,7 @@ while getopts ":f" opt; do
 done
 
 if [ "$locationFiles" = '' ]; then
-  locationFiles=`grep '^cityIndexKey =' -rL content/locations | grep -v '_index.md$' | sort`
+  locationFiles=`find ./content/locations -depth 3 -type f -not -name _index.md -exec grep '^cityIndexKey =' -L {} \; | sort`
 fi
 
 printf "processing `echo "$locationFiles" | grep -c ".md"` location files."
