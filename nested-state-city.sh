@@ -7,7 +7,7 @@ while getopts ":f" opt; do
   case ${opt} in
     f ) # process all locations, cities, states
       find ./content/locations -mindepth 2 -maxdepth 3 -name _index.md -exec rm {} \;
-      locationFiles=`find ./content/locations -depth 3 -type f -name '*.md' -not -name '_index.md' | sort`
+      locationFiles=`grep '^fax =' -rl ./content/locations | sort`
       ;;
     \? )
       echo "Usage: cmd [-f]"
@@ -17,7 +17,7 @@ while getopts ":f" opt; do
 done
 
 if [ "$locationFiles" = '' ]; then
-  locationFiles=`grep '^cityIndexKey' -rL ./content/locations | grep -v 'index.md$' | sort`
+  locationFiles=`grep '^cityIndexKey' -rL ./content/locations | xargs grep '^fax =' -rl | sort`
 fi
 
 printf "processing `echo "$locationFiles" | grep -c ".md"` location files."
