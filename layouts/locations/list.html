@@ -1,15 +1,31 @@
 {{ define "main" -}}
 <h1>All States</h1>
 <ul class="posts">
-  {{ range sort .Site.Pages "Title" -}}
-    {{ $p := . }}
-    {{ with .Params.StateIndexKey }}
-      {{ with $p.Params.CityIndexKey }}
-      {{ else }}
-        <li><a href="{{ $p.Permalink }}">{{ $p.Title }}</a>
-        </li>
-      {{ end }}
-    {{ end }}
+  {{ $pages := where .Site.Pages ".Params.layout" "list_all_cities" }}
+  {{ range sort $pages "Title" }}
+    <li>
+      <a href="{{ .Permalink }}">{{ .Title }}</a>
+      (
+        {{- $cities := .Site.Pages.RelatedIndices . "stateIndexKey" -}}
+        {{- $count := len $cities -}}
+        {{- $count }}
+        {{ if eq $count 1 -}}
+          city
+        {{- else -}}
+          cities
+        {{- end -}}
+        ,
+        {{ $.Scratch.Set "state_location_count" 0 -}}
+        {{- range $cities -}}
+          {{- $.Scratch.Set "state_location_count" (add ($.Scratch.Get "state_location_count") (len (.Site.RegularPages.RelatedIndices . "cityIndexKey"))) -}}
+        {{- end -}}
+        {{- $c := $.Scratch.Get "state_location_count" -}}
+        {{- $c }} location
+        {{- if ne $c 1 -}}
+          s
+        {{- end -}}
+      )
+    </li>
   {{- end }}
 </ul>
 {{- end }}

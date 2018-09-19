@@ -10,7 +10,16 @@
   {{ if gt (len $cities) 0 }}
     <ul>
       {{ range $cities }}
-        <li><a href="{{ .Permalink }}">{{ .Title }}</a></li>
+        <li>
+          <a href="{{ .Permalink }}">{{ .Title }}</a>
+          (
+            {{- $count := len (.Site.RegularPages.RelatedIndices . "cityIndexKey") -}}
+            {{- $count }} location
+            {{- if ne $count 1 -}}
+              s
+            {{- end -}}
+          )
+        </li>
       {{ end }}
     </ul>
   {{ else }}
