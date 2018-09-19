@@ -8,7 +8,7 @@
   <h2>Locations in {{ .Page.Title }}</h2>
   {{ $locations := sort (.Site.RegularPages.RelatedIndices . "cityIndexKey") "Title" }}
   {{ if gt (len $locations) 0 }}
-    <div class="columns">
+    <div class="columns is-multiline">
     {{ range $locations }}
       <div class="column is-half-tablet">
         <div class="card" itemscope itemtype="http://schema.org/LocalBusiness">
