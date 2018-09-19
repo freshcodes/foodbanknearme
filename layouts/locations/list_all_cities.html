@@ -1,29 +1,32 @@
 {{ define "main" -}}
-<div class="post">
-  <h1>{{ .Title }}</h1>
-  {{ .Content }}
+<section class="section">
+  <div class="container">
+    <h1>{{ .Title }}</h1>
+    {{ .Content }}
 
-  <p><a href="../">show all states</a></p>
+    <p><a href="../">show all states</a></p>
 
-  <h2>Cities in {{ .Page.Title }}</h2>
-  {{ $cities := sort (.Site.Pages.RelatedIndices . "stateIndexKey") "Title" }}
-  {{ if gt (len $cities) 0 }}
-    <ul>
-      {{ range $cities }}
-        <li>
-          <a href="{{ .Permalink }}">{{ .Title }}</a>
-          (
-            {{- $count := len (.Site.RegularPages.RelatedIndices . "cityIndexKey") -}}
-            {{- $count }} location
-            {{- if ne $count 1 -}}
-              s
-            {{- end -}}
-          )
-        </li>
-      {{ end }}
-    </ul>
-  {{ else }}
-    <p>no cities...</p>
-  {{ end }}
-</div>
+    <h2>Cities in {{ .Page.Title }}</h2>
+    {{ $cities := sort (.Site.Pages.RelatedIndices . "stateIndexKey") "Title" }}
+    {{ if gt (len $cities) 0 }}
+      <div class="columns is-multiline">
+        {{ range $cities }}
+          {{- $count := len (.Site.RegularPages.RelatedIndices . "cityIndexKey") -}}
+          <div class="column is-half-tablet is-one-third-desktop is-one-quarter-widescreen">
+            <div class="card">
+              <div class="card-content">
+                <h3 class="subtitle">
+                  <a href="{{ .Permalink }}">{{ .Title }}</a>
+                </h3>
+                <p>Total Locations: {{ $count }}
+              </div>
+            </div>
+          </div>
+        {{ end }}
+      </div>
+    {{ else }}
+      <p>no cities...</p>
+    {{ end }}
+  </div>
+</section>
 {{- end }}
