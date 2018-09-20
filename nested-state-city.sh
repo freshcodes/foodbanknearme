@@ -58,6 +58,8 @@ EOF
     cat << EOF > "$newCityFilePath"
 ---
 title: $city, $state
+city: $city
+state: $state
 stateIndexKey: $stateIndexKey
 cityIndexKey: $cityIndexKey
 layout: list_all_locations
