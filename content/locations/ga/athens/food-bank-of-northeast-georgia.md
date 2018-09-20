@@ -12,4 +12,6 @@ latitude: 34.0024593
 website: www.foodbanknega.org
 phone: 706-354-8191
 fax: 706-354-8666
+partnerBank: false
+partnerGroupId: partner-group-48
 ---

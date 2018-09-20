@@ -9,4 +9,6 @@ postal: 94559
 website: http://www.canv.org
 phone: 707-253-6100
 fax: 707-253-6156
+partnerBank: true
+partnerGroupId: partner-group-14
 ---

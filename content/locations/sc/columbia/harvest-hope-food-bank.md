@@ -12,4 +12,6 @@ latitude: 33.962813
 website: www.harvesthope.org
 phone: 803-254-4432
 fax: 803-254-6011
+partnerBank: false
+partnerGroupId: partner-group-162
 ---

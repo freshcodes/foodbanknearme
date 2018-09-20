@@ -12,4 +12,6 @@ latitude: 36.236814
 website: www.threesquare.org
 phone: 702-644-3663
 fax: 702-365-6574
+partnerBank: false
+partnerGroupId: partner-group-123
 ---

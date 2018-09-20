@@ -12,4 +12,6 @@ latitude: 40.713253
 website: www.shfblv.org
 phone: 610-434-0875
 fax: 484-397-6901
+partnerBank: false
+partnerGroupId: partner-group-154
 ---

@@ -12,4 +12,6 @@ latitude: 30.4721779
 website: www.brfoodbank.org
 phone: 225-359-9940
 fax: 225-355-1445
+partnerBank: false
+partnerGroupId: partner-group-79
 ---

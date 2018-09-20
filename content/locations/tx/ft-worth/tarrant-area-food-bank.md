@@ -12,4 +12,6 @@ latitude: 32.7614792
 website: www.tafb.org
 phone: 817-332-9177
 fax: 817-877-5148
+partnerBank: false
+partnerGroupId: partner-group-175
 ---

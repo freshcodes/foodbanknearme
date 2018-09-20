@@ -12,4 +12,6 @@ latitude: 39.527222
 website: fbnn.org/
 phone: 775-331-3663
 fax: 775-331-3765
+partnerBank: false
+partnerGroupId: partner-group-124
 ---

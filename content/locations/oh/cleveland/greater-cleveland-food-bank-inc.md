@@ -12,4 +12,6 @@ latitude: 0
 website: www.clevelandfoodbank.org
 phone: 216-738-2265
 fax: 216-738-1604
+partnerBank: false
+partnerGroupId: partner-group-137
 ---

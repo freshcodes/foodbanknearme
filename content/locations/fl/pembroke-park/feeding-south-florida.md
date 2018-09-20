@@ -12,4 +12,6 @@ latitude: 25.9871519
 website: www.feedingsouthflorida.org
 phone: 954-518-1818
 fax: 954-983-1313
+partnerBank: false
+partnerGroupId: partner-group-44
 ---

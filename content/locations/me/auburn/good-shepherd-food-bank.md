@@ -12,4 +12,6 @@ latitude: 44.0307951
 website: www.gsfb.org
 phone: 207-782-3554
 fax: 207-782-9893
+partnerBank: false
+partnerGroupId: partner-group-87
 ---

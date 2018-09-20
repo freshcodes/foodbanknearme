@@ -12,4 +12,6 @@ latitude: 40.7465366
 website: www.cityharvest.org
 phone: 646-412-0600
 fax: 646-412-0764
+partnerBank: false
+partnerGroupId: partner-group-132
 ---

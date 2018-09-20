@@ -12,4 +12,6 @@ latitude: 47.2249257
 website: www.secondharvestncfb.com
 phone: 218-326-4420
 fax: 218-999-5252
+partnerBank: false
+partnerGroupId: partner-group-97
 ---

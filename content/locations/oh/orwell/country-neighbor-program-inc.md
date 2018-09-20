@@ -9,4 +9,6 @@ postal: 44076
 website: http://www.countryneighbor.org/
 phone: 440-437-6311
 fax: 440-437-1031
+partnerBank: true
+partnerGroupId: partner-group-137
 ---

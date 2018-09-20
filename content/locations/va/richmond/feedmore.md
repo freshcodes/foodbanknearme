@@ -12,4 +12,6 @@ latitude: 37.5669235
 website: www.feedmore.org
 phone: 804-521-2500
 fax: 804-521-2501
+partnerBank: false
+partnerGroupId: partner-group-190
 ---

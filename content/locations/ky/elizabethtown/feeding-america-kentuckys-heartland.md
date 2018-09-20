@@ -12,4 +12,6 @@ latitude: 37.6841893
 website: www.feedingamericaky.org
 phone: 270-769-6997
 fax: 270-769-9340
+partnerBank: false
+partnerGroupId: partner-group-75
 ---

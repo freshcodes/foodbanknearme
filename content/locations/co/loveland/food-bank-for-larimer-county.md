@@ -12,4 +12,6 @@ latitude: 40.6046779
 website: www.foodbanklarimer.org
 phone: 970-493-4477
 fax: 970-493-5122
+partnerBank: false
+partnerGroupId: partner-group-35
 ---

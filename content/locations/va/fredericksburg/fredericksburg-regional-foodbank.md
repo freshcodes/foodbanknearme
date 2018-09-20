@@ -12,4 +12,6 @@ latitude: 38.2701457
 website: www.fredfood.org
 phone: 540-371-7666
 fax: 540-371-3186
+partnerBank: false
+partnerGroupId: partner-group-187
 ---

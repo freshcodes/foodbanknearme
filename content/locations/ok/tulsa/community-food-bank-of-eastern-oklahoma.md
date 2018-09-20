@@ -12,4 +12,6 @@ latitude: 36.173081
 website: www.okfoodbank.org
 phone: 918-585-2800
 fax: 918-585-2862
+partnerBank: false
+partnerGroupId: partner-group-148
 ---

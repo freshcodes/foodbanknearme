@@ -9,4 +9,6 @@ postal: 95817
 website: http://www.sacramentofoodbank.org/
 phone: 916-456-1980
 fax: 916-451-5920
+partnerBank: true
+partnerGroupId: partner-group-14
 ---

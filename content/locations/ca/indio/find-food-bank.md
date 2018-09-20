@@ -12,4 +12,6 @@ latitude: 33.7186199
 website: www.FINDfoodbank.org
 phone: 760-775-3663
 fax: 760-775-0252
+partnerBank: false
+partnerGroupId: partner-group-16
 ---

@@ -12,4 +12,6 @@ latitude: 32.1887434
 website: www.communityfoodbank.org
 phone: 520-622-0525
 fax: 520-624-6349
+partnerBank: false
+partnerGroupId: partner-group-12
 ---

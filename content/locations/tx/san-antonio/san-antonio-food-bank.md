@@ -12,4 +12,6 @@ latitude: 29.4179676
 website: www.safoodbank.org
 phone: 210-337-3663
 fax: 210-431-8397
+partnerBank: false
+partnerGroupId: partner-group-182
 ---

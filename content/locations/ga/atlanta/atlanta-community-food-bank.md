@@ -12,4 +12,6 @@ latitude: 33.7752465
 website: www.acfb.org
 phone: 404-892-9822
 fax: 678-553-5993
+partnerBank: false
+partnerGroupId: partner-group-49
 ---

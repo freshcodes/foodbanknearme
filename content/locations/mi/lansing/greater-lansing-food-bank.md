@@ -12,4 +12,6 @@ latitude: 42.762277
 website: www.greaterlansingfoodbank.org
 phone: 517-853-7800
 fax: 517-853-7817
+partnerBank: false
+partnerGroupId: partner-group-93
 ---

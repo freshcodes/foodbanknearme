@@ -9,4 +9,6 @@ postal: 49931
 website: http://www.bhkcaa.org
 phone: 906-482-5528
 fax: 906-482-5512
+partnerBank: true
+partnerGroupId: partner-group-90
 ---

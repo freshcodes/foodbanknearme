@@ -12,4 +12,6 @@ latitude: 29.988175
 website: setxfoodbank.org
 phone: 409-839-8777
 fax: 409-839-8786
+partnerBank: false
+partnerGroupId: partner-group-172
 ---

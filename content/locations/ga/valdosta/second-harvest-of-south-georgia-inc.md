@@ -12,4 +12,6 @@ latitude: 30.8053
 website: www.feedingsga.org
 phone: 229-244-2678
 fax: 229-244-3663
+partnerBank: false
+partnerGroupId: partner-group-54
 ---

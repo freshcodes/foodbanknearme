@@ -12,4 +12,6 @@ latitude: 38.7828843
 website: www.placerfoodbank.org
 phone: 916-783-0481
 fax: 916-783-4013
+partnerBank: false
+partnerGroupId: partner-group-23
 ---

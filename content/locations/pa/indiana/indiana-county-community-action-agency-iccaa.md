@@ -9,4 +9,6 @@ postal: 15701
 website: http://www.iccap.net/
 phone: 724-465-2657
 fax: 724-465-5118
+partnerBank: true
+partnerGroupId: partner-group-151
 ---

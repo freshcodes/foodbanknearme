@@ -12,4 +12,6 @@ latitude: 33.4104088
 website: www.unitedfoodbank.org
 phone: 480-926-4897
 fax: 480-926-7025
+partnerBank: false
+partnerGroupId: partner-group-10
 ---

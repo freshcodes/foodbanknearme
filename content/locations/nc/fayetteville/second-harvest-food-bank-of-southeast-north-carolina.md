@@ -12,4 +12,6 @@ latitude: 35.0407512
 website: www.ccap-inc.org/foodbank/index.php
 phone: 910-485-8809
 fax: 910-485-4394
+partnerBank: false
+partnerGroupId: partner-group-111
 ---

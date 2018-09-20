@@ -12,4 +12,6 @@ latitude: 41.2315382
 website: www.foodwarehouse.org
 phone: 724-981-0353
 fax: 724-981-7949
+partnerBank: false
+partnerGroupId: partner-group-158
 ---

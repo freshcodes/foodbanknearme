@@ -12,4 +12,6 @@ latitude: 35.8039287
 website: www.foodbankofnea.org
 phone: 870-932-3663
 fax: 870-933-6639
+partnerBank: false
+partnerGroupId: partner-group-7
 ---

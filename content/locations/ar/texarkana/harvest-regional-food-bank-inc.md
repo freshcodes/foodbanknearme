@@ -12,4 +12,6 @@ latitude: 33.4398883
 website: www.harvestregionalfoodbank.org
 phone: 870-774-1398
 fax: 870-774-1905
+partnerBank: false
+partnerGroupId: partner-group-9
 ---

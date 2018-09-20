@@ -12,4 +12,6 @@ latitude: 40.819489
 website: www.licares.org
 phone: 631-582-3663
 fax: 631-273-2184
+partnerBank: false
+partnerGroupId: partner-group-129
 ---

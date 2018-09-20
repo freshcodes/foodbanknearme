@@ -12,4 +12,6 @@ latitude: 35.769331
 website: www.foodshuttle.org
 phone: 919-250-0043
 fax: 919-250-0416
+partnerBank: false
+partnerGroupId: partner-group-113
 ---

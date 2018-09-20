@@ -12,4 +12,6 @@ latitude: 34.439298
 website: www.foodbanksbc.org
 phone: 805-967-5741
 fax: 805-683-4951
+partnerBank: false
+partnerGroupId: partner-group-28
 ---

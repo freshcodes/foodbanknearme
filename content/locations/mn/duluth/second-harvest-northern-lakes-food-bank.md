@@ -12,4 +12,6 @@ latitude: 46.8328947
 website: www.northernlakesfoodbank.org
 phone: 218-727-5653
 fax: 218-727-0105
+partnerBank: false
+partnerGroupId: partner-group-96
 ---

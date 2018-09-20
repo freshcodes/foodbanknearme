@@ -12,4 +12,6 @@ latitude: 27.8014139
 website: coastalbendfoodbank.org/
 phone: 361-887-6291
 fax: 361-887-7687
+partnerBank: false
+partnerGroupId: partner-group-173
 ---

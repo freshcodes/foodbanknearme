@@ -12,4 +12,6 @@ latitude: 30.400868
 website: www.fightinghunger.org
 phone: 850-562-3033
 fax: 850-562-6176
+partnerBank: false
+partnerGroupId: partner-group-46
 ---

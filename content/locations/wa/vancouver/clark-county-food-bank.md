@@ -9,4 +9,6 @@ postal: 98661
 website: www.clarkcountyfoodbank.org
 phone: 360-693-0939
 fax: 360-693-0939
+partnerBank: true
+partnerGroupId: partner-group-149
 ---

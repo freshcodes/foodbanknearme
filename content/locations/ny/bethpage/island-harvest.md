@@ -12,4 +12,6 @@ latitude: 40.7443549
 website: www.islandharvest.org
 phone: 516-294-8528
 fax: 516-747-6843
+partnerBank: false
+partnerGroupId: partner-group-125
 ---

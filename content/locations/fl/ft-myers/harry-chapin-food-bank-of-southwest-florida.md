@@ -12,4 +12,6 @@ latitude: 26.607214
 website: www.harrychapinfoodbank.org
 phone: 239-334-7007
 fax: 239-479-6266
+partnerBank: false
+partnerGroupId: partner-group-40
 ---

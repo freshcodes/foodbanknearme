@@ -12,4 +12,6 @@ latitude: 31.270121
 website: www.fbcenla.org
 phone: 318-445-2773
 fax: 318-484-2898
+partnerBank: false
+partnerGroupId: partner-group-78
 ---

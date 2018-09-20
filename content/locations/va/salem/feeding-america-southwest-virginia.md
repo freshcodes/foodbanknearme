@@ -12,4 +12,6 @@ latitude: 37.278424
 website: www.faswva.org
 phone: 540-342-3011
 fax: 540-342-0056
+partnerBank: false
+partnerGroupId: partner-group-191
 ---

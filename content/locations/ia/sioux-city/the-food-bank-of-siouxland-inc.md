@@ -9,4 +9,6 @@ postal: 51105
 website: http://www.siouxlandfoodbank.org
 phone: 712-255-9741
 fax: 712-255-3116
+partnerBank: true
+partnerGroupId: partner-group-117
 ---

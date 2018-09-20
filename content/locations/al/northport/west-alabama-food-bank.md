@@ -9,4 +9,6 @@ postal: 35476
 website: http://www.westalabamafoodbank.org/
 phone: 205-333-5353
 fax: 205-752-5547
+partnerBank: true
+partnerGroupId: partner-group-3
 ---

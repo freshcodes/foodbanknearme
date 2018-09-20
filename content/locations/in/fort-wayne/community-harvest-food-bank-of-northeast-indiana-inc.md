@@ -12,4 +12,6 @@ latitude: 41.0172425
 website: www.chfb.org
 phone: 260-447-3696
 fax: 260-969-4609
+partnerBank: false
+partnerGroupId: partner-group-67
 ---

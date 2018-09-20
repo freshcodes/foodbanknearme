@@ -12,4 +12,6 @@ latitude: 39.9022887
 website: www.philabundance.org
 phone: 215-339-0900
 fax: 215-339-0924
+partnerBank: false
+partnerGroupId: partner-group-155
 ---

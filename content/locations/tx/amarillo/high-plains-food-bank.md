@@ -12,4 +12,6 @@ latitude: 35.201807
 website: www.hpfb.org
 phone: 806-374-8562
 fax: 806-371-7459
+partnerBank: false
+partnerGroupId: partner-group-170
 ---

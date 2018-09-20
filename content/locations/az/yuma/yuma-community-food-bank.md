@@ -12,4 +12,6 @@ latitude: 32.6839351
 website: www.yumafoodbank.org
 phone: 928-343-1243
 fax: 928-782-7924
+partnerBank: false
+partnerGroupId: partner-group-13
 ---

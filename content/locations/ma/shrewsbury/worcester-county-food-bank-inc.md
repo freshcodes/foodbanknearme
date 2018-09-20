@@ -12,4 +12,6 @@ latitude: 42.275881
 website: www.foodbank.org
 phone: 508-842-3663
 fax: 508-842-7405
+partnerBank: false
+partnerGroupId: partner-group-85
 ---

@@ -12,4 +12,6 @@ latitude: 41.5014619
 website: www.foodbanknwi.org/
 phone: 219-980-1777
 fax: 219-980-1720
+partnerBank: false
+partnerGroupId: partner-group-70
 ---

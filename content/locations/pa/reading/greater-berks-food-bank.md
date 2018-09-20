@@ -12,4 +12,6 @@ latitude: 40.311611
 website: www.berksfoodbank.org/
 phone: 610-926-5802
 fax: 610-926-7638
+partnerBank: false
+partnerGroupId: partner-group-157
 ---

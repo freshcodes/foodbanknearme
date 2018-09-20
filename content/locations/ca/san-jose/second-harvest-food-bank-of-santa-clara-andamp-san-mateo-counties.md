@@ -12,4 +12,6 @@ latitude: 37.2925
 website: www.SHFB.org
 phone: 408-266-8866
 fax: 408-266-9042
+partnerBank: false
+partnerGroupId: partner-group-27
 ---

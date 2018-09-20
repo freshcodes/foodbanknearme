@@ -12,4 +12,6 @@ latitude: 40.1366137
 website: www.eifoodbank.org
 phone: 217-328-3663
 fax: 217-328-3670
+partnerBank: false
+partnerGroupId: partner-group-64
 ---

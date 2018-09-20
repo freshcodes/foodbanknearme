@@ -12,4 +12,6 @@ latitude: 35.1358971
 website: www.midsouthfoodbank.org
 phone: 901-527-0841
 fax: 901-528-1172
+partnerBank: false
+partnerGroupId: partner-group-167
 ---

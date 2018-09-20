@@ -12,4 +12,6 @@ latitude: 39.328349
 website: www.sharedharvest.org
 phone: 513-874-0114
 fax: 513-874-0152
+partnerBank: false
+partnerGroupId: partner-group-139
 ---

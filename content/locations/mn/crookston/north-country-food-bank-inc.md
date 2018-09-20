@@ -12,4 +12,6 @@ latitude: 47.7767655
 website: northcountryfoodbank.org
 phone: 218-281-7356
 fax: 218-281-7374
+partnerBank: false
+partnerGroupId: partner-group-95
 ---

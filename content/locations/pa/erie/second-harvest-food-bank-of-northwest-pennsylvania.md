@@ -12,4 +12,6 @@ latitude: 42.109537
 website: www.nwpafoodbank.org
 phone: 814-459-3663
 fax: 814-456-6481
+partnerBank: false
+partnerGroupId: partner-group-152
 ---

@@ -9,4 +9,6 @@ postal: 82644
 website: 
 phone: 307-265-2172
 fax: 307-472-1869
+partnerBank: true
+partnerGroupId: partner-group-32
 ---

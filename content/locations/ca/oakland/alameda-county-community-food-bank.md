@@ -12,4 +12,6 @@ latitude: 37.741538
 website: www.accfb.org
 phone: 510-635-3663
 fax: 510-635-3773
+partnerBank: false
+partnerGroupId: partner-group-20
 ---

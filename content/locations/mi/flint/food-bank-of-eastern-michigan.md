@@ -12,4 +12,6 @@ latitude: 0
 website: www.fbem.org
 phone: 810-239-4441
 fax: 810-239-4498
+partnerBank: false
+partnerGroupId: partner-group-92
 ---

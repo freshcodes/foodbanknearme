@@ -12,4 +12,6 @@ latitude: 39.882796
 website: www.midohiofoodbank.org
 phone: 614-274-7770
 fax: 614-274-8063
+partnerBank: false
+partnerGroupId: partner-group-140
 ---

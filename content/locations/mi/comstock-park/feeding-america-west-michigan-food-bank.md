@@ -12,4 +12,6 @@ latitude: 43.04848
 website: www.FeedWM.org
 phone: 616-784-3250
 fax: 616-784-3255
+partnerBank: false
+partnerGroupId: partner-group-90
 ---

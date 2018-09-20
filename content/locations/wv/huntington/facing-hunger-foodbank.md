@@ -12,4 +12,6 @@ latitude: 38.4176925
 website: facinghunger.org
 phone: 304-523-6029
 fax: 304-523-6086
+partnerBank: false
+partnerGroupId: partner-group-199
 ---

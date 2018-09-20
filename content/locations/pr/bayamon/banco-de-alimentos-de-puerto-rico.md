@@ -12,4 +12,6 @@ latitude: 18.4425811
 website: bancodealimentopr.org/
 phone: 787-740-3663
 fax: 787-786-8810
+partnerBank: false
+partnerGroupId: partner-group-159
 ---

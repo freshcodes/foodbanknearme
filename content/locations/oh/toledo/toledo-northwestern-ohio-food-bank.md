@@ -12,4 +12,6 @@ latitude: 41.6603136
 website: www.toledofoodbank.org
 phone: 419-242-5000
 fax: 419-241-4455
+partnerBank: false
+partnerGroupId: partner-group-145
 ---

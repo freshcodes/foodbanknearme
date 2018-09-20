@@ -9,4 +9,6 @@ postal: 93401
 website: http://www.slofoodbank.org
 phone: 805-238-4664
 fax: 805-238-6956
+partnerBank: true
+partnerGroupId: partner-group-28
 ---

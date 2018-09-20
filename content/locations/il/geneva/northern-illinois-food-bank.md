@@ -12,4 +12,6 @@ latitude: 41.8876942
 website: www.SolveHungerToday.org
 phone: 630-443-6910
 fax: 630-443-6916
+partnerBank: false
+partnerGroupId: partner-group-62
 ---

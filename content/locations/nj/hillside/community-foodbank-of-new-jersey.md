@@ -12,4 +12,6 @@ latitude: 40.697259
 website: www.cfbnj.org
 phone: 908-355-3663
 fax: 908-355-0270
+partnerBank: false
+partnerGroupId: partner-group-119
 ---

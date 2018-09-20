@@ -9,4 +9,6 @@ postal: 87301
 website: http://thecommunitypantry.org/
 phone: 505-726-8068
 fax: 505-726-9022
+partnerBank: true
+partnerGroupId: partner-group-122
 ---

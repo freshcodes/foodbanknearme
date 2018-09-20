@@ -12,4 +12,6 @@ latitude: 41.4231553
 website: www.secondharvestfoodbank.org
 phone: 440-960-2265
 fax: 440-960-2356
+partnerBank: false
+partnerGroupId: partner-group-143
 ---

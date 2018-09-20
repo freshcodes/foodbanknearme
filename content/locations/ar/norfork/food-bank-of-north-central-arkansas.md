@@ -9,4 +9,6 @@ postal: 72658
 website: http://www.foodbanknca.org/
 phone: 870-499-7565
 fax: 870-499-3500
+partnerBank: true
+partnerGroupId: partner-group-7
 ---

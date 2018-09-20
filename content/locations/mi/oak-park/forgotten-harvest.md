@@ -12,4 +12,6 @@ latitude: 42.454311
 website: www.forgottenharvest.org
 phone: 248-967-1500
 fax: 248-967-1510
+partnerBank: false
+partnerGroupId: partner-group-94
 ---

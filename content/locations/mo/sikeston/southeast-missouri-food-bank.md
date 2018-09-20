@@ -12,4 +12,6 @@ latitude: 36.9082684
 website: www.semofoodbank.org
 phone: 855-703-3663
 fax: 573-651-0405
+partnerBank: false
+partnerGroupId: partner-group-103
 ---

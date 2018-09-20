@@ -12,4 +12,6 @@ latitude: 39.5368037
 website: hapcap.org/foodbank
 phone: 740-385-6813
 fax: 740-385-0866
+partnerBank: false
+partnerGroupId: partner-group-142
 ---

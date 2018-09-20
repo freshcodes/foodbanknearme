@@ -9,4 +9,6 @@ postal: 97128
 website: http://www.yamhillcap.org
 phone: 503-472-0457
 fax: 503-472-5555
+partnerBank: true
+partnerGroupId: partner-group-149
 ---

@@ -12,4 +12,6 @@ latitude: 40.2379927
 website: www.curehunger.org
 phone: 765-287-8698
 fax: 765-287-2036
+partnerBank: false
+partnerGroupId: partner-group-71
 ---

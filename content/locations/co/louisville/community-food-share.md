@@ -12,4 +12,6 @@ latitude: 39.959845
 website: www.communityfoodshare.org
 phone: 303-652-3663
 fax: 303-652-1304
+partnerBank: false
+partnerGroupId: partner-group-34
 ---

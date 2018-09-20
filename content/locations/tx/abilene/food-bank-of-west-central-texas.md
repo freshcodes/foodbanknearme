@@ -12,4 +12,6 @@ latitude: 32.4543317
 website: www.fbwct.org
 phone: 325-695-6311
 fax: 325-695-6827
+partnerBank: false
+partnerGroupId: partner-group-169
 ---

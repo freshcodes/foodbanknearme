@@ -12,4 +12,6 @@ latitude: 32.2851748
 website: www.msfoodnet.org
 phone: 601-973-7080
 fax: 601-948-6710
+partnerBank: false
+partnerGroupId: partner-group-106
 ---

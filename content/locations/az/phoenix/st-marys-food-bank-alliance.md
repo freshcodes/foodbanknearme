@@ -12,4 +12,6 @@ latitude: 33.479079
 website: www.firstfoodbank.org
 phone: 602-242-3663
 fax: 480-393-4511
+partnerBank: false
+partnerGroupId: partner-group-11
 ---

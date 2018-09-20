@@ -12,4 +12,6 @@ latitude: 39.224358
 website: www.mdfoodbank.org
 phone: 410-737-8282
 fax: 410-536-0438
+partnerBank: false
+partnerGroupId: partner-group-86
 ---

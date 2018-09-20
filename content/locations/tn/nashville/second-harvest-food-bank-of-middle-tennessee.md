@@ -12,4 +12,6 @@ latitude: 36.199172
 website: www.secondharvestmidtn.org
 phone: 615-329-3491
 fax: 615-329-3988
+partnerBank: false
+partnerGroupId: partner-group-168
 ---

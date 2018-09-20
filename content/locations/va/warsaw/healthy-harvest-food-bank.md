@@ -9,4 +9,6 @@ postal: 22572
 website: http://www.hhfb.org/
 phone: 804-577-0246
 fax: 804-577-0246
+partnerBank: true
+partnerGroupId: partner-group-190
 ---

@@ -12,4 +12,6 @@ latitude: 31.8611326
 website: www.wtxfoodbank.org
 phone: 432-580-6333
 fax: 432-580-0807
+partnerBank: false
+partnerGroupId: partner-group-179
 ---

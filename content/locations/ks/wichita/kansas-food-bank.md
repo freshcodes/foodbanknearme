@@ -12,4 +12,6 @@ latitude: 37.6860706
 website: www.kansasfoodbank.org
 phone: 316-265-3663
 fax: 316-265-9747
+partnerBank: false
+partnerGroupId: partner-group-74
 ---

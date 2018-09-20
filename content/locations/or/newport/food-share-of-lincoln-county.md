@@ -9,4 +9,6 @@ postal: 97365
 website: http://www.foodsharelincolncounty.org
 phone: 541-265-8578
 fax: 541-265-2948
+partnerBank: true
+partnerGroupId: partner-group-149
 ---

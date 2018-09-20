@@ -12,4 +12,6 @@ latitude: 41.7968637
 website: www.rifoodbank.org
 phone: 401-942-6325
 fax: 401-942-2328
+partnerBank: false
+partnerGroupId: partner-group-160
 ---

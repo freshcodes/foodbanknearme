@@ -12,4 +12,6 @@ latitude: 39.777766
 website: www.foodbankrockies.org
 phone: 303-371-9250
 fax: 303-371-9259
+partnerBank: false
+partnerGroupId: partner-group-32
 ---

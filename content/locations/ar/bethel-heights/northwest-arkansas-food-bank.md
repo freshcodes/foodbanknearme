@@ -12,4 +12,6 @@ latitude: 36.223349
 website: www.NWAfoodbank.org
 phone: 479-872-8774
 fax: 479-872-8777
+partnerBank: false
+partnerGroupId: partner-group-5
 ---

@@ -12,4 +12,6 @@ latitude: 41.0726152
 website: feedingwestchester.org/
 phone: 914-923-1100
 fax: 914-923-1198
+partnerBank: false
+partnerGroupId: partner-group-128
 ---

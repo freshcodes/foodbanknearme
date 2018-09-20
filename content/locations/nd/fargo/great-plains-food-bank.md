@@ -12,4 +12,6 @@ latitude: 46.878851
 website: www.greatplainsfoodbank.org/
 phone: 701-232-6219
 fax: 701-232-3871
+partnerBank: false
+partnerGroupId: partner-group-115
 ---

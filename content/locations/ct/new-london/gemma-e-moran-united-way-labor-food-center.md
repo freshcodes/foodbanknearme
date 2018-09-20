@@ -9,4 +9,6 @@ postal: 6320
 website: http://www.uwsect.org/
 phone: 860-464-7281
 fax: 860-464-6362
+partnerBank: true
+partnerGroupId: partner-group-37
 ---

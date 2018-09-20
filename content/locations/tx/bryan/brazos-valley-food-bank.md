@@ -9,4 +9,6 @@ postal: 77803
 website: http://www.bvfb.org/
 phone: 979-779-3663
 fax: 979-821-2111
+partnerBank: true
+partnerGroupId: partner-group-176
 ---

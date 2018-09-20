@@ -12,4 +12,6 @@ latitude: 32.0664093
 website: www.helpendhunger.org
 phone: 912-236-6750
 fax: 912-231-9776
+partnerBank: false
+partnerGroupId: partner-group-53
 ---

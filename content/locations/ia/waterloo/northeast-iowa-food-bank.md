@@ -12,4 +12,6 @@ latitude: 42.4933959
 website: www.northeastiowafoodbank.org
 phone: 319-235-0507
 fax: 319-235-1027
+partnerBank: false
+partnerGroupId: partner-group-59
 ---

@@ -9,4 +9,6 @@ postal: 48161
 website: http://www.monroecountyop.org
 phone: 734-241-2775
 fax: 000-000-0000
+partnerBank: true
+partnerGroupId: partner-group-91
 ---

@@ -12,4 +12,6 @@ latitude: 43.058325
 website: www.secondharvestmadison.org
 phone: 608-223-9121
 fax: 608-223-9840
+partnerBank: false
+partnerGroupId: partner-group-196
 ---

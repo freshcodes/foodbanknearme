@@ -12,4 +12,6 @@ latitude: 43.1106071
 website: www.foodbankcny.org
 phone: 315-437-1899
 fax: 315-434-9629
+partnerBank: false
+partnerGroupId: partner-group-134
 ---

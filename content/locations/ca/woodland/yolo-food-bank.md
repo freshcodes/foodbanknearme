@@ -9,4 +9,6 @@ postal: 95776
 website: http://www.yolofoodbank.org
 phone: 530-668-0690
 fax: 530-668-8530
+partnerBank: true
+partnerGroupId: partner-group-14
 ---

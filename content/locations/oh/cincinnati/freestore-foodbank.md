@@ -12,4 +12,6 @@ latitude: 39.1070414
 website: www.freestorefoodbank.org
 phone: 513-482-4500
 fax: 513-482-7532
+partnerBank: false
+partnerGroupId: partner-group-136
 ---

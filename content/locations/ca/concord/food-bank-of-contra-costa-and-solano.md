@@ -12,4 +12,6 @@ latitude: 38.0061049
 website: www.foodbankccs.org
 phone: 925-676-7543
 fax: 925-671-7933
+partnerBank: false
+partnerGroupId: partner-group-14
 ---

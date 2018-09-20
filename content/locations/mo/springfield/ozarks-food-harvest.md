@@ -12,4 +12,6 @@ latitude: 37.2458783
 website: www.ozarksfoodharvest.org
 phone: 417-865-3411
 fax: 417-865-0504
+partnerBank: false
+partnerGroupId: partner-group-104
 ---

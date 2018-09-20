@@ -12,4 +12,6 @@ latitude: 32.5128033
 website: www.foodbanknela.org/
 phone: 318-322-3567
 fax: 318-322-1620
+partnerBank: false
+partnerGroupId: partner-group-80
 ---

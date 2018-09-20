@@ -12,4 +12,6 @@ latitude: 40.229517
 website: www.fulfillnj.org
 phone: 732-918-2600
 fax: 732-918-2660
+partnerBank: false
+partnerGroupId: partner-group-120
 ---

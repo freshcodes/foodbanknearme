@@ -12,4 +12,6 @@ latitude: 36.683211
 website: www.food4hungry.org
 phone: 831-758-1523
 fax: 831-758-5925
+partnerBank: false
+partnerGroupId: partner-group-24
 ---

@@ -20,6 +20,9 @@ threshold = 1.0
 [[related.indices]]
   name = "cityIndexKey"
   weight = 1.0
+[[related.indices]]
+  name = "partnerGroupId"
+  weight = 1.0
 
 [params]
 enableServiceWorker = false

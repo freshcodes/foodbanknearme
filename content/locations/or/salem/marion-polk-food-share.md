@@ -9,4 +9,6 @@ postal: 97238
 website: http://www.marionpolkfoodshare.org
 phone: 503-581-3855
 fax: 503-588-4077
+partnerBank: true
+partnerGroupId: partner-group-149
 ---

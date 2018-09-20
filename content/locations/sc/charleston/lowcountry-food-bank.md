@@ -12,4 +12,6 @@ latitude: 32.8442175
 website: www.lowcountryfoodbank.org
 phone: 843-747-8146
 fax: 843-747-8147
+partnerBank: false
+partnerGroupId: partner-group-161
 ---

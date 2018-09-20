@@ -12,4 +12,6 @@ latitude: 42.1377499
 website: www.foodbankst.org
 phone: 607-796-6061
 fax: 607-796-6028
+partnerBank: false
+partnerGroupId: partner-group-127
 ---

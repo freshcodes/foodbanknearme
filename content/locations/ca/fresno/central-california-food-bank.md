@@ -12,4 +12,6 @@ latitude: 36.6937639
 website: ccfoodbank.org/
 phone: 559-237-2527
 fax: 559-443-2081
+partnerBank: false
+partnerGroupId: partner-group-15
 ---

@@ -12,4 +12,6 @@ latitude: 29.9518448
 website: www.no-hunger.org
 phone: 504-734-1322
 fax: 504-733-8336
+partnerBank: false
+partnerGroupId: partner-group-81
 ---

@@ -12,4 +12,6 @@ latitude: 42.881357
 website: www.foodbankwny.org
 phone: 716-852-1305
 fax: 716-852-7858
+partnerBank: false
+partnerGroupId: partner-group-126
 ---

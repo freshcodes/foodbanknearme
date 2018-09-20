@@ -12,4 +12,6 @@ latitude: 38.8563576
 website: www.careandshare.org
 phone: 719-528-1247
 fax: 719-528-5833
+partnerBank: false
+partnerGroupId: partner-group-31
 ---

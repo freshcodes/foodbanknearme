@@ -12,4 +12,6 @@ latitude: 39.784431
 website: www.ourcommunityfoodbank.org
 phone: 816-364-3663
 fax: 816-364-6404
+partnerBank: false
+partnerGroupId: partner-group-105
 ---

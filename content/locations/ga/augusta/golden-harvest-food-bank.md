@@ -12,4 +12,6 @@ latitude: 33.449874
 website: www.goldenharvest.org
 phone: 706-736-1199
 fax: 706-736-1375
+partnerBank: false
+partnerGroupId: partner-group-50
 ---

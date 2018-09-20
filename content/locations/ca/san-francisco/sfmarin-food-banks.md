@@ -12,4 +12,6 @@ latitude: 37.7544611
 website: www.sfmfoodbank.org
 phone: 415-282-1900
 fax: 415-282-1909
+partnerBank: false
+partnerGroupId: partner-group-26
 ---

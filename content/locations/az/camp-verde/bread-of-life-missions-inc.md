@@ -9,4 +9,6 @@ postal: 86322
 website: 
 phone: 928-567-6931
 fax: 928-567-6931
+partnerBank: true
+partnerGroupId: partner-group-11
 ---

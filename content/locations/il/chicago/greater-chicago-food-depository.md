@@ -12,4 +12,6 @@ latitude: 41.8182227
 website: www.chicagosfoodbank.org
 phone: 773-247-3663
 fax: 773-247-4232
+partnerBank: false
+partnerGroupId: partner-group-61
 ---

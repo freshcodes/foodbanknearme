@@ -12,4 +12,6 @@ latitude: 37.7843254
 website: www.localfoodbank.org
 phone: 209-239-2091
 fax: 209-239-2086
+partnerBank: false
+partnerGroupId: partner-group-19
 ---

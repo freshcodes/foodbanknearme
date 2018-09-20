@@ -12,4 +12,6 @@ latitude: 39.7494633
 website: www.thefoodbankdayton.org
 phone: 937-461-0265
 fax: 937-461-3310
+partnerBank: false
+partnerGroupId: partner-group-138
 ---

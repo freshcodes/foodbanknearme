@@ -12,4 +12,6 @@ latitude: 32.333412
 website: EastTexasFoodBank.org
 phone: 903-597-3663
 fax: 903-597-7659
+partnerBank: false
+partnerGroupId: partner-group-183
 ---

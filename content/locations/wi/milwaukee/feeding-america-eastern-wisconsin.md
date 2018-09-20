@@ -12,4 +12,6 @@ latitude: 43.057405
 website: www.feedingamericawi.org/
 phone: 414-931-7400
 fax: 414-931-1996
+partnerBank: false
+partnerGroupId: partner-group-197
 ---

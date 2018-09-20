@@ -12,4 +12,6 @@ latitude: 33.6637107
 website: www.FeedOC.org
 phone: 949-653-2900
 fax: 949-653-0700
+partnerBank: false
+partnerGroupId: partner-group-17
 ---

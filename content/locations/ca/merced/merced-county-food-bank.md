@@ -9,4 +9,6 @@ postal: 95348
 website: http://mmcfb.org/
 phone: 209-726-3663
 fax: 209-385-1492
+partnerBank: true
+partnerGroupId: partner-group-19
 ---

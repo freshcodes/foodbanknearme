@@ -12,4 +12,6 @@ latitude: 39.4775632
 website: www.archindy.org/cc/terrehaute/programs-foodbank.html
 phone: 812-235-3424
 fax: 866-241-9587
+partnerBank: false
+partnerGroupId: partner-group-73
 ---

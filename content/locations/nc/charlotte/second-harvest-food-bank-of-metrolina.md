@@ -12,4 +12,6 @@ latitude: 35.2385282
 website: www.secondharvestmetrolina.org
 phone: 704-376-1785
 fax: 704-342-1601
+partnerBank: false
+partnerGroupId: partner-group-109
 ---

@@ -12,4 +12,6 @@ latitude: 38.66142
 website: www.mountaineerfoodbank.org
 phone: 304-364-5518
 fax: 304-364-8213
+partnerBank: false
+partnerGroupId: partner-group-198
 ---

@@ -12,4 +12,6 @@ latitude: 42.3540749
 website: www.gcfb.org
 phone: 313-923-3535
 fax: 313-923-2247
+partnerBank: false
+partnerGroupId: partner-group-91
 ---

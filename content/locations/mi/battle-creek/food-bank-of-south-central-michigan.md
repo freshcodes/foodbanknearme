@@ -12,4 +12,6 @@ latitude: 42.3351319
 website: www.foodbankofscm.org
 phone: 269-964-3663
 fax: 269-966-4147
+partnerBank: false
+partnerGroupId: partner-group-89
 ---

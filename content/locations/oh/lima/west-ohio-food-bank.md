@@ -12,4 +12,6 @@ latitude: 40.7297528
 website: www.westohiofoodbank.org/
 phone: 419-222-7946
 fax: 419-222-1150
+partnerBank: false
+partnerGroupId: partner-group-141
 ---

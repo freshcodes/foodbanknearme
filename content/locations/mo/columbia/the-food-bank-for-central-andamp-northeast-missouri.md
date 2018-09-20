@@ -12,4 +12,6 @@ latitude: 38.972436
 website: www.sharefoodbringhope.org
 phone: 573-474-1020
 fax: 573-474-9932
+partnerBank: false
+partnerGroupId: partner-group-101
 ---

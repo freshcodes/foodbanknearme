@@ -12,4 +12,6 @@ latitude: 42.054559
 website: www.hacap.org
 phone: 319-393-7811
 fax: 319-393-6263
+partnerBank: false
+partnerGroupId: partner-group-58
 ---

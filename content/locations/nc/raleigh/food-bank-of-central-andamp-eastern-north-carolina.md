@@ -12,4 +12,6 @@ latitude: 35.8043724
 website: www.foodbankcenc.org
 phone: 919-875-0707
 fax: 919-875-0801
+partnerBank: false
+partnerGroupId: partner-group-112
 ---

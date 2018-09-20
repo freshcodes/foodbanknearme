@@ -12,4 +12,6 @@ latitude: 32.8053239
 website: www.mgcfb.org
 phone: 478-742-3958
 fax: 478-742-8735
+partnerBank: false
+partnerGroupId: partner-group-51
 ---

@@ -12,4 +12,6 @@ latitude: 44.1732794
 website: www.vtfoodbank.org/
 phone: 802-476-3341
 fax: 802-476-0319
+partnerBank: false
+partnerGroupId: partner-group-193
 ---

@@ -12,4 +12,6 @@ latitude: 43.972584
 website: www.helpingfeedpeople.org
 phone: 507-424-1700
 fax: 507-287-2351
+partnerBank: false
+partnerGroupId: partner-group-98
 ---

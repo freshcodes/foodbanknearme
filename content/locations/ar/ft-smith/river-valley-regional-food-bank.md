@@ -12,4 +12,6 @@ latitude: 35.3280873
 website: www.rvrfoodbank.org/
 phone: 479-785-0582
 fax: 479-785-3218
+partnerBank: false
+partnerGroupId: partner-group-6
 ---

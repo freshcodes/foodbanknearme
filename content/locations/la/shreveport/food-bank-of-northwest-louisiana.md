@@ -12,4 +12,6 @@ latitude: 32.4885956
 website: www.foodbanknla.org
 phone: 318-675-2400
 fax: 318-675-2440
+partnerBank: false
+partnerGroupId: partner-group-82
 ---

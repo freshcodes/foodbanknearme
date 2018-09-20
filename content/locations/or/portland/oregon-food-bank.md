@@ -12,4 +12,6 @@ latitude: 45.5803542
 website: www.oregonfoodbank.org
 phone: 503-282-0555
 fax: 503-282-0922
+partnerBank: false
+partnerGroupId: partner-group-149
 ---

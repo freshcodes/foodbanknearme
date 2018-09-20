@@ -12,4 +12,6 @@ latitude: 41.4821192
 website: www.ctfoodbank.org
 phone: 203-469-5000
 fax: 203-469-4871
+partnerBank: false
+partnerGroupId: partner-group-37
 ---

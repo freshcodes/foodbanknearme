@@ -12,4 +12,6 @@ latitude: 34.6880756
 website: www.arkansasfoodbank.org/
 phone: 501-565-8121
 fax: 501-565-0180
+partnerBank: false
+partnerGroupId: partner-group-8
 ---

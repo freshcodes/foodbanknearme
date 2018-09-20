@@ -12,4 +12,6 @@ latitude: 40.8624164
 website: www.lincolnfoodbank.org
 phone: 402-466-8170
 fax: 402-466-6124
+partnerBank: false
+partnerGroupId: partner-group-116
 ---

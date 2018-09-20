@@ -9,4 +9,6 @@ postal: 16201
 website: http://www.armstrongcap.com
 phone: 724-548-3408
 fax: 724-548-3413
+partnerBank: true
+partnerGroupId: partner-group-151
 ---

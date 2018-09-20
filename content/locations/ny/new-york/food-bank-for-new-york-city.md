@@ -12,4 +12,6 @@ latitude: 40.8067286
 website: www.foodbanknyc.org
 phone: 718-991-4300
 fax: 718-893-3442
+partnerBank: false
+partnerGroupId: partner-group-131
 ---

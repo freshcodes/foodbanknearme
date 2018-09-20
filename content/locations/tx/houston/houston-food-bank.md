@@ -12,4 +12,6 @@ latitude: 29.782393
 website: www.HoustonFoodBank.org
 phone: 713-223-3700
 fax: 713-223-1424
+partnerBank: false
+partnerGroupId: partner-group-176
 ---

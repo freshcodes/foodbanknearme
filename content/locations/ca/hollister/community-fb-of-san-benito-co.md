@@ -9,4 +9,6 @@ postal: 95023
 website: http://communityfoodbankofsbc.org/
 phone: 831-637-0340
 fax: 831-637-0840
+partnerBank: true
+partnerGroupId: partner-group-30
 ---

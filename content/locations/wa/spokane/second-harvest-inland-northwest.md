@@ -12,4 +12,6 @@ latitude: 47.659949
 website: www.2-harvest.org
 phone: 509-534-6678
 fax: 509-534-8252
+partnerBank: false
+partnerGroupId: partner-group-195
 ---

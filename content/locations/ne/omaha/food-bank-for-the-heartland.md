@@ -12,4 +12,6 @@ latitude: 41.215634
 website: www.foodbankheartland.org
 phone: 402-905-4802
 fax: 402-331-6632
+partnerBank: false
+partnerGroupId: partner-group-117
 ---

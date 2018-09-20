@@ -12,4 +12,6 @@ latitude: 38.1997069
 website: www.brafb.org
 phone: 540-248-3663
 fax: 540-248-6410
+partnerBank: false
+partnerGroupId: partner-group-192
 ---

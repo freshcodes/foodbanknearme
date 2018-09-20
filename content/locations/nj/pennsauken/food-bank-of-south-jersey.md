@@ -12,4 +12,6 @@ latitude: 39.981312
 website: www.foodbanksj.org
 phone: 856-662-4884
 fax: 856-662-4489
+partnerBank: false
+partnerGroupId: partner-group-121
 ---

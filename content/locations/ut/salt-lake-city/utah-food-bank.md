@@ -12,4 +12,6 @@ latitude: 40.704635
 website: www.utahfoodbank.org
 phone: 801-978-2452
 fax: 801-978-9565
+partnerBank: false
+partnerGroupId: partner-group-186
 ---

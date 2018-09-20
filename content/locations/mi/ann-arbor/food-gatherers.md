@@ -12,4 +12,6 @@ latitude: 42.3179254
 website: www.foodgatherers.org
 phone: 734-761-2796
 fax: 734-930-0550
+partnerBank: false
+partnerGroupId: partner-group-88
 ---

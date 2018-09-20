@@ -12,4 +12,6 @@ latitude: 26.2016033
 website: www.foodbankrgv.com
 phone: 956-682-8101
 fax: 956-682-7921
+partnerBank: false
+partnerGroupId: partner-group-180
 ---

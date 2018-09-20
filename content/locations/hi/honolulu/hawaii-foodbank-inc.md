@@ -12,4 +12,6 @@ latitude: 21.336219
 website: www.hawaiifoodbank.org
 phone: 808-836-3600
 fax: 808-836-2272
+partnerBank: false
+partnerGroupId: partner-group-55
 ---

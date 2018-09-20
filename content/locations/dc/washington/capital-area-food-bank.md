@@ -12,4 +12,6 @@ latitude: 38.9407401
 website: www.capitalareafoodbank.org
 phone: 202-526-5344
 fax: 202-529-1767
+partnerBank: false
+partnerGroupId: partner-group-38
 ---

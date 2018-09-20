@@ -12,4 +12,6 @@ latitude: 36.053471
 website: www.hungernwnc.org
 phone: 336-784-5770
 fax: 336-784-7369
+partnerBank: false
+partnerGroupId: partner-group-114
 ---

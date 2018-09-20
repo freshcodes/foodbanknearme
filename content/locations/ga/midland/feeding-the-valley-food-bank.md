@@ -12,4 +12,6 @@ latitude: 32.5446714
 website: www.feedingthevalley.org
 phone: 706-561-4755
 fax: 706-561-0896
+partnerBank: false
+partnerGroupId: partner-group-52
 ---

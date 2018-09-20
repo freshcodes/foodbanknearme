@@ -9,4 +9,6 @@ postal: 49740
 website: http://mannafoodproject.org/
 phone: 231-347-8852
 fax: 231-348-9135
+partnerBank: true
+partnerGroupId: partner-group-90
 ---

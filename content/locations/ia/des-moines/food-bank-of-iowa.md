@@ -12,4 +12,6 @@ latitude: 41.6143837
 website: www.foodbankiowa.org
 phone: 515-564-0330
 fax: 515-564-0331
+partnerBank: false
+partnerGroupId: partner-group-57
 ---

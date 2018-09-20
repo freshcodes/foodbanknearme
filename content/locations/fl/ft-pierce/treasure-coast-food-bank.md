@@ -12,4 +12,6 @@ latitude: 27.450884
 website: www.stophunger.org
 phone: 772-489-3034
 fax: 772-489-2988
+partnerBank: false
+partnerGroupId: partner-group-41
 ---

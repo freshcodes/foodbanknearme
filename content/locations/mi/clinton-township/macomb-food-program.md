@@ -9,4 +9,6 @@ postal: 48036
 website: https://mca.macombgov.org/MCA-ES-Food
 phone: 586-469-6999
 fax: 000-000-0000
+partnerBank: true
+partnerGroupId: partner-group-91
 ---

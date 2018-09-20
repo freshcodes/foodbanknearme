@@ -9,4 +9,6 @@ postal: 95437
 website: http://www.fortbraggfoodbank.org/
 phone: 707-964-9404
 fax: 707-964-0435
+partnerBank: true
+partnerGroupId: partner-group-29
 ---

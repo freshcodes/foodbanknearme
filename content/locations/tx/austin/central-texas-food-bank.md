@@ -12,4 +12,6 @@ latitude: 30.202888
 website: www.centraltexasfoodbank.org/
 phone: 512-282-2111
 fax: 512-282-6606
+partnerBank: false
+partnerGroupId: partner-group-171
 ---

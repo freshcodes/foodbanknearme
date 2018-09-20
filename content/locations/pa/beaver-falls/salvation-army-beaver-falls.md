@@ -9,4 +9,6 @@ postal: 15010
 website: http://www.pittsburghfoodbank.org/about/network/beaver/
 phone: 724-891-3605
 fax: 724-846-9551
+partnerBank: true
+partnerGroupId: partner-group-151
 ---

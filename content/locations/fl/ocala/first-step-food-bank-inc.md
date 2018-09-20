@@ -9,4 +9,6 @@ postal: 34478
 website: http://www.firststepfoodbank.org/
 phone: 312-732-5500
 fax: 312-732-4197
+partnerBank: true
+partnerGroupId: partner-group-43
 ---

@@ -12,4 +12,6 @@ latitude: 35.7705981
 website: secondharvestetn.org
 phone: 865-521-0000
 fax: 865-738-0732
+partnerBank: false
+partnerGroupId: partner-group-166
 ---

@@ -9,4 +9,6 @@ postal: 33870
 website: 
 phone: 863-385-7885
 fax: 863-385-3603
+partnerBank: true
+partnerGroupId: partner-group-47
 ---

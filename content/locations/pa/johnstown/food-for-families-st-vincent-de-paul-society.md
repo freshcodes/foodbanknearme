@@ -9,4 +9,6 @@ postal: 15905
 website: http://svdpcares.org/
 phone: 814-539-7656
 fax: 814-535-5374
+partnerBank: true
+partnerGroupId: partner-group-151
 ---

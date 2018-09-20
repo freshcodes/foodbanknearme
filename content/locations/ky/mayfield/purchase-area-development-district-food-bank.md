@@ -9,4 +9,6 @@ postal: 42066
 website: http://www.purchaseadd.org
 phone: 270-251-6141
 fax: 270-251-6141
+partnerBank: true
+partnerGroupId: partner-group-75
 ---

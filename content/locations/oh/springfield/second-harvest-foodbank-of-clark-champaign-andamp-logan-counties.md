@@ -12,4 +12,6 @@ latitude: 39.9249663
 website: www.springfieldshfb.org/
 phone: 937-325-8715
 fax: 937-325-6240
+partnerBank: false
+partnerGroupId: partner-group-144
 ---

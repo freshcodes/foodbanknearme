@@ -12,4 +12,6 @@ latitude: 32.900505
 website: www.feedingsandiego.org
 phone: 858-452-3663
 fax: 858-453-3663
+partnerBank: false
+partnerGroupId: partner-group-25
 ---

@@ -12,4 +12,6 @@ latitude: 41.072203
 website: www.akroncantonfoodbank.org
 phone: 330-535-6900
 fax: 330-996-5337
+partnerBank: false
+partnerGroupId: partner-group-135
 ---

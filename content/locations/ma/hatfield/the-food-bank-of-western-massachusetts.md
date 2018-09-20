@@ -12,4 +12,6 @@ latitude: 42.397813
 website: www.foodbankwma.org
 phone: 413-247-9738
 fax: 413-247-9577
+partnerBank: false
+partnerGroupId: partner-group-84
 ---

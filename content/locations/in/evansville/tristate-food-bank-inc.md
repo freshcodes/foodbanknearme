@@ -12,4 +12,6 @@ latitude: 37.9809471
 website: www.tristatefoodbank.org
 phone: 812-425-0775
 fax: 812-425-0776
+partnerBank: false
+partnerGroupId: partner-group-66
 ---

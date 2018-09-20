@@ -12,4 +12,6 @@ latitude: 41.499524
 website: www.riverbendfoodbank.org/
 phone: 563-345-6490
 fax: 563-345-6496
+partnerBank: false
+partnerGroupId: partner-group-56
 ---

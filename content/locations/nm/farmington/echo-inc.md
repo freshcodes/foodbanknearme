@@ -9,4 +9,6 @@ postal: 87401
 website: http://www.echoinc.org
 phone: 505-326-3770
 fax: 505-326-5025
+partnerBank: true
+partnerGroupId: partner-group-122
 ---

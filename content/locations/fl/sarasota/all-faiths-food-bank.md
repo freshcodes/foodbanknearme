@@ -12,4 +12,6 @@ latitude: 27.347287
 website: www.allfaithsfoodbank.org
 phone: 941-379-6333
 fax: 941-371-0582
+partnerBank: false
+partnerGroupId: partner-group-45
 ---

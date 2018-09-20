@@ -12,4 +12,6 @@ latitude: 38.5139646
 website: www.refb.org
 phone: 707-523-7900
 fax: 707-523-7901
+partnerBank: false
+partnerGroupId: partner-group-29
 ---

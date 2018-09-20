@@ -9,4 +9,6 @@ postal: 32601
 website: http://www.breadofthemighty.org
 phone: 352-336-0839
 fax: 352-395-6570
+partnerBank: true
+partnerGroupId: partner-group-43
 ---

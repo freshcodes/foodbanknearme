@@ -12,4 +12,6 @@ latitude: 33.5425653
 website: www.spfb.org
 phone: 806-763-3003
 fax: 806-741-0850
+partnerBank: false
+partnerGroupId: partner-group-178
 ---

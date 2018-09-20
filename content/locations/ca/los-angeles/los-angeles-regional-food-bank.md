@@ -12,4 +12,6 @@ latitude: 34.0075111
 website: www.lafoodbank.org
 phone: 323-234-3030
 fax: 323-234-0943
+partnerBank: false
+partnerGroupId: partner-group-18
 ---

@@ -12,4 +12,6 @@ latitude: 31.669662
 website: www.elpasoansfightinghunger.org/
 phone: 915-298-0353
 fax: 915-298-0353
+partnerBank: false
+partnerGroupId: partner-group-174
 ---

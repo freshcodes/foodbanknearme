@@ -12,4 +12,6 @@ latitude: 39.6543009
 website: www.fbd.org
 phone: 302-292-1305
 fax: 302-292-1309
+partnerBank: false
+partnerGroupId: partner-group-39
 ---

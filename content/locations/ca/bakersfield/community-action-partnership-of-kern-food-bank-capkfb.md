@@ -9,4 +9,6 @@ postal: 93307
 website: http://www.capk.org
 phone: 661-398-4520
 fax: 661-398-4524
+partnerBank: true
+partnerGroupId: partner-group-15
 ---

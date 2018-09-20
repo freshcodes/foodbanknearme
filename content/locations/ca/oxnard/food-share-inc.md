@@ -12,4 +12,6 @@ latitude: 34.255399
 website: www.foodshare.com
 phone: 805-983-7100
 fax: 805-983-2326
+partnerBank: false
+partnerGroupId: partner-group-21
 ---

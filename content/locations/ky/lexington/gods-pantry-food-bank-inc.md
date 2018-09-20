@@ -12,4 +12,6 @@ latitude: 38.0852167
 website: www.godspantry.org
 phone: 859-255-6592
 fax: 859-254-6330
+partnerBank: false
+partnerGroupId: partner-group-76
 ---

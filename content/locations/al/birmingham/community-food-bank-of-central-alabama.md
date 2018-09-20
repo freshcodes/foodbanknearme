@@ -12,4 +12,6 @@ latitude: 33.474066
 website: www.feedingal.org
 phone: 205-942-8911
 fax: 205-942-8838
+partnerBank: false
+partnerGroupId: partner-group-1
 ---

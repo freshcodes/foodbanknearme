@@ -12,4 +12,6 @@ latitude: 40.3758546
 website: www.pittsburghfoodbank.org
 phone: 412-460-3663
 fax: 412-460-0418
+partnerBank: false
+partnerGroupId: partner-group-151
 ---

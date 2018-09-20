@@ -12,4 +12,6 @@ latitude: 28.808166
 website: www.tfbgc.org
 phone: 361-578-0591
 fax: 361-573-7381
+partnerBank: false
+partnerGroupId: partner-group-184
 ---

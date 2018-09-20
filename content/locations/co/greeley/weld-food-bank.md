@@ -12,4 +12,6 @@ latitude: 40.443729
 website: www.weldfoodbank.org
 phone: 970-356-2199
 fax: 970-356-2297
+partnerBank: false
+partnerGroupId: partner-group-33
 ---

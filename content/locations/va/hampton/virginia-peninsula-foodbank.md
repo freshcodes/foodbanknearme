@@ -12,4 +12,6 @@ latitude: 37.00613
 website: www.hrfoodbank.org
 phone: 757-596-7188
 fax: 757-595-2507
+partnerBank: false
+partnerGroupId: partner-group-188
 ---

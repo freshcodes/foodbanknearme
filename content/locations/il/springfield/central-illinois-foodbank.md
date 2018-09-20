@@ -12,4 +12,6 @@ latitude: 39.7950056
 website: www.centralilfoodbank.org
 phone: 217-522-4022
 fax: 217-522-6418
+partnerBank: false
+partnerGroupId: partner-group-63
 ---

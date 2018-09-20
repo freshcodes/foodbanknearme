@@ -12,4 +12,6 @@ latitude: 28.569573
 website: www.feedhopenow.org
 phone: 407-295-1066
 fax: 407-292-4758
+partnerBank: false
+partnerGroupId: partner-group-43
 ---

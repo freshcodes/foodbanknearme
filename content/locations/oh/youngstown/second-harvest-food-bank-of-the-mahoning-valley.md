@@ -12,4 +12,6 @@ latitude: 41.128563
 website: www.mahoningvalleysecondharvest.org
 phone: 330-792-5522
 fax: 330-792-9665
+partnerBank: false
+partnerGroupId: partner-group-146
 ---

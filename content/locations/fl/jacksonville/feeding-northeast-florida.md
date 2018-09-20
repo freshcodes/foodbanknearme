@@ -12,4 +12,6 @@ latitude: 30.3403062
 website: www.FeedingNEFL.org
 phone: 904-513-1333
 fax: 904-513-1333
+partnerBank: false
+partnerGroupId: partner-group-42
 ---

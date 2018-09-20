@@ -12,4 +12,6 @@ latitude: 32.6894464
 website: www.ntfb.org
 phone: 214-330-1396
 fax: 214-331-4104
+partnerBank: false
+partnerGroupId: partner-group-181
 ---

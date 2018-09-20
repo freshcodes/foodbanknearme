@@ -12,4 +12,6 @@ latitude: 35.062488
 website: www.chattfoodbank.org
 phone: 423-622-1800
 fax: 423-622-5874
+partnerBank: false
+partnerGroupId: partner-group-164
 ---

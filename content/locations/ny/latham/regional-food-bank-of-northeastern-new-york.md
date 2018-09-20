@@ -12,4 +12,6 @@ latitude: 42.76449
 website: www.regionalfoodbank.net
 phone: 518-786-3691
 fax: 518-786-3004
+partnerBank: false
+partnerGroupId: partner-group-130
 ---

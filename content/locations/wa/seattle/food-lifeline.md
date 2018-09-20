@@ -12,4 +12,6 @@ latitude: 47.5161916
 website: www.foodlifeline.org
 phone: 206-545-6600
 fax: 206-545-6616
+partnerBank: false
+partnerGroupId: partner-group-194
 ---

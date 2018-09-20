@@ -12,4 +12,6 @@ latitude: 33.925278
 website: feedingie.org/
 phone: 951-359-4757
 fax: 951-351-2492
+partnerBank: false
+partnerGroupId: partner-group-22
 ---

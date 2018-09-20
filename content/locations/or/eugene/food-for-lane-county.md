@@ -9,4 +9,6 @@ postal: 97402
 website: http://foodforlanecounty.org
 phone: 541-343-2822
 fax: 541-343-5019
+partnerBank: true
+partnerGroupId: partner-group-149
 ---

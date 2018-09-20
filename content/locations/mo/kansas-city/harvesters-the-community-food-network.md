@@ -12,4 +12,6 @@ latitude: 39.0562203
 website: www.harvesters.org
 phone: 816-929-3000
 fax: 816-929-3123
+partnerBank: false
+partnerGroupId: partner-group-102
 ---

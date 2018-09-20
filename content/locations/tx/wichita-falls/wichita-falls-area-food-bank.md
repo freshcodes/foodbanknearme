@@ -12,4 +12,6 @@ latitude: 33.8766766
 website: www.wfafb.org
 phone: 940-766-2322
 fax: 940-766-4429
+partnerBank: false
+partnerGroupId: partner-group-185
 ---

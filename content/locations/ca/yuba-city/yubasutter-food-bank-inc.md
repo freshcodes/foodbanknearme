@@ -9,4 +9,6 @@ postal: 95991
 website: http://www.yuba-sutterfoodbank.com/
 phone: 530-673-3834
 fax: 530-673-3672
+partnerBank: true
+partnerGroupId: partner-group-14
 ---

@@ -12,4 +12,6 @@ latitude: 38.784644
 website: www.stlfoodbank.org
 phone: 314-292-6262
 fax: 314-292-6266
+partnerBank: false
+partnerGroupId: partner-group-100
 ---

@@ -12,4 +12,6 @@ latitude: 32.37179
 website: www.montgomeryareafoodbank.org
 phone: 334-263-3784
 fax: 334-262-6854
+partnerBank: false
+partnerGroupId: partner-group-3
 ---

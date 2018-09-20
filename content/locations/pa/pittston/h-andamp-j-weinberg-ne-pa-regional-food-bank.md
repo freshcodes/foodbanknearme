@@ -12,4 +12,6 @@ latitude: 41.290583
 website: www.ceopeoplehelpingpeople.org
 phone: 570-908-2222
 fax: 570-829-1665
+partnerBank: false
+partnerGroupId: partner-group-156
 ---

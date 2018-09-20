@@ -12,4 +12,6 @@ latitude: 36.2685
 website: www.afoodbank.org
 phone: 252-335-4035
 fax: 252-335-4797
+partnerBank: false
+partnerGroupId: partner-group-110
 ---

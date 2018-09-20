@@ -12,4 +12,6 @@ latitude: 27.9589692
 website: feedingtampabay.org
 phone: 813-254-1190
 fax: 813-258-5802
+partnerBank: false
+partnerGroupId: partner-group-47
 ---

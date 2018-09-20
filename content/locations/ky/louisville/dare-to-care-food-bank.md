@@ -12,4 +12,6 @@ latitude: 38.1567109
 website: www.daretocare.org
 phone: 502-966-3821
 fax: 502-966-3827
+partnerBank: false
+partnerGroupId: partner-group-77
 ---

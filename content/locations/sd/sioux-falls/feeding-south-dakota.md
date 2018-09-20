@@ -12,4 +12,6 @@ latitude: 43.5974355
 website: www.feedingsouthdakota.org
 phone: 605-335-0364
 fax: 605-335-6617
+partnerBank: false
+partnerGroupId: partner-group-163
 ---

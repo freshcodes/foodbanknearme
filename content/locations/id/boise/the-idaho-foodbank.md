@@ -12,4 +12,6 @@ latitude: 43.5698269
 website: www.idahofoodbank.org
 phone: 208-336-9643
 fax: 208-336-9692
+partnerBank: false
+partnerGroupId: partner-group-60
 ---

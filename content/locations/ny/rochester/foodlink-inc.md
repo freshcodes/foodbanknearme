@@ -12,4 +12,6 @@ latitude: 43.191467
 website: www.foodlinkny.org
 phone: 585-328-3380
 fax: 585-328-9951
+partnerBank: false
+partnerGroupId: partner-group-133
 ---

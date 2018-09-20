@@ -12,4 +12,6 @@ latitude: 36.509965
 website: www.netfoodbank.org
 phone: 423-279-0430
 fax: 423-477-3467
+partnerBank: false
+partnerGroupId: partner-group-165
 ---

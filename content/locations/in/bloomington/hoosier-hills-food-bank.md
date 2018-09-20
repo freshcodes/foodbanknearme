@@ -12,4 +12,6 @@ latitude: 39.1750588
 website: www.hhfoodbank.org
 phone: 812-334-8374
 fax: 812-334-8377
+partnerBank: false
+partnerGroupId: partner-group-65
 ---
