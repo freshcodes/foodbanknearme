@@ -46,6 +46,7 @@ for f in $locationFiles; do
 		cat <<-EOF > "$newStateFilePath"
 			---
 			title: $stateName
+			state: $state
 			stateIndexKey: $stateIndexKey
 			layout: list_all_cities
 			---
