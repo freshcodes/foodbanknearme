@@ -24,10 +24,10 @@
     "onchange": "^4.1.0",
     "parcel-bundler": "^1.9.7",
     "postcss-preset-env": "^5.3.0",
-    "workbox-cli": "^3.4.1"
+    "workbox-cli": "^3.6.1"
   },
   "devDependencies": {
-    "standard": "^11.0.1",
+    "standard": "^12.0.1",
     "static-server": "^2.2.1"
   },
   "standard": {
