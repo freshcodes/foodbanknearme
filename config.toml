@@ -48,6 +48,8 @@ alternates = [
 [outputs]
 home = ["HTML", "REDIRECTS", "HEADERS", "WEBMANIFEST", "BROWSERCONFIG"]
 
+page = ["html", "rss", "json"]
+section = ["html", "rss", "json"]
 
 # remove .{ext} from text/netlify
 [mediaTypes."text/netlify"]

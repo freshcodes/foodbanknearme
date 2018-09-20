@@ -1,0 +1,6 @@
+{
+  "name": "{{ .Title }}",
+  "address": "{{ .Params.address }}",
+  "address2": "{{ .Params.address2 }}",
+  "city": "{{ .Params.city }}"
+}

@@ -1,0 +1,11 @@
+{{ define "response" }}
+  {
+    "section" : "locations",
+    "count" : "{{ len .Data.Pages }}",
+    "items" : [
+    {{ range $i, $e := .Data.Pages }}
+    {{ if $i }}, {{ end }}{{ .Render "item" }}
+    {{ end }}
+    ]
+  }
+{{ end }}
