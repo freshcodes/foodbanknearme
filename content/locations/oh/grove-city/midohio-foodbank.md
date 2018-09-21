@@ -1,5 +1,5 @@
 ---
-type: location
+type: locations
 slug: midohio-foodbank
 title: Mid-Ohio Foodbank
 address: 3960 Brookham Dr.

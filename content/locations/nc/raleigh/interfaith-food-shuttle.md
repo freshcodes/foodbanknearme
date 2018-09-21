@@ -1,5 +1,5 @@
 ---
-type: location
+type: locations
 slug: interfaith-food-shuttle
 title: Inter-Faith Food Shuttle
 address: 1001 Blair Drive

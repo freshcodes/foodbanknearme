@@ -1,5 +1,5 @@
 ---
-type: location
+type: locations
 slug: feeding-south-dakota
 title: Feeding South Dakota
 address: 4701 N Westport Ave

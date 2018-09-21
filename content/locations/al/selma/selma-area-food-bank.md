@@ -1,5 +1,5 @@
 ---
-type: location
+type: locations
 slug: selma-area-food-bank
 title: Selma Area Food Bank
 address: 497 Oak St.

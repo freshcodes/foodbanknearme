@@ -1,5 +1,5 @@
 ---
-type: location
+type: locations
 slug: feed-my-people-food-bank
 title: Feed My People Food Bank
 address: 2610 Alpine Road

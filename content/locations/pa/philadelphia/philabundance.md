@@ -1,5 +1,5 @@
 ---
-type: location
+type: locations
 slug: philabundance
 title: Philabundance
 address: 3616 S. Galloway Street

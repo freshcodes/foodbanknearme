@@ -1,5 +1,5 @@
 ---
-type: location
+type: locations
 slug: community-action-of-napa-valley-food-bank
 title: Community Action of Napa Valley Food Bank
 address: 2310 Laurel Street, Suite 1

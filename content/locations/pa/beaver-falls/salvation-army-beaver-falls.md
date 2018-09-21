@@ -1,5 +1,5 @@
 ---
-type: location
+type: locations
 slug: salvation-army-beaver-falls
 title: Salvation Army Beaver Falls
 address: 414 16th Street

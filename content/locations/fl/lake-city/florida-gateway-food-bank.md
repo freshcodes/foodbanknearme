@@ -1,5 +1,5 @@
 ---
-type: location
+type: locations
 slug: florida-gateway-food-bank
 title: Florida Gateway Food Bank
 address: 553 NW Railroad St

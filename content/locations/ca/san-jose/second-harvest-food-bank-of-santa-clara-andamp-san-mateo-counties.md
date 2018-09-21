@@ -1,5 +1,5 @@
 ---
-type: location
+type: locations
 slug: second-harvest-food-bank-of-santa-clara-andamp-san-mateo-counties
 title: Second Harvest Food Bank of Santa Clara &amp; San Mateo Counties
 address: 750 Curtner Avenue

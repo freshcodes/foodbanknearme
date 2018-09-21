@@ -1,5 +1,5 @@
 ---
-type: location
+type: locations
 slug: middle-georgia-community-food-bank
 title: Middle Georgia Community Food Bank
 address: 4490 Ocmulgee East Boulevard

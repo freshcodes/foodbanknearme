@@ -1,5 +1,5 @@
 ---
-type: location
+type: locations
 slug: sfmarin-food-banks
 title: SF-Marin Food Banks
 address: 900 Pennsylvania Avenue

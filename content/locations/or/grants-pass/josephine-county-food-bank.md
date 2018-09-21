@@ -1,5 +1,5 @@
 ---
-type: location
+type: locations
 slug: josephine-county-food-bank
 title: Josephine County Food Bank
 address: 3658 Upper River Road

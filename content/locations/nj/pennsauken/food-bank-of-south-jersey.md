@@ -1,5 +1,5 @@
 ---
-type: location
+type: locations
 slug: food-bank-of-south-jersey
 title: Food Bank of South Jersey
 address: 1501 John Tipton Boulevard

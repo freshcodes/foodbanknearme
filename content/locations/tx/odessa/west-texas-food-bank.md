@@ -1,5 +1,5 @@
 ---
-type: location
+type: locations
 slug: west-texas-food-bank
 title: West Texas Food Bank
 address: 411 S. Pagewood Ave.

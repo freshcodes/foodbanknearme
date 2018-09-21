@@ -1,5 +1,5 @@
 ---
-type: location
+type: locations
 slug: coastal-bend-food-bank
 title: Coastal Bend Food Bank
 address: 826 Krill St.

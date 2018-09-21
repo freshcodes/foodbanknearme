@@ -1,5 +1,5 @@
 ---
-type: location
+type: locations
 slug: montgomery-area-food-bank-inc
 title: Montgomery Area Food Bank, Inc.
 address: 521 Trade Center Street

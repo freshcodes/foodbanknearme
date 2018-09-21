@@ -1,5 +1,5 @@
 ---
-type: location
+type: locations
 slug: clark-county-food-bank
 title: Clark County Food Bank
 address: 6502 NE 47th Avenue

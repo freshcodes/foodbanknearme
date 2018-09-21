@@ -1,5 +1,5 @@
 ---
-type: location
+type: locations
 slug: second-harvest-food-bank-of-the-mahoning-valley
 title: Second Harvest Food Bank of the Mahoning Valley
 address: 2805 Salt Springs Road

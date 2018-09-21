@@ -1,5 +1,5 @@
 ---
-type: location
+type: locations
 slug: toledo-northwestern-ohio-food-bank
 title: Toledo Northwestern Ohio Food Bank
 address: 24 East Woodruff Avenue

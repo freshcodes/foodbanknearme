@@ -1,5 +1,5 @@
 ---
-type: location
+type: locations
 slug: amador-tuolumne-community-action-agency-atcas
 title: Amador Tuolumne Community Action Agency (ATCAS)
 address: 10059 Victoria Way

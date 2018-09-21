@@ -1,5 +1,5 @@
 ---
-type: location
+type: locations
 slug: food-bank-of-eastern-new-mexico
 title: Food Bank of Eastern New Mexico
 address: 2217 East Brady St.

@@ -1,5 +1,5 @@
 ---
-type: location
+type: locations
 slug: find-food-bank
 title: FIND Food Bank
 address: 83-775 Citrus Ave

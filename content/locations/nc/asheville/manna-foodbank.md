@@ -1,5 +1,5 @@
 ---
-type: location
+type: locations
 slug: manna-foodbank
 title: MANNA FoodBank
 address: 627 Swannanoa River Rd

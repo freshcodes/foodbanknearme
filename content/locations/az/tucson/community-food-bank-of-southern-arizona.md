@@ -1,5 +1,5 @@
 ---
-type: location
+type: locations
 slug: community-food-bank-of-southern-arizona
 title: Community Food Bank of Southern Arizona
 address: 3003 South Country Club Road

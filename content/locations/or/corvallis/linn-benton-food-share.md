@@ -1,5 +1,5 @@
 ---
-type: location
+type: locations
 slug: linn-benton-food-share
 title: Linn Benton Food Share
 address: 545 SW 2nd St, Suite A

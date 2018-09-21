@@ -1,5 +1,5 @@
 ---
-type: location
+type: locations
 slug: monroe-county-opportunity-program-mcop
 title: Monroe County Opportunity Program (MCOP)
 address: 1140 S. Telegraph Rd

@@ -1,5 +1,5 @@
 ---
-type: location
+type: locations
 slug: channel-one-food-bank
 title: Channel One Food Bank
 address: 131 35th Street, SE

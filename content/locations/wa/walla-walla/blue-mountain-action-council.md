@@ -1,5 +1,5 @@
 ---
-type: location
+type: locations
 slug: blue-mountain-action-council
 title: Blue Mountain Action Council
 address: 1520 Kelly Place, #140

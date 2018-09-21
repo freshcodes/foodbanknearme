@@ -1,5 +1,5 @@
 ---
-type: location
+type: locations
 slug: sacramento-food-bank-andamp-family-services
 title: Sacramento Food Bank &amp; Family Services
 address: 3333 Third Ave.

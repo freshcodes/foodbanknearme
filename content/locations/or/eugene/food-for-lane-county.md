@@ -1,5 +1,5 @@
 ---
-type: location
+type: locations
 slug: food-for-lane-county
 title: FOOD for Lane County
 address: 770 Bailey Hill Rd

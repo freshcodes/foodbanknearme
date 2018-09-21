@@ -1,5 +1,5 @@
 ---
-type: location
+type: locations
 slug: feeding-tampa-bay
 title: Feeding Tampa Bay
 address: 4702 Transport Dr., Bldg. 6

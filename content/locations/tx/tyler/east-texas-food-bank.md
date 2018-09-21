@@ -1,5 +1,5 @@
 ---
-type: location
+type: locations
 slug: east-texas-food-bank
 title: East Texas Food Bank
 address: 3201 Robertson Road

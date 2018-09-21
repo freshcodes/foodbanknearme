@@ -1,5 +1,5 @@
 ---
-type: location
+type: locations
 slug: yolo-food-bank
 title: Yolo Food Bank
 address: 1244 Fortna Avenue

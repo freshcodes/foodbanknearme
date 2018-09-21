@@ -1,5 +1,5 @@
 ---
-type: location
+type: locations
 slug: community-connection
 title: Community Connection
 address: 104 Elm Street

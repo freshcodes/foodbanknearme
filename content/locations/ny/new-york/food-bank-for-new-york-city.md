@@ -1,5 +1,5 @@
 ---
-type: location
+type: locations
 slug: food-bank-for-new-york-city
 title: Food Bank For New York City
 address: 355 Food Center Dr.

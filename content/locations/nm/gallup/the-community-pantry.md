@@ -1,5 +1,5 @@
 ---
-type: location
+type: locations
 slug: the-community-pantry
 title: The Community Pantry
 address: 1130 E. Hasler Valley Road

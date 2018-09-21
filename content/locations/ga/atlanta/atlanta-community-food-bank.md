@@ -1,5 +1,5 @@
 ---
-type: location
+type: locations
 slug: atlanta-community-food-bank
 title: Atlanta Community Food Bank
 address: 732 Joseph E. Lowery Blvd. N.W.

@@ -1,5 +1,5 @@
 ---
-type: location
+type: locations
 slug: second-harvest-heartland
 title: Second Harvest Heartland
 address: 1140 Gervais Avenue

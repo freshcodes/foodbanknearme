@@ -1,5 +1,5 @@
 ---
-type: location
+type: locations
 slug: food-bank-of-northwest-louisiana
 title: Food Bank of Northwest Louisiana
 address: 2307 Texas Avenue

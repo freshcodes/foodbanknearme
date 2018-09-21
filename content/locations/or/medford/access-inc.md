@@ -1,5 +1,5 @@
 ---
-type: location
+type: locations
 slug: access-inc
 title: ACCESS, Inc
 address: 3630 Aviation Way

@@ -1,5 +1,5 @@
 ---
-type: location
+type: locations
 slug: hacap-food-reservoir
 title: HACAP Food Reservoir
 address: 1515 Hawkeye Drive

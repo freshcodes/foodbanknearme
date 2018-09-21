@@ -1,5 +1,5 @@
 ---
-type: location
+type: locations
 slug: feedmore
 title: FeedMore
 address: 1415 Rhoadmiller Street

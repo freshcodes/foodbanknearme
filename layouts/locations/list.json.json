@@ -1,7 +1,6 @@
 {{ define "response" }}
-  {{- $e := sort (where .Site.RegularPages "Type" "location") -}}
+  {{- $e := sort (where .Site.RegularPages "Type" "locations") -}}
   {
-    "section" : "locations",
     "state": null,
     "city": null,
     "count" : "{{ len $e }}",

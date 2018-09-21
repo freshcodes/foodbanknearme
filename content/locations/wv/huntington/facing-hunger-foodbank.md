@@ -1,5 +1,5 @@
 ---
-type: location
+type: locations
 slug: facing-hunger-foodbank
 title: Facing Hunger Foodbank
 address: 1327 Seventh Avenue

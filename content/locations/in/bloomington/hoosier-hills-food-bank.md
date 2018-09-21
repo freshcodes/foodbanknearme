@@ -1,5 +1,5 @@
 ---
-type: location
+type: locations
 slug: hoosier-hills-food-bank
 title: Hoosier Hills Food Bank
 address: 2333 West Industrial Park Drive

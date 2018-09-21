@@ -1,5 +1,5 @@
 ---
-type: location
+type: locations
 slug: oregon-food-bank
 title: Oregon Food Bank
 address: 7900 NE 33rd Drive

@@ -1,5 +1,5 @@
 ---
-type: location
+type: locations
 slug: west-alabama-food-bank
 title: West Alabama Food Bank
 address: 3160 McFarland Blvd

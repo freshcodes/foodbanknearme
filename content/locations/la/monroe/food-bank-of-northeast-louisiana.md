@@ -1,5 +1,5 @@
 ---
-type: location
+type: locations
 slug: food-bank-of-northeast-louisiana
 title: Food Bank of Northeast Louisiana
 address: 4600 Central Ave

@@ -1,5 +1,5 @@
 ---
-type: location
+type: locations
 slug: regional-food-bank-of-northeastern-new-york
 title: Regional Food Bank of Northeastern New York
 address: 965 Albany Shaker Rd.

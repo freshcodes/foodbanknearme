@@ -1,5 +1,5 @@
 ---
-type: location
+type: locations
 slug: greater-berks-food-bank
 title: Greater Berks Food Bank
 address: 117 Morgan Drive

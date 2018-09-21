@@ -1,5 +1,5 @@
 ---
-type: location
+type: locations
 slug: mendocino-food-andamp-nutrition-program
 title: Mendocino Food &amp; Nutrition Program
 address: 910 N Franklin Street

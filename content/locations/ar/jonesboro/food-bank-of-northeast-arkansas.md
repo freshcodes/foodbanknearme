@@ -1,5 +1,5 @@
 ---
-type: location
+type: locations
 slug: food-bank-of-northeast-arkansas
 title: Food Bank of Northeast Arkansas
 address: 3414 One Place

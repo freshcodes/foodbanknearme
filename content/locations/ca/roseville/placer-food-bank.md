@@ -1,5 +1,5 @@
 ---
-type: location
+type: locations
 slug: placer-food-bank
 title: Placer Food Bank
 address: 8284 Industrial Ave

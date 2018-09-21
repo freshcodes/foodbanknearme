@@ -1,5 +1,5 @@
 ---
-type: location
+type: locations
 slug: three-square-food-bank
 title: Three Square Food Bank
 address: 4190 N. Pecos Rd.

@@ -1,5 +1,5 @@
 ---
-type: location
+type: locations
 slug: treasure-coast-food-bank
 title: Treasure Coast Food Bank
 address: 401 Angle Rd.

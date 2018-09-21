@@ -1,5 +1,5 @@
 ---
-type: location
+type: locations
 slug: feeding-america-southwest-virginia
 title: Feeding America Southwest Virginia
 address: 1025 Electric Road

@@ -1,5 +1,5 @@
 ---
-type: location
+type: locations
 slug: capital-area-food-bank
 title: Capital Area Food Bank
 address: 4900 Puerto Rico Ave NE

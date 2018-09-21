@@ -1,5 +1,5 @@
 ---
-type: location
+type: locations
 slug: food-gatherers
 title: Food Gatherers
 address: 1 Carrot Way

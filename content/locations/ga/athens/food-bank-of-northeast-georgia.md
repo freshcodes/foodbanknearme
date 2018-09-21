@@ -1,5 +1,5 @@
 ---
-type: location
+type: locations
 slug: food-bank-of-northeast-georgia
 title: Food Bank of Northeast Georgia
 address: 861 Newton Bridge Road

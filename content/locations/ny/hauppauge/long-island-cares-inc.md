@@ -1,5 +1,5 @@
 ---
-type: location
+type: locations
 slug: long-island-cares-inc
 title: Long Island Cares, Inc.
 address: 10 Davids Drive

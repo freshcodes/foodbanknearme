@@ -1,5 +1,5 @@
 ---
-type: location
+type: locations
 slug: care-and-share-food-bank
 title: Care and Share Food Bank
 address: 2605 Preamble Point

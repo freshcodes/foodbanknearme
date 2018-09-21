@@ -1,5 +1,5 @@
 ---
-type: location
+type: locations
 slug: armstrong-county-community-action-agency
 title: Armstrong County Community Action Agency
 address: 705 Butler Road

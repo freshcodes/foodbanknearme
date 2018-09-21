@@ -1,5 +1,5 @@
 ---
-type: location
+type: locations
 slug: maryland-food-bank
 title: Maryland Food Bank
 address: 2200 Halethorpe Farms Road

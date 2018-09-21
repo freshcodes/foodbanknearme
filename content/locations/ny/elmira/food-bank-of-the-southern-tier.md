@@ -1,5 +1,5 @@
 ---
-type: location
+type: locations
 slug: food-bank-of-the-southern-tier
 title: Food Bank of the Southern Tier
 address: 388 Upper Oakwood Avenue

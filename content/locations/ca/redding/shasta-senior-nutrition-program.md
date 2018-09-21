@@ -1,5 +1,5 @@
 ---
-type: location
+type: locations
 slug: shasta-senior-nutrition-program
 title: Shasta Senior Nutrition Program
 address: 100 Mercy Oaks Drive

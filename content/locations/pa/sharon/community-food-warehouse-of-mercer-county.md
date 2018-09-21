@@ -1,5 +1,5 @@
 ---
-type: location
+type: locations
 slug: community-food-warehouse-of-mercer-county
 title: Community Food Warehouse of Mercer County
 address: 109 S Sharpsville Avenue

@@ -1,5 +1,5 @@
 ---
-type: location
+type: locations
 slug: merced-county-food-bank
 title: Merced County Food Bank
 address: 2000 W Olive Ave

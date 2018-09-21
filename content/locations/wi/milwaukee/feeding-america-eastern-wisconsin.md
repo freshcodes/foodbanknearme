@@ -1,5 +1,5 @@
 ---
-type: location
+type: locations
 slug: feeding-america-eastern-wisconsin
 title: Feeding America Eastern Wisconsin
 address: 1700 W. Fond Du Lac Avenue

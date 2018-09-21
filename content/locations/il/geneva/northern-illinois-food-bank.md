@@ -1,5 +1,5 @@
 ---
-type: location
+type: locations
 slug: northern-illinois-food-bank
 title: Northern Illinois Food Bank
 address: 273 Dearborn Ct.

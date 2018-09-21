@@ -1,5 +1,5 @@
 ---
-type: location
+type: locations
 slug: good-shepherd-food-bank
 title: Good Shepherd Food Bank
 address: 3121 Hotel Road

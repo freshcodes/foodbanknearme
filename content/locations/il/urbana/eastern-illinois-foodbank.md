@@ -1,5 +1,5 @@
 ---
-type: location
+type: locations
 slug: eastern-illinois-foodbank
 title: Eastern Illinois Foodbank
 address: 2405 North Shore Drive

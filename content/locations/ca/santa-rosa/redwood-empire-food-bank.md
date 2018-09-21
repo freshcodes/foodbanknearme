@@ -1,5 +1,5 @@
 ---
-type: location
+type: locations
 slug: redwood-empire-food-bank
 title: Redwood Empire Food Bank
 address: 3990 Brickway Blvd

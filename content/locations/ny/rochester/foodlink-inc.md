@@ -1,5 +1,5 @@
 ---
-type: location
+type: locations
 slug: foodlink-inc
 title: Foodlink, Inc.
 address: 1999 Mt. Read Boulevard

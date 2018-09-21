@@ -1,5 +1,5 @@
 ---
-type: location
+type: locations
 slug: community-action-partnership-of-kern-food-bank-capkfb
 title: Community Action Partnership of Kern Food Bank (CAPKFB)
 address: 1807 Feliz Drive

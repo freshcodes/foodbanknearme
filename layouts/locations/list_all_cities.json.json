@@ -1,7 +1,6 @@
 {{ define "response" }}
-  {{- $e := sort (where (where .Site.RegularPages "Type" "location") ".Params.state" "==" .Params.state) -}}
+  {{- $e := sort (where (where .Site.RegularPages "Type" "locations") ".Params.state" "==" .Params.state) -}}
   {
-    "section" : "locations",
     "state": "{{ .Params.state }}",
     "city": null,
     "permalink": "{{ .Permalink }}",

@@ -1,5 +1,5 @@
 ---
-type: location
+type: locations
 slug: central-illinois-foodbank
 title: Central Illinois Foodbank
 address: 1937 E. Cook

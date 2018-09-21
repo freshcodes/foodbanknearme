@@ -1,5 +1,5 @@
 ---
-type: location
+type: locations
 slug: food-share-inc
 title: Food Share, Inc.
 address: 4156 Southbank Road

@@ -1,5 +1,5 @@
 ---
-type: location
+type: locations
 slug: regional-food-bank-of-oklahoma
 title: Regional Food Bank of Oklahoma
 address: 3355 South Purdue

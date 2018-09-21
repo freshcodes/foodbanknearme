@@ -1,5 +1,5 @@
 ---
-type: location
+type: locations
 slug: food-bank-of-the-rockies
 title: Food Bank of the Rockies
 address: 10700 E. 45th Ave

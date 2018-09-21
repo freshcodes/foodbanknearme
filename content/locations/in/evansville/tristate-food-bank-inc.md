@@ -1,5 +1,5 @@
 ---
-type: location
+type: locations
 slug: tristate-food-bank-inc
 title: Tri-State Food Bank, Inc.
 address: 801 E. Michigan Street

@@ -1,5 +1,5 @@
 ---
-type: location
+type: locations
 slug: north-country-food-bank-inc
 title: North Country Food Bank, Inc.
 address: 424 North Broadway

@@ -1,5 +1,5 @@
 ---
-type: location
+type: locations
 slug: yuma-community-food-bank
 title: Yuma Community Food Bank
 address: 2404 E 24th St. Ste. A

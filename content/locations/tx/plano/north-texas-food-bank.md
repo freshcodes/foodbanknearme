@@ -1,5 +1,5 @@
 ---
-type: location
+type: locations
 slug: north-texas-food-bank
 title: North Texas Food Bank
 address: 3677 Mapleshade Lane

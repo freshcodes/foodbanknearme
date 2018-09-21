@@ -1,5 +1,5 @@
 ---
-type: location
+type: locations
 slug: food-bank-of-central-louisiana
 title: Food Bank of Central Louisiana
 address: 3223 Baldwin Avenue

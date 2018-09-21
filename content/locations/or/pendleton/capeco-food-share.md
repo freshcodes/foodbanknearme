@@ -1,5 +1,5 @@
 ---
-type: location
+type: locations
 slug: capeco-food-share
 title: CAPECO Food Share
 address: 721 SE Third Street, STE D

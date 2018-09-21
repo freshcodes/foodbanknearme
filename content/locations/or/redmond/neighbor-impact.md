@@ -1,5 +1,5 @@
 ---
-type: location
+type: locations
 slug: neighbor-impact
 title: Neighbor Impact
 address: 2303 SW 1st St.

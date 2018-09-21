@@ -1,5 +1,5 @@
 ---
-type: location
+type: locations
 slug: united-food-bank
 title: United Food Bank
 address: 245 South Nina Drive

@@ -1,5 +1,5 @@
 ---
-type: location
+type: locations
 slug: food-bank-of-lincoln-inc
 title: Food Bank of Lincoln, Inc.
 address: 4840 Doris Bair Circle, Suite A

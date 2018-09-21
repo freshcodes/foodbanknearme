@@ -1,5 +1,5 @@
 ---
-type: location
+type: locations
 slug: roadrunner-food-bank
 title: Roadrunner Food Bank
 address: 5840 Office Blvd NE

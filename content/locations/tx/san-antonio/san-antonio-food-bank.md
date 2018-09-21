@@ -1,5 +1,5 @@
 ---
-type: location
+type: locations
 slug: san-antonio-food-bank
 title: San Antonio Food Bank
 address: 5200 Enrique M Barrera Pkwy

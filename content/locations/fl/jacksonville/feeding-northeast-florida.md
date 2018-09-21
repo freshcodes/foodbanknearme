@@ -1,5 +1,5 @@
 ---
-type: location
+type: locations
 slug: feeding-northeast-florida
 title: Feeding Northeast Florida
 address: 1116 Edgewood Avenue North, Units D and E

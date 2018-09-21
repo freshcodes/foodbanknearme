@@ -1,5 +1,5 @@
 ---
-type: location
+type: locations
 slug: greater-chicago-food-depository
 title: Greater Chicago Food Depository
 address: 4100 West Ann Lurie Place

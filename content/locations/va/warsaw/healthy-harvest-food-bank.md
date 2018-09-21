@@ -1,5 +1,5 @@
 ---
-type: location
+type: locations
 slug: healthy-harvest-food-bank
 title: Healthy Harvest Food Bank
 address: P.O. Box 735

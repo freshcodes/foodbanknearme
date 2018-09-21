@@ -1,5 +1,5 @@
 ---
-type: location
+type: locations
 slug: second-harvest-foodbank-of-southern-wisconsin
 title: Second Harvest Foodbank of Southern Wisconsin
 address: 2802 Dairy Drive

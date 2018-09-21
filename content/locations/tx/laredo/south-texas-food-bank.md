@@ -1,5 +1,5 @@
 ---
-type: location
+type: locations
 slug: south-texas-food-bank
 title: South Texas Food Bank
 address: 1907 Freight

@@ -1,5 +1,5 @@
 ---
-type: location
+type: locations
 slug: akroncanton-regional-foodbank
 title: Akron-Canton Regional Foodbank
 address: 350 Opportunity Parkway
