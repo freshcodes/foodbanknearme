@@ -1,12 +1,15 @@
 {{ define "response" }}
+  {{- $e := sort (where (where .Site.RegularPages "Type" "location") ".Params.state" "==" .Params.state) -}}
   {
-    "section" : "locations/{{ .Title }}",
+    "section" : "locations",
+    "state": "{{ .Params.state }}",
+    "city": null,
     "permalink": "{{ .Permalink }}",
-    "count" : "{{ len .Data.Pages }}",
+    "count" : "{{ len $e }}",
     "items" : [
-    {{ range $i, $e := .Data.Pages }}
-    {{ if $i }}, {{ end }}{{ .Render "item" }}
-    {{ end }}
+    {{- range $i, $r := $e -}}
+    {{- if $i -}}, {{- end -}}{{- partialCached "location.json" . .Params.state .Params.city .Params.slug -}}
+    {{- end -}}
     ]
   }
 {{ end }}
