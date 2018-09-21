@@ -1,6 +1,5 @@
 ---
 title: Puerto Rico
 state: PR
-stateIndexKey: state-pr
-layout: list_all_cities
+layout: list_for_state
 ---

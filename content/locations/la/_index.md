@@ -1,6 +1,5 @@
 ---
 title: Louisiana
 state: LA
-stateIndexKey: state-la
-layout: list_all_cities
+layout: list_for_state
 ---

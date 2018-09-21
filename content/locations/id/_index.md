@@ -1,6 +1,5 @@
 ---
 title: Idaho
 state: ID
-stateIndexKey: state-id
-layout: list_all_cities
+layout: list_for_state
 ---

@@ -1,0 +1,22 @@
+{{ define "main" -}}
+<section class="section">
+  <div class="container">
+    <div class="content">
+      <h1>Cities With Food Banks In {{ .Title }}</h1>
+      <p><a href="../">Back to all states</a>.</p>
+    </div>
+    {{- $locations := where (where (where .Site.RegularPages "Type" "locations") ".Params.state" "==" .Params.state) ".Params.partnerbank" "==" false -}}
+    {{- if gt (len $locations) 0 }}
+      <div class="columns is-multiline">
+      {{- range $locations }}
+        <div class="column is-half-tablet">
+          {{ partialCached "location_card.html" . .Params.state .Params.city .Params.slug }}
+        </div>
+      {{- end }}
+      </div>
+    {{- else }}
+      <p>No locations found in this state.</p>
+    {{- end }}
+  </div>
+</section>
+{{- end }}

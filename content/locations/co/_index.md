@@ -1,6 +1,5 @@
 ---
 title: Colorado
 state: CO
-stateIndexKey: state-co
-layout: list_all_cities
+layout: list_for_state
 ---

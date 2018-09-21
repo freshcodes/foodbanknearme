@@ -1,6 +1,5 @@
 ---
 title: Vermont
 state: VT
-stateIndexKey: state-vt
-layout: list_all_cities
+layout: list_for_state
 ---

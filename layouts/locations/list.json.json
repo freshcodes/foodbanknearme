@@ -1,8 +1,7 @@
 {{ define "response" }}
-  {{- $e := sort (where .Site.RegularPages "Type" "locations") -}}
+  {{- $e := sort (where (where .Site.RegularPages "Type" "locations") ".Params.partnerbank" "==" false) -}}
   {
     "state": null,
-    "city": null,
     "count" : "{{ len $e }}",
     "permalink": "{{ .Permalink }}",
     "items" : [

@@ -1,6 +1,5 @@
 ---
 title: Delaware
 state: DE
-stateIndexKey: state-de
-layout: list_all_cities
+layout: list_for_state
 ---

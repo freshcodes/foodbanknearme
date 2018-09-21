@@ -1,6 +1,5 @@
 ---
 title: Oregon
 state: OR
-stateIndexKey: state-or
-layout: list_all_cities
+layout: list_for_state
 ---

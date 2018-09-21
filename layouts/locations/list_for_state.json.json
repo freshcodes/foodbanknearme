@@ -1,0 +1,13 @@
+{{ define "response" }}
+  {{- $e := sort (where (where (where .Site.RegularPages "Type" "locations") ".Params.state" "==" .Params.state) ".Params.partnerbank" "==" false) -}}
+  {
+    "state": "{{ .Params.state }}",
+    "permalink": "{{ .Permalink }}",
+    "count" : "{{ len $e }}",
+    "items" : [
+    {{- range $i, $r := $e -}}
+    {{- if $i -}}, {{- end -}}{{- partialCached "location.json" . .Params.state .Params.city .Params.slug -}}
+    {{- end -}}
+    ]
+  }
+{{ end }}

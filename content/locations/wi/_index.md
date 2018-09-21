@@ -1,6 +1,5 @@
 ---
 title: Wisconsin
 state: WI
-stateIndexKey: state-wi
-layout: list_all_cities
+layout: list_for_state
 ---

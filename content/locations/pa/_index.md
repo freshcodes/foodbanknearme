@@ -1,6 +1,5 @@
 ---
 title: Pennsylvania
 state: PA
-stateIndexKey: state-pa
-layout: list_all_cities
+layout: list_for_state
 ---

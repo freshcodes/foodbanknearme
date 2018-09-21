@@ -1,6 +1,5 @@
 ---
 title: Wyoming
 state: WY
-stateIndexKey: state-wy
-layout: list_all_cities
+layout: list_for_state
 ---

@@ -1,6 +1,5 @@
 ---
 title: Missouri
 state: MO
-stateIndexKey: state-mo
-layout: list_all_cities
+layout: list_for_state
 ---

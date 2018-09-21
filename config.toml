@@ -15,10 +15,7 @@ includeNewer = true
 toLower = false
 threshold = 1.0
 [[related.indices]]
-  name = "stateIndexKey"
-  weight = 1.0
-[[related.indices]]
-  name = "cityIndexKey"
+  name = "state"
   weight = 1.0
 [[related.indices]]
   name = "partnerGroupId"
