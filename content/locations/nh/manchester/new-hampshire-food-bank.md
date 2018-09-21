@@ -1,5 +1,4 @@
 ---
-type: locations
 slug: new-hampshire-food-bank
 title: New Hampshire Food Bank
 address: 700 East Industrial Park Drive

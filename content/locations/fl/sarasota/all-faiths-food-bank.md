@@ -1,5 +1,4 @@
 ---
-type: locations
 slug: all-faiths-food-bank
 title: All Faiths Food Bank
 address: 8171 Blaikie Ct.

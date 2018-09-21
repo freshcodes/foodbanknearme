@@ -1,5 +1,4 @@
 ---
-type: locations
 slug: imperial-valley-food-bank
 title: Imperial Valley Food Bank
 address: 329 Applestill Road

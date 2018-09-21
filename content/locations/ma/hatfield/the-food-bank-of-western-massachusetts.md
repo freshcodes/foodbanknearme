@@ -1,5 +1,4 @@
 ---
-type: locations
 slug: the-food-bank-of-western-massachusetts
 title: The Food Bank of Western Massachusetts
 address: 97 North Hatfield Road

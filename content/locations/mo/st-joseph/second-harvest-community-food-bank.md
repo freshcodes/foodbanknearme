@@ -1,5 +1,4 @@
 ---
-type: locations
 slug: second-harvest-community-food-bank
 title: Second Harvest Community Food Bank
 address: 915 Douglas

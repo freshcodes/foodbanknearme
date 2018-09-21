@@ -1,5 +1,4 @@
 ---
-type: locations
 slug: food-pantry-network-of-licking-county
 title: Food Pantry Network of Licking County
 address: 1035 Brice Street

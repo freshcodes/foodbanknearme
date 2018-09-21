@@ -1,5 +1,4 @@
 ---
-type: locations
 slug: americas-second-harvest-of-the-big-bend-inc
 title: America's Second Harvest of the Big Bend, Inc.
 address: 4446 Entrepot Blvd

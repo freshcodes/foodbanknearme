@@ -1,5 +1,4 @@
 ---
-type: locations
 slug: second-harvest-inland-northwest
 title: Second Harvest Inland Northwest
 address: 1234 E. Front Avenue

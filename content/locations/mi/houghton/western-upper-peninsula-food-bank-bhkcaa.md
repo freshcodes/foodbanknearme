@@ -1,5 +1,4 @@
 ---
-type: locations
 slug: western-upper-peninsula-food-bank-bhkcaa
 title: Western Upper Peninsula Food Bank - BHKCAA
 address: 310 E Sharon Ave

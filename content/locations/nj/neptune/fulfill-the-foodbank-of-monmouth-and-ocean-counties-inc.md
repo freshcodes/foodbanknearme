@@ -1,5 +1,4 @@
 ---
-type: locations
 slug: fulfill-the-foodbank-of-monmouth-and-ocean-counties-inc
 title: FULFILL - (The FoodBank of Monmouth and Ocean Counties, Inc.)
 address: 3300 Route 66

@@ -1,5 +1,4 @@
 ---
-type: locations
 slug: community-food-bank-of-citrus-county
 title: Community Food Bank of Citrus County
 address: 5259 W Cardinal Street

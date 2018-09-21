@@ -1,5 +1,4 @@
 ---
-type: locations
 slug: hawaii-foodbank-inc
 title: Hawaii Foodbank, Inc.
 address: 2611 Kilihau St

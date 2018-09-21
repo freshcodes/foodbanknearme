@@ -1,5 +1,4 @@
 ---
-type: locations
 slug: food-for-families-st-vincent-de-paul-society
 title: Food for Families - St Vincent de Paul Society
 address: 945 Franklin Street

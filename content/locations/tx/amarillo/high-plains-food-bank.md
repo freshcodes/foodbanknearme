@@ -1,5 +1,4 @@
 ---
-type: locations
 slug: high-plains-food-bank
 title: High Plains Food Bank
 address: 815 S. Ross

@@ -1,5 +1,4 @@
 ---
-type: locations
 slug: echo-inc
 title: ECHO Inc.
 address: 401 S. Commercial

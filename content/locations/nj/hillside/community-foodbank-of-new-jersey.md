@@ -1,5 +1,4 @@
 ---
-type: locations
 slug: community-foodbank-of-new-jersey
 title: Community FoodBank of New Jersey
 address: 31 Evans Terminal

@@ -1,5 +1,4 @@
 ---
-type: locations
 slug: freestore-foodbank
 title: Freestore Foodbank
 address: 1141 Central Parkway

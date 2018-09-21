@@ -1,5 +1,4 @@
 ---
-type: locations
 slug: greater-cleveland-food-bank-inc
 title: Greater Cleveland Food Bank, Inc.
 address: 15500 South Waterloo Road

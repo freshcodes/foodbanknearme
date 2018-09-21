@@ -1,5 +1,4 @@
 ---
-type: locations
 slug: west-ohio-food-bank
 title: West Ohio Food Bank
 address: 1380 East Kibby Street

@@ -1,5 +1,4 @@
 ---
-type: locations
 slug: vermont-foodbank
 title: Vermont Foodbank
 address: 33 Parker Road

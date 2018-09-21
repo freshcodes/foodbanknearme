@@ -1,5 +1,4 @@
 ---
-type: locations
 slug: northwest-arkansas-food-bank
 title: Northwest Arkansas Food Bank
 address: 1378 June Self Drive

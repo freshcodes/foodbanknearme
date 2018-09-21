@@ -1,5 +1,4 @@
 ---
-type: locations
 slug: feeding-america-kentuckys-heartland
 title: Feeding America, Kentucky’s Heartland
 address: 313 Peterson Dr.,

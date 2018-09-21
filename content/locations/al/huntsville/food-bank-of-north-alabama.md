@@ -1,5 +1,4 @@
 ---
-type: locations
 slug: food-bank-of-north-alabama
 title: Food Bank of North Alabama
 address: 2000 B. Vernon Ave.

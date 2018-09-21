@@ -1,5 +1,4 @@
 ---
-type: locations
 slug: chester-county-food-bank
 title: Chester County Food Bank
 address: 650 Pennsylvania Drive

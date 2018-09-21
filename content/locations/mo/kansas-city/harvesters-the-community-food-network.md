@@ -1,5 +1,4 @@
 ---
-type: locations
 slug: harvesters-the-community-food-network
 title: Harvesters - The Community Food Network
 address: 3801 Topping Avenue

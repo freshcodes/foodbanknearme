@@ -1,5 +1,4 @@
 ---
-type: locations
 slug: country-neighbor-program-inc
 title: Country Neighbor Program, Inc.
 address: P.O. Box 212

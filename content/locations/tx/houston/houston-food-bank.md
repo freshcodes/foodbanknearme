@@ -1,5 +1,4 @@
 ---
-type: locations
 slug: houston-food-bank
 title: Houston Food Bank
 address: 535 Portwall Street

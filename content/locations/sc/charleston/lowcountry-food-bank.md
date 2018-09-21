@@ -1,5 +1,4 @@
 ---
-type: locations
 slug: lowcountry-food-bank
 title: Lowcountry Food Bank
 address: 2864 Azalea Drive

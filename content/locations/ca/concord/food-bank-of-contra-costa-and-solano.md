@@ -1,5 +1,4 @@
 ---
-type: locations
 slug: food-bank-of-contra-costa-and-solano
 title: Food Bank of Contra Costa and Solano
 address: 4010 Nelson Ave

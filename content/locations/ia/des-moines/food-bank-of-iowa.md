@@ -1,5 +1,4 @@
 ---
-type: locations
 slug: food-bank-of-iowa
 title: Food Bank of Iowa
 address: 2220 E. 17th Street

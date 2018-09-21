@@ -1,5 +1,4 @@
 ---
-type: locations
 slug: second-harvest-foodbank-of-clark-champaign-andamp-logan-counties
 title: Second Harvest Foodbank of Clark, Champaign, &amp; Logan Counties
 address: 701 East Columbia Street

@@ -1,5 +1,4 @@
 ---
-type: locations
 slug: midsouth-food-bank
 title: Mid-South Food Bank
 address: 239 S. Dudley Street

@@ -1,5 +1,4 @@
 ---
-type: locations
 slug: food-bank-of-the-albemarle
 title: Food Bank of the Albemarle
 address: 109 Tidewater Way

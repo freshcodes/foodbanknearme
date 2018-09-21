@@ -1,5 +1,4 @@
 ---
-type: locations
 slug: montgomery-county-food-bank
 title: Montgomery County Food Bank
 address: One Food For Life Way

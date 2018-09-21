@@ -1,5 +1,4 @@
 ---
-type: locations
 slug: food-bank-of-western-new-york
 title: Food Bank of Western New York
 address: 91 Holt Street

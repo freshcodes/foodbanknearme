@@ -1,5 +1,4 @@
 ---
-type: locations
 slug: kansas-food-bank
 title: Kansas Food Bank
 address: 1919 E. Douglas

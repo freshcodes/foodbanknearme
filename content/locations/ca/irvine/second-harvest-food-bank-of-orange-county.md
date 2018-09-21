@@ -1,5 +1,4 @@
 ---
-type: locations
 slug: second-harvest-food-bank-of-orange-county
 title: Second Harvest Food Bank of Orange County
 address: 8014 Marine Way

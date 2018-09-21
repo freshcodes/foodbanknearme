@@ -1,5 +1,4 @@
 ---
-type: locations
 slug: marion-polk-food-share
 title: Marion Polk Food Share
 address: 1660 Salem Industrial Dr NE

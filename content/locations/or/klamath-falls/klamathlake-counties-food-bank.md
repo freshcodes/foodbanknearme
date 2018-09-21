@@ -1,5 +1,4 @@
 ---
-type: locations
 slug: klamathlake-counties-food-bank
 title: Klamath/Lake Counties Food Bank
 address: 3231 Maywood Drive

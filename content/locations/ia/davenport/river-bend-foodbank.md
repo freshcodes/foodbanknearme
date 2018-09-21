@@ -1,5 +1,4 @@
 ---
-type: locations
 slug: river-bend-foodbank
 title: River Bend Foodbank
 address: 4010 Kimmel Drive

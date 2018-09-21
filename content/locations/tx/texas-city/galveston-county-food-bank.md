@@ -1,5 +1,4 @@
 ---
-type: locations
 slug: galveston-county-food-bank
 title: Galveston County Food Bank
 address: 624 4th Ave. N.

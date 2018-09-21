@@ -1,5 +1,4 @@
 ---
-type: locations
 slug: wyoming-food-bank-of-the-rockies
 title: Wyoming Food Bank of the Rockies
 address: 4976 Paige Street

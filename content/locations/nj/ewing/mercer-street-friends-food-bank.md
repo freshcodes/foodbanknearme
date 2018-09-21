@@ -1,5 +1,4 @@
 ---
-type: locations
 slug: mercer-street-friends-food-bank
 title: Mercer Street Friends Food Bank
 address: 824 Silvia ST.

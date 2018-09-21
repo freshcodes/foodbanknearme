@@ -1,5 +1,4 @@
 ---
-type: locations
 slug: indiana-county-community-action-agency-iccaa
 title: Indiana County Community Action Agency (ICCAA)
 address: 827 Water Street

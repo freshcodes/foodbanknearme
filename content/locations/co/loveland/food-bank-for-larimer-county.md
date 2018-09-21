@@ -1,5 +1,4 @@
 ---
-type: locations
 slug: food-bank-for-larimer-county
 title: Food Bank for Larimer County
 address: 5706 Wright Drive

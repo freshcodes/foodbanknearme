@@ -1,5 +1,4 @@
 ---
-type: locations
 slug: fayette-county-community-action-food-bank
 title: Fayette County Community Action Food Bank
 address: 119 North Beeson Avenue

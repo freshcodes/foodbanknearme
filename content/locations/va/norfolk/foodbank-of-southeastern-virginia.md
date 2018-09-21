@@ -1,5 +1,4 @@
 ---
-type: locations
 slug: foodbank-of-southeastern-virginia
 title: Foodbank of Southeastern Virginia
 address: 800 Tidewater Drive

@@ -1,5 +1,4 @@
 ---
-type: locations
 slug: second-harvest-food-bank-of-northeast-tennessee
 title: Second Harvest Food Bank of Northeast Tennessee
 address: 1020 Jericho Drive

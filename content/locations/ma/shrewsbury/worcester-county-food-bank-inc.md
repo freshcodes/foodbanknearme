@@ -1,5 +1,4 @@
 ---
-type: locations
 slug: worcester-county-food-bank-inc
 title: Worcester County Food Bank, Inc.
 address: 474 Boston Turnpike

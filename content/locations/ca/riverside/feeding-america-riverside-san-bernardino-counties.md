@@ -1,5 +1,4 @@
 ---
-type: locations
 slug: feeding-america-riverside-san-bernardino-counties
 title: Feeding America Riverside San Bernardino Counties
 address: 2950 - B Jefferson Street

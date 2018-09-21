@@ -1,5 +1,4 @@
 ---
-type: locations
 slug: feeding-westchester
 title: Feeding Westchester
 address: 200 Clearbrook Road

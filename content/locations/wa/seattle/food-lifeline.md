@@ -1,5 +1,4 @@
 ---
-type: locations
 slug: food-lifeline
 title: Food Lifeline
 address: 815 South 96th Street

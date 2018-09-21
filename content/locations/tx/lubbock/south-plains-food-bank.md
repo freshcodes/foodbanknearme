@@ -1,5 +1,4 @@
 ---
-type: locations
 slug: south-plains-food-bank
 title: South Plains Food Bank
 address: 5605 MLK Boulevard

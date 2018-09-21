@@ -1,5 +1,4 @@
 ---
-type: locations
 slug: banco-de-alimentos-de-puerto-rico
 title: Banco de Alimentos de Puerto Rico
 address: Calle Marginal #9 Corujo Industrial Park

@@ -1,5 +1,4 @@
 ---
-type: locations
 slug: the-resource-connection-food-bank
 title: The Resource Connection Food Bank
 address: PO Box 919

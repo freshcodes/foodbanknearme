@@ -1,5 +1,4 @@
 ---
-type: locations
 slug: community-harvest-food-bank-of-northeast-indiana-inc
 title: Community Harvest Food Bank of Northeast Indiana, Inc.
 address: 999 East Tillman Road

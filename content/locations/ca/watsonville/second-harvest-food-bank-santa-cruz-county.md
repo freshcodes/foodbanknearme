@@ -1,5 +1,4 @@
 ---
-type: locations
 slug: second-harvest-food-bank-santa-cruz-county
 title: Second Harvest Food Bank Santa Cruz County
 address: 800 Ohlone Parkway

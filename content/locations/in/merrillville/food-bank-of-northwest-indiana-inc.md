@@ -1,5 +1,4 @@
 ---
-type: locations
 slug: food-bank-of-northwest-indiana-inc
 title: Food Bank of Northwest Indiana, Inc.
 address: 6490 Broadway

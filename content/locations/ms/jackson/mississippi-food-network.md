@@ -1,5 +1,4 @@
 ---
-type: locations
 slug: mississippi-food-network
 title: Mississippi Food Network
 address: 440 W. Beatty Street

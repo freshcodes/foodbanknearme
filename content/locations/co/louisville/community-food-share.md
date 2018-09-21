@@ -1,5 +1,4 @@
 ---
-type: locations
 slug: community-food-share
 title: Community Food Share
 address: 650 S. Taylor Ave.

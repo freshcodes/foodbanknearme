@@ -1,5 +1,4 @@
 ---
-type: locations
 slug: pcceo
 title: PCCEO
 address: 721 W McBean

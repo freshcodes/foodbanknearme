@@ -1,5 +1,4 @@
 ---
-type: locations
 slug: the-food-basket
 title: The Food Basket
 address: 40 Holomua St

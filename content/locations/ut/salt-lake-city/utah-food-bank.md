@@ -1,5 +1,4 @@
 ---
-type: locations
 slug: utah-food-bank
 title: Utah Food Bank
 address: 3150 South 900 West

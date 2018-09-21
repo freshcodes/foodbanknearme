@@ -1,5 +1,4 @@
 ---
-type: locations
 slug: los-angeles-regional-food-bank
 title: Los Angeles Regional Food Bank
 address: 1734 E. 41st Street

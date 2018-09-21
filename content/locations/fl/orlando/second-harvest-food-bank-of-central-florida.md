@@ -1,5 +1,4 @@
 ---
-type: locations
 slug: second-harvest-food-bank-of-central-florida
 title: Second Harvest Food Bank of Central Florida
 address: 411 Mercy Drive

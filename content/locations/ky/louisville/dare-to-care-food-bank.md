@@ -1,5 +1,4 @@
 ---
-type: locations
 slug: dare-to-care-food-bank
 title: Dare to Care Food Bank
 address: 5803 Fern Valley Road

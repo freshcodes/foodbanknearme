@@ -1,5 +1,4 @@
 ---
-type: locations
 slug: southeast-missouri-food-bank
 title: Southeast Missouri Food Bank
 address: 600 State Highway H

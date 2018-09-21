@@ -1,5 +1,4 @@
 ---
-type: locations
 slug: second-harvest-of-south-georgia-inc
 title: Second Harvest of South Georgia, Inc
 address: 1411 Harbin Circle

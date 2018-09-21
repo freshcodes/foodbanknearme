@@ -1,5 +1,4 @@
 ---
-type: locations
 slug: harvest-regional-food-bank-inc
 title: Harvest Regional Food Bank, Inc.
 address: 3120 East 19th Street

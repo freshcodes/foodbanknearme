@@ -1,5 +1,4 @@
 ---
-type: locations
 slug: food-bank-of-east-alabama
 title: Food Bank of East Alabama
 address: 375 Industry Drive

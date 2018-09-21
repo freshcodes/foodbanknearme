@@ -1,5 +1,4 @@
 ---
-type: locations
 slug: arkansas-foodbank
 title: Arkansas Foodbank
 address: 4301 W 65th St

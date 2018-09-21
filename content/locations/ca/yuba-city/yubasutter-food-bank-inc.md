@@ -1,5 +1,4 @@
 ---
-type: locations
 slug: yubasutter-food-bank-inc
 title: Yuba-Sutter Food Bank, Inc.
 address: 760 Stafford Way

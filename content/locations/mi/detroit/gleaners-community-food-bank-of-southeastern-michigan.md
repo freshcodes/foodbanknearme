@@ -1,5 +1,4 @@
 ---
-type: locations
 slug: gleaners-community-food-bank-of-southeastern-michigan
 title: Gleaners Community Food Bank of Southeastern Michigan
 address: 2131 Beaufait Street

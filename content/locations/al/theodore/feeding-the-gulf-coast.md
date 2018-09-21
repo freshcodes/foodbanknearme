@@ -1,5 +1,4 @@
 ---
-type: locations
 slug: feeding-the-gulf-coast
 title: Feeding the Gulf Coast
 address: 5248 Mobile South Street

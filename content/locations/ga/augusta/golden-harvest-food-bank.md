@@ -1,5 +1,4 @@
 ---
-type: locations
 slug: golden-harvest-food-bank
 title: Golden Harvest Food Bank
 address: 3310 Commerce Drive

@@ -1,5 +1,4 @@
 ---
-type: locations
 slug: concho-valley-regional-food-bank
 title: Concho Valley Regional Food Bank
 address: PO Box 1207

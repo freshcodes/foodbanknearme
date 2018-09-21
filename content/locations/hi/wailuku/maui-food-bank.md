@@ -1,5 +1,4 @@
 ---
-type: locations
 slug: maui-food-bank
 title: Maui Food Bank
 address: 760 Kolu Street

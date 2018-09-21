@@ -1,5 +1,4 @@
 ---
-type: locations
 slug: food-bank-of-central-andamp-eastern-north-carolina
 title: Food Bank of Central &amp; Eastern North Carolina
 address: 1924 Capital Boulevard

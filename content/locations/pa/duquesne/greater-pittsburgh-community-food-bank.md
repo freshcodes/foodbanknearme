@@ -1,5 +1,4 @@
 ---
-type: locations
 slug: greater-pittsburgh-community-food-bank
 title: Greater Pittsburgh Community Food Bank
 address: 1 North Linden Street

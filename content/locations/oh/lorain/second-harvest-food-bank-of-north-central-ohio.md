@@ -1,5 +1,4 @@
 ---
-type: locations
 slug: second-harvest-food-bank-of-north-central-ohio
 title: Second Harvest Food Bank of North Central Ohio
 address: 5510 Baumhart Rd

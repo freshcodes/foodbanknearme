@@ -1,5 +1,4 @@
 ---
-type: locations
 slug: food-bank-for-monterey-county
 title: Food Bank for Monterey County
 address: 815 W. Market Street, Suite 5

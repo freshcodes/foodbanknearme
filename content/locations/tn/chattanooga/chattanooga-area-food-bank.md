@@ -1,5 +1,4 @@
 ---
-type: locations
 slug: chattanooga-area-food-bank
 title: Chattanooga Area Food Bank
 address: 2009 Curtain Pole Road

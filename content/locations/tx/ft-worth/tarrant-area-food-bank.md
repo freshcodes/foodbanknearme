@@ -1,5 +1,4 @@
 ---
-type: locations
 slug: tarrant-area-food-bank
 title: Tarrant Area Food Bank
 address: 2600 Cullen

@@ -1,5 +1,4 @@
 ---
-type: locations
 slug: bread-of-the-mighty-food-bank
 title: Bread of the Mighty Food Bank
 address: 325 NW 10 AVE

@@ -1,5 +1,4 @@
 ---
-type: locations
 slug: second-harvest-food-bank-of-san-joaquin-and-stanislaus-counties
 title: Second Harvest Food Bank of San Joaquin and Stanislaus Counties
 address: 1220 Vanderbilt Cir

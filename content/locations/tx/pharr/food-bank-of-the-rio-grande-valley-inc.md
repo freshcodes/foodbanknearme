@@ -1,5 +1,4 @@
 ---
-type: locations
 slug: food-bank-of-the-rio-grande-valley-inc
 title: Food Bank of the Rio Grande Valley, Inc.
 address: 724 N. Cage Blvd.

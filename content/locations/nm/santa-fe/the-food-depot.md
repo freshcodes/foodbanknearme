@@ -1,5 +1,4 @@
 ---
-type: locations
 slug: the-food-depot
 title: The Food Depot
 address: 1222 Siler Rd.

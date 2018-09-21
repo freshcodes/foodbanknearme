@@ -1,5 +1,4 @@
 ---
-type: locations
 slug: northeast-iowa-food-bank
 title: Northeast Iowa Food Bank
 address: 1605 Lafayette Steet

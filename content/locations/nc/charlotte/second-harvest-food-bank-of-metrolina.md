@@ -1,5 +1,4 @@
 ---
-type: locations
 slug: second-harvest-food-bank-of-metrolina
 title: Second Harvest Food Bank of Metrolina
 address: 500 B Spratt St.

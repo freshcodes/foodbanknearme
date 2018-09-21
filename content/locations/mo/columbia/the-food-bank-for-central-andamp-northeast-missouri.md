@@ -1,5 +1,4 @@
 ---
-type: locations
 slug: the-food-bank-for-central-andamp-northeast-missouri
 title: The Food Bank for Central &amp; Northeast Missouri
 address: 2101 Vandiver Drive, Suite B

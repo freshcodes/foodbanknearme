@@ -1,5 +1,4 @@
 ---
-type: locations
 slug: food-bank-for-the-heartland
 title: Food Bank for the Heartland
 address: 10525  J Street
