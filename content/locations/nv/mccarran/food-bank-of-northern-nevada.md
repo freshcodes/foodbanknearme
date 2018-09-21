@@ -1,4 +1,5 @@
 ---
+type: location
 slug: food-bank-of-northern-nevada
 title: Food Bank of Northern Nevada
 address: 550 Italy Dr

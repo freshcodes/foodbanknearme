@@ -1,4 +1,5 @@
 ---
+type: location
 slug: second-harvest-food-bank-of-northwest-north-carolina
 title: Second Harvest Food Bank of Northwest North Carolina
 address: 3655 Reed Street

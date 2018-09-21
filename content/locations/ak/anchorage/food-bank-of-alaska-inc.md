@@ -1,4 +1,5 @@
 ---
+type: location
 slug: food-bank-of-alaska-inc
 title: Food Bank of Alaska, Inc.
 address: 2121 Spar Avenue

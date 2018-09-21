@@ -1,4 +1,5 @@
 ---
+type: location
 slug: second-harvest-north-central-food-bank
 title: Second Harvest North Central Food Bank
 address: 2222 Cromell Drive

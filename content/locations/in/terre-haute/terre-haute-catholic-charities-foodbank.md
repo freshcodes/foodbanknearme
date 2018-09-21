@@ -1,4 +1,5 @@
 ---
+type: location
 slug: terre-haute-catholic-charities-foodbank
 title: Terre Haute Catholic Charities Foodbank
 address: 1356 Locust Street

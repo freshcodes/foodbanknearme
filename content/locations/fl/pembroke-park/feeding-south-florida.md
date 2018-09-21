@@ -1,4 +1,5 @@
 ---
+type: location
 slug: feeding-south-florida
 title: Feeding South Florida
 address: 2501 SW 32 Terrace

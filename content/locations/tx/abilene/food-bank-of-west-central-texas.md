@@ -1,4 +1,5 @@
 ---
+type: location
 slug: food-bank-of-west-central-texas
 title: Food Bank of West Central Texas
 address: 5505 N. First

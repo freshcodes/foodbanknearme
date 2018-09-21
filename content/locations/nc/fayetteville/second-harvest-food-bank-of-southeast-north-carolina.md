@@ -1,4 +1,5 @@
 ---
+type: location
 slug: second-harvest-food-bank-of-southeast-north-carolina
 title: Second Harvest Food Bank of Southeast North Carolina
 address: 406 Deep Creek Road, PO Box 2009

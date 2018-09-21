@@ -1,4 +1,5 @@
 ---
+type: location
 slug: food-for-families
 title: Food for Families
 address: 2201 Union Street

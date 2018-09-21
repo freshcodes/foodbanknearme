@@ -1,4 +1,5 @@
 ---
+type: location
 slug: food-bank-of-the-golden-crescent
 title: Food Bank of the Golden Crescent
 address: 3809 E. Rio Grande

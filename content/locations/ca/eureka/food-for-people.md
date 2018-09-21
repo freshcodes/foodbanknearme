@@ -1,4 +1,5 @@
 ---
+type: location
 slug: food-for-people
 title: Food For People
 address: 307 West 14th Street

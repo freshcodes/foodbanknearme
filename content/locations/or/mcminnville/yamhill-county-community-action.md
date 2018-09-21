@@ -1,4 +1,5 @@
 ---
+type: location
 slug: yamhill-county-community-action
 title: Yamhill County Community Action
 address: 1317 NE Dustin Ct

@@ -1,4 +1,5 @@
 ---
+type: location
 slug: shared-harvest-foodbank
 title: Shared Harvest Foodbank
 address: 5901 Dixie Highway

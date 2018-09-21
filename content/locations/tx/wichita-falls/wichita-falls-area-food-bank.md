@@ -1,4 +1,5 @@
 ---
+type: location
 slug: wichita-falls-area-food-bank
 title: Wichita Falls Area Food Bank
 address: 1230 Midwestern Parkway

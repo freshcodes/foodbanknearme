@@ -1,4 +1,5 @@
 ---
+type: location
 slug: the-food-bank-of-siouxland-inc
 title: The Food Bank of Siouxland, Inc.
 address: 1313  11th Street

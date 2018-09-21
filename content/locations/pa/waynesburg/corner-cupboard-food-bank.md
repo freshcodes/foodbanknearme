@@ -1,4 +1,5 @@
 ---
+type: location
 slug: corner-cupboard-food-bank
 title: Corner Cupboard Food Bank
 address: 881 Rolling Meadows Road

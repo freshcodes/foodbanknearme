@@ -1,4 +1,5 @@
 ---
+type: location
 slug: the-idaho-foodbank
 title: The Idaho Foodbank
 address: 3562 TK Avenue

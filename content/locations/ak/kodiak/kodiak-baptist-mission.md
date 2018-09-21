@@ -1,4 +1,5 @@
 ---
+type: location
 slug: kodiak-baptist-mission
 title: Kodiak Baptist Mission
 address: 1944 Rezanoff Dr. East

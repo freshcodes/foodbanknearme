@@ -1,4 +1,5 @@
 ---
+type: location
 slug: food-share-of-lincoln-county
 title: Food Share of Lincoln County
 address: 535 NE First St.

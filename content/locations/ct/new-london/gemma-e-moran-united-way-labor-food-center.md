@@ -1,4 +1,5 @@
 ---
+type: location
 slug: gemma-e-moran-united-way-labor-food-center
 title: Gemma E. Moran United Way/ Labor Food Center
 address: 374 Broad Street

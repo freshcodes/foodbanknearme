@@ -1,4 +1,5 @@
 ---
+type: location
 slug: h-andamp-j-weinberg-ne-pa-regional-food-bank
 title: H &amp; J Weinberg NE PA Regional Food Bank
 address: 185 Research Drive

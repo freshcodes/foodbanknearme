@@ -1,4 +1,5 @@
 ---
+type: location
 slug: great-plains-food-bank
 title: Great Plains Food Bank
 address: 1720 3rd Avenue North

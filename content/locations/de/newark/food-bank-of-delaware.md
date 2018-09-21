@@ -1,4 +1,5 @@
 ---
+type: location
 slug: food-bank-of-delaware
 title: Food Bank of Delaware
 address: 14 Garfield Way

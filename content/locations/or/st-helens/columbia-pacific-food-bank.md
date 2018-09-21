@@ -1,4 +1,5 @@
 ---
+type: location
 slug: columbia-pacific-food-bank
 title: Columbia Pacific Food Bank
 address: 474 Milton Way

@@ -1,4 +1,5 @@
 ---
+type: location
 slug: el-pasoans-fighting-hunger
 title: El Pasoans Fighting Hunger
 address: 9541 Plaza Circle

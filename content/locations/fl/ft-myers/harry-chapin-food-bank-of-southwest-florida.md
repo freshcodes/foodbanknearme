@@ -1,4 +1,5 @@
 ---
+type: location
 slug: harry-chapin-food-bank-of-southwest-florida
 title: Harry Chapin Food Bank of Southwest Florida
 address: 3760 Fowler St.

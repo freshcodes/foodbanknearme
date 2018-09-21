@@ -1,4 +1,5 @@
 ---
+type: location
 slug: second-harvest-food-bank-of-east-central-indiana-inc
 title: Second Harvest Food Bank of East Central Indiana, Inc.
 address: 6621 N. Old SR 3

@@ -1,4 +1,5 @@
 ---
+type: location
 slug: river-valley-regional-food-bank
 title: River Valley Regional Food Bank
 address: 1617 South Zero Street

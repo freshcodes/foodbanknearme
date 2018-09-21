@@ -1,4 +1,5 @@
 ---
+type: location
 slug: gods-pantry-food-bank-inc
 title: God's Pantry Food Bank, Inc.
 address: 1685 Jaggie Fox Way

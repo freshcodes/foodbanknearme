@@ -1,4 +1,5 @@
 ---
+type: location
 slug: harvest-hope-food-bank
 title: Harvest Hope Food Bank
 address: 2220 Shop Road

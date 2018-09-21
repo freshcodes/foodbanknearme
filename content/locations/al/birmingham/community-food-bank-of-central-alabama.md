@@ -1,4 +1,5 @@
 ---
+type: location
 slug: community-food-bank-of-central-alabama
 title: Community Food Bank of Central Alabama
 address: 107 Walter Davis Drive

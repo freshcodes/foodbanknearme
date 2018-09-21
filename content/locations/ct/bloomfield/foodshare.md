@@ -1,4 +1,5 @@
 ---
+type: location
 slug: foodshare
 title: Foodshare
 address: 450 Woodland Avenue

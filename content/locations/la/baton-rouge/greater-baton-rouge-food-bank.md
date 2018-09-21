@@ -1,4 +1,5 @@
 ---
+type: location
 slug: greater-baton-rouge-food-bank
 title: Greater Baton Rouge Food Bank
 address: 10600 S. Choctaw Drive

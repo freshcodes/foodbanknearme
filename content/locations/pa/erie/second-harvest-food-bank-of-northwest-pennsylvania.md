@@ -1,4 +1,5 @@
 ---
+type: location
 slug: second-harvest-food-bank-of-northwest-pennsylvania
 title: Second Harvest Food Bank of Northwest Pennsylvania
 address: 1507 Grimm Drive

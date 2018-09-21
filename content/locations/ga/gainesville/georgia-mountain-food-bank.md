@@ -1,4 +1,5 @@
 ---
+type: location
 slug: georgia-mountain-food-bank
 title: Georgia Mountain Food Bank
 address: 1642 Calvary Industrial Drive, SW

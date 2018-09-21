@@ -1,4 +1,5 @@
 ---
+type: location
 slug: clatsop-community-action-inc
 title: Clatsop Community Action, Inc.
 address: 2010 SE Chokeberry Ave

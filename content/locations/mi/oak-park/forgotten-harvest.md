@@ -1,4 +1,5 @@
 ---
+type: location
 slug: forgotten-harvest
 title: Forgotten Harvest
 address: 21800 Greenfield Road

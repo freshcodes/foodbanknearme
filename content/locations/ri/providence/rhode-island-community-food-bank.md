@@ -1,4 +1,5 @@
 ---
+type: location
 slug: rhode-island-community-food-bank
 title: Rhode Island Community Food Bank
 address: 200 Niantic Ave.

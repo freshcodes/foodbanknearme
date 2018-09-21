@@ -1,4 +1,5 @@
 ---
+type: location
 slug: brazos-valley-food-bank
 title: Brazos Valley Food Bank
 address: 1501 Independence Avenue

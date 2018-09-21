@@ -1,4 +1,5 @@
 ---
+type: location
 slug: gleaners-food-bank-of-indiana-inc
 title: Gleaners Food Bank of Indiana, Inc.
 address: 3737 Waldemere Ave.

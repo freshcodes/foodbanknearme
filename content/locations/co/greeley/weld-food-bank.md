@@ -1,4 +1,5 @@
 ---
+type: location
 slug: weld-food-bank
 title: Weld Food Bank
 address: 1108 H Street

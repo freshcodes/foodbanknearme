@@ -1,4 +1,5 @@
 ---
+type: location
 slug: second-harvest-food-bank-of-greater-new-orleans-and-acadiana
 title: Second Harvest Food Bank of Greater New Orleans and Acadiana
 address: 700 Edwards Avenue

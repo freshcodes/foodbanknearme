@@ -1,4 +1,5 @@
 ---
+type: location
 slug: se-ohio-foodbank
 title: SE Ohio Foodbank
 address: 1005 CIC Drive

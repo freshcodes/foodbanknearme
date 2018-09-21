@@ -1,4 +1,5 @@
 ---
+type: location
 slug: montana-food-bank-network
 title: Montana Food Bank Network
 address: 5625 Expressway

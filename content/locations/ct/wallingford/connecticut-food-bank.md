@@ -1,4 +1,5 @@
 ---
+type: location
 slug: connecticut-food-bank
 title: Connecticut Food Bank
 address: 2 Research Parkway

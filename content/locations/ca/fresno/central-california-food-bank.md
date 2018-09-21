@@ -1,4 +1,5 @@
 ---
+type: location
 slug: central-california-food-bank
 title: Central California Food Bank
 address: 4010 E. Hardy Ave

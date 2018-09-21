@@ -1,4 +1,5 @@
 ---
+type: location
 slug: kenai-peninsula-food-bank
 title: Kenai Peninsula Food Bank
 address: 33955 Community College Dr

@@ -1,4 +1,5 @@
 ---
+type: location
 slug: city-harvest
 title: City Harvest
 address: 6 East 32nd Street, 5th Fl.

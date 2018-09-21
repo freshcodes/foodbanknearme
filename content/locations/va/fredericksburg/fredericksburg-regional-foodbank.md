@@ -1,4 +1,5 @@
 ---
+type: location
 slug: fredericksburg-regional-foodbank
 title: Fredericksburg Regional Foodbank
 address: 3631 Lee Hill Drive

@@ -1,4 +1,5 @@
 ---
+type: location
 slug: feeding-the-valley-food-bank
 title: Feeding the Valley Food Bank
 address: 6744 Flat Rock Road

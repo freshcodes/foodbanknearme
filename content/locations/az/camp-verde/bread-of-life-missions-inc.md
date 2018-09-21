@@ -1,4 +1,5 @@
 ---
+type: location
 slug: bread-of-life-missions-inc
 title: Bread of Life Missions, Inc.,
 address: 1575 Sullivan Lane PO Box 2991

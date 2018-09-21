@@ -1,4 +1,5 @@
 ---
+type: location
 slug: south-coast-food-share
 title: South Coast Food Share
 address: PO Box 899

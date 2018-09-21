@@ -1,4 +1,5 @@
 ---
+type: location
 slug: island-harvest
 title: Island Harvest
 address: 15 Grumman Road West Suite 1450

@@ -1,4 +1,5 @@
 ---
+type: location
 slug: st-louis-area-foodbank
 title: St. Louis Area Foodbank
 address: 70 Corporate Woods Drive

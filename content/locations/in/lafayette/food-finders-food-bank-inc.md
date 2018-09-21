@@ -1,4 +1,5 @@
 ---
+type: location
 slug: food-finders-food-bank-inc
 title: Food Finders Food Bank Inc.
 address: 1204 Greenbush Street

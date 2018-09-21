@@ -1,4 +1,5 @@
 ---
+type: location
 slug: feeding-san-diego
 title: Feeding San Diego
 address: 9455 Waples Street, Suite 135

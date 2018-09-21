@@ -1,4 +1,5 @@
 ---
+type: location
 slug: alameda-county-community-food-bank
 title: Alameda County Community Food Bank
 address: 7900 Edgewater Drive

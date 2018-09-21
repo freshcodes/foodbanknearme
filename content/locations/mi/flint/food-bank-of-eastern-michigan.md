@@ -1,4 +1,5 @@
 ---
+type: location
 slug: food-bank-of-eastern-michigan
 title: Food Bank of Eastern Michigan
 address: 2300 Lapeer Road

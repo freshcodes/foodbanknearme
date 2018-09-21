@@ -1,4 +1,5 @@
 ---
+type: location
 slug: westmoreland-county-food-bank
 title: Westmoreland County Food Bank
 address: 100 Devonshire Drive

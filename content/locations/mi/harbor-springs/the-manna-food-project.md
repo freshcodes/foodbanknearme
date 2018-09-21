@@ -1,4 +1,5 @@
 ---
+type: location
 slug: the-manna-food-project
 title: The Manna Food Project
 address: 8791 McBride Park Court

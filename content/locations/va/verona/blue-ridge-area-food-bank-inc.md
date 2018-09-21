@@ -1,4 +1,5 @@
 ---
+type: location
 slug: blue-ridge-area-food-bank-inc
 title: Blue Ridge Area Food Bank, Inc.
 address: 96 Laurel Hill Road

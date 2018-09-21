@@ -1,4 +1,5 @@
 ---
+type: location
 slug: foodbank-of-santa-barbara-county
 title: Foodbank of Santa Barbara County
 address: 4554 Hollister Avenue

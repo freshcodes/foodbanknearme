@@ -1,4 +1,5 @@
 ---
+type: location
 slug: wiregrass-area-food-bank
 title: Wiregrass Area Food Bank
 address: 382 Twitchell Road

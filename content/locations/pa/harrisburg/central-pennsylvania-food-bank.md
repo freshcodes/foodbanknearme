@@ -1,4 +1,5 @@
 ---
+type: location
 slug: central-pennsylvania-food-bank
 title: Central Pennsylvania Food Bank
 address: 3908 Corey Road

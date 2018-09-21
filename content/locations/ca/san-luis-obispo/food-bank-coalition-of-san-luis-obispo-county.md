@@ -1,4 +1,5 @@
 ---
+type: location
 slug: food-bank-coalition-of-san-luis-obispo-county
 title: Food Bank Coalition of San Luis Obispo County
 address: 1180 Kendall Road

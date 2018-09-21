@@ -1,4 +1,5 @@
 ---
+type: location
 slug: food-bank-of-northern-indiana
 title: Food Bank of Northern Indiana
 address: 702 South Chapin Street

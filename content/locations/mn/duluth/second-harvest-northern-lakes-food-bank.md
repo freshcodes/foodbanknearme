@@ -1,4 +1,5 @@
 ---
+type: location
 slug: second-harvest-northern-lakes-food-bank
 title: Second Harvest Northern Lakes Food Bank
 address: 4503 Airpark Boulevard

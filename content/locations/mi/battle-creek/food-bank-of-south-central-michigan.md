@@ -1,4 +1,5 @@
 ---
+type: location
 slug: food-bank-of-south-central-michigan
 title: Food Bank of South Central Michigan
 address: 5451 Wayne Road

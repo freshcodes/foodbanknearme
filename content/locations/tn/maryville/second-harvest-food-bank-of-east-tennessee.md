@@ -1,4 +1,5 @@
 ---
+type: location
 slug: second-harvest-food-bank-of-east-tennessee
 title: Second Harvest Food Bank of East Tennessee
 address: 136 Harvest Lane

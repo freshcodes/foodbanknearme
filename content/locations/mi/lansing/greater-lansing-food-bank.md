@@ -1,4 +1,5 @@
 ---
+type: location
 slug: greater-lansing-food-bank
 title: Greater Lansing Food Bank
 address: 919 Filley St.

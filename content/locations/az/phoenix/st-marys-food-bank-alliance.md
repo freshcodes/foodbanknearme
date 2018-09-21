@@ -1,4 +1,5 @@
 ---
+type: location
 slug: st-marys-food-bank-alliance
 title: St. Mary's Food Bank Alliance
 address: 2831 N. 31st Avenue

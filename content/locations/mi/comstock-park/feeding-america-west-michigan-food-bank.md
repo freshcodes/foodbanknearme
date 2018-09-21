@@ -1,4 +1,5 @@
 ---
+type: location
 slug: feeding-america-west-michigan-food-bank
 title: Feeding America West Michigan Food Bank
 address: 864 West River Center Drive

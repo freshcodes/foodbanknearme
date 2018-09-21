@@ -1,4 +1,5 @@
 ---
+type: location
 slug: central-texas-food-bank
 title: Central Texas Food Bank
 address: 6500 Metropolis Drive

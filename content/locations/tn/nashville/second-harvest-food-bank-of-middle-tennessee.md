@@ -1,4 +1,5 @@
 ---
+type: location
 slug: second-harvest-food-bank-of-middle-tennessee
 title: Second Harvest Food Bank of Middle Tennessee
 address: 331 Great Circle Road

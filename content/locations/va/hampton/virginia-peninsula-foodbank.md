@@ -1,4 +1,5 @@
 ---
+type: location
 slug: virginia-peninsula-foodbank
 title: Virginia Peninsula Foodbank
 address: 2401 Aluminum Avenue

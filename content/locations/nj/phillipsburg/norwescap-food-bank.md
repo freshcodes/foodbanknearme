@@ -1,4 +1,5 @@
 ---
+type: location
 slug: norwescap-food-bank
 title: NORWESCAP Food Bank
 address: 201 N. Broad Street

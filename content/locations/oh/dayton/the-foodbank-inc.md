@@ -1,4 +1,5 @@
 ---
+type: location
 slug: the-foodbank-inc
 title: The Foodbank, Inc.
 address: 56 Armor Place

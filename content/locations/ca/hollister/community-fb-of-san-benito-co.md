@@ -1,4 +1,5 @@
 ---
+type: location
 slug: community-fb-of-san-benito-co
 title: Community FB of San Benito Co.
 address: 1133 San Felipe Road

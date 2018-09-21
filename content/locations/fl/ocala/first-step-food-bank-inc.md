@@ -1,4 +1,5 @@
 ---
+type: location
 slug: first-step-food-bank-inc
 title: First Step Food Bank, Inc
 address: 4045 NE 36th Ave, PO Box 4774

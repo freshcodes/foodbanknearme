@@ -1,4 +1,5 @@
 ---
+type: location
 slug: southeast-texas-food-bank
 title: Southeast Texas Food Bank
 address: 3845 Martin Luther King Parkway

@@ -1,4 +1,5 @@
 ---
+type: location
 slug: ucan-food-shares
 title: UCAN Food Shares
 address: 284 Kenneth Ford Dr.

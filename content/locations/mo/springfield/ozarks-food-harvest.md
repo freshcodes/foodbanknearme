@@ -1,4 +1,5 @@
 ---
+type: location
 slug: ozarks-food-harvest
 title: Ozarks Food Harvest
 address: 2810 N. Cedarbrook Ave

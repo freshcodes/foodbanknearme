@@ -1,4 +1,5 @@
 ---
+type: location
 slug: macomb-food-program
 title: Macomb Food Program
 address: 21885 Dunham Road, Suite 10

@@ -1,4 +1,5 @@
 ---
+type: location
 slug: fairbanks-community-food-bank-service
 title: Fairbanks Community Food Bank Service
 address: 725 26th Ave.

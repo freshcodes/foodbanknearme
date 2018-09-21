@@ -1,4 +1,5 @@
 ---
+type: location
 slug: greater-washington-county-food-bank
 title: Greater Washington County Food Bank
 address: 909 National Pike West

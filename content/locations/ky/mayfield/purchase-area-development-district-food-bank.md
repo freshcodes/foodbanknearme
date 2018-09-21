@@ -1,4 +1,5 @@
 ---
+type: location
 slug: purchase-area-development-district-food-bank
 title: Purchase Area Development District Food Bank
 address: 1002 Medical Drive, P.O. Box 588

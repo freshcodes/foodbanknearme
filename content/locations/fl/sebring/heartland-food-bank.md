@@ -1,4 +1,5 @@
 ---
+type: location
 slug: heartland-food-bank
 title: Heartland Food Bank
 address: 227 US Highway 27 South

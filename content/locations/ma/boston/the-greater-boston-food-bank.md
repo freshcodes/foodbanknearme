@@ -1,4 +1,5 @@
 ---
+type: location
 slug: the-greater-boston-food-bank
 title: The Greater Boston Food Bank
 address: 70 South Bay Ave

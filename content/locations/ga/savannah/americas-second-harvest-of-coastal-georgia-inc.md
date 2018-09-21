@@ -1,4 +1,5 @@
 ---
+type: location
 slug: americas-second-harvest-of-coastal-georgia-inc
 title: America's Second Harvest of Coastal Georgia, Inc.
 address: 2501 East President Street

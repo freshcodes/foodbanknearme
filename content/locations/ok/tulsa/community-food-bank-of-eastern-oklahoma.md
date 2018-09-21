@@ -1,4 +1,5 @@
 ---
+type: location
 slug: community-food-bank-of-eastern-oklahoma
 title: Community Food Bank of Eastern Oklahoma
 address: 1304 N. Kenosha Ave.

@@ -1,4 +1,5 @@
 ---
+type: location
 slug: mountaineer-food-bank
 title: Mountaineer Food Bank
 address: 484 Enterprise Drive
