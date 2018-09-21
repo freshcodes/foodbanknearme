@@ -1,7 +1,6 @@
 {{ define "response" }}
   {{- $e := .Pages -}}
   {
-    "section" : "locations",
     "state": "{{ .Params.state }}",
     "city": "{{ .Params.city }}",
     "permalink": "{{ .Permalink }}",
