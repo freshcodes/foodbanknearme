@@ -11,17 +11,17 @@
         <link rel="{{ .Rel }}" type="{{ .MediaType.Type }}" href="{{ .Permalink | relURL }}">
     {{ end }}
 
-    {{ block "site/styles" . }}{{ partial "site/styles.html" . }}{{ end }}
+    {{ block "site/styles" . }}{{ partialCached "site/styles.html" . }}{{ end }}
   </head>
   <body>
-    {{ block "header" . }}{{ partial "site/header.html" . }}{{ end }}
+    {{ block "header" . }}{{ partialCached "site/header.html" . }}{{ end }}
 
     <main role="main">
       {{ block "main" . }}{{ end }}
     </main>
 
-    {{ block "footer" . }}{{ partial "site/footer.html" . }}{{ end }}
+    {{ block "footer" . }}{{ partialCached "site/footer.html" . }}{{ end }}
 
-    {{ block "site/scripts" . }}{{ partial "site/scripts.html" . }}{{ end }}
+    {{ block "site/scripts" . }}{{ partialCached "site/scripts.html" . }}{{ end }}
   </body>
 </html>
