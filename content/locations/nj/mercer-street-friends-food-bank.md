@@ -5,6 +5,8 @@ address: 824 Silvia ST.
 city: Ewing
 state: NJ
 postal: 8628
+longitude: -74.808283
+latitude: 40.2591714
 website: http://www.mercerstreetfriends.org
 phone: 609-278-5543
 fax: 609-406-7328

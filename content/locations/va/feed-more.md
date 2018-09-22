@@ -1,6 +1,6 @@
 ---
-slug: feedmore
-title: FeedMore
+slug: feed-more
+title: Feed More
 address: 1415 Rhoadmiller Street
 address2: 
 city: Richmond

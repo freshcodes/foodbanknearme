@@ -5,6 +5,8 @@ address: 725 26th Ave.
 city: Fairbanks
 state: AK
 postal: 99701
+longitude: -147.7172389
+latitude: 64.82295
 website: http://www.fairbanksfoodbank.org
 phone: 907-457-4273
 fax: 907-374-9776
