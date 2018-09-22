@@ -5,7 +5,7 @@
       <h1>Cities With Food Banks In {{ .Title }}</h1>
       <p><a href="../">Back to all states</a>.</p>
     </div>
-    {{- $locations := where (where (where .Site.RegularPages "Type" "locations") ".Params.state" "==" .Params.state) ".Params.partnerbank" "==" false -}}
+    {{- $locations := sort (where (where .Site.RegularPages "Type" "locations") ".Params.state" "==" .Params.state) -}}
     {{- if gt (len $locations) 0 }}
       <div class="columns is-multiline">
       {{- range $locations }}

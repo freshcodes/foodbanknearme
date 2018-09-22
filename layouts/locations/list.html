@@ -9,7 +9,7 @@
     <div class="columns is-multiline">
       {{ $pages := where .Site.Pages ".Params.layout" "list_for_state" }}
       {{ range sort $pages "Title" }}
-        {{- $locations := where (where (where .Site.RegularPages "Type" "locations") ".Params.state" "==" .Params.state) ".Params.partnerbank" "==" false -}}
+        {{- $locations := where (where .Site.RegularPages "Type" "locations") ".Params.state" "==" .Params.state -}}
         {{- $count := len $locations -}}
         <div class="column is-one-third-tablet is-one-quarter-desktop is-one-fifth-widescreen">
           <p><a href="{{ .Permalink }}">{{ .Title }}</a> ({{ $count }})</p>

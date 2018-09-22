@@ -1,5 +1,5 @@
 {{ define "response" }}
-  {{- $e := sort (where (where (where .Site.RegularPages "Type" "locations") ".Params.state" "==" .Params.state) ".Params.partnerbank" "==" false) -}}
+  {{- $e := sort (where (where .Site.RegularPages "Type" "locations") ".Params.state" "==" .Params.state) -}}
   {
     "state": "{{ .Params.state }}",
     "permalink": "{{ .Permalink }}",
