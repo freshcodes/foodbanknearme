@@ -1,0 +1,18 @@
+{
+  "type": "Feature",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      {{ .Params.longitude }},
+      {{ .Params.latitude }}
+    ]
+  },
+  "properties": {
+    "phoneFormatted": "{{ .Params.phone }}",
+    "address": "{{ .Params.address }}",
+    "city": "{{ .Params.city }}",
+    "country": "United States",
+    "postalCode": "{{ .Params.postal }}",
+    "state": "{{ .Params.state }}"
+  }
+}

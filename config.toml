@@ -52,6 +52,9 @@ section = ["html", "rss", "json"]
 [mediaTypes."text/netlify"]
 delimiter = ""
 
+[mediaTypes."application/vnd.geo+json"]
+suffixes = ["geojson"]
+
 # add output format for netlify _redirects
 [outputFormats.REDIRECTS]
 baseName = "_redirects"
@@ -73,3 +76,7 @@ notAlternative = true
 baseName = "browserconfig.xml"
 isPlainText = true
 notAlternative = true
+
+[outputFormats.geojson]
+isPlainText = true
+mediaType = "application/vnd.geo+json"
