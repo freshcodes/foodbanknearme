@@ -1,3 +1,0 @@
-{{ define "response" }}
- {{- partialCached "location.json" . .Params.state .Params.city .Params.slug -}}
-{{ end }}

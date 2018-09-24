@@ -1,9 +1,0 @@
-{{- $e := sort (where .Site.RegularPages "Type" "locations") -}}
-{
-  "type": "FeatureCollection",
-  "features": [
-    {{- range $i, $r := $e -}}
-    {{- if $i -}}, {{- end -}}{{- partialCached "location.geojson" . .Params.state .Params.city .Params.slug -}}
-    {{- end -}}
-  ]
-}
