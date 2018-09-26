@@ -1,10 +1,6 @@
-.DS_Store
-.vagrant
-.cache
-.cache-parcel
-/public
-/node_modules
-*.log
-/static/css/app.css
-/static/js/app.js
-/static/js/app.map
+node_modules
+/build
+/*.log
+*.lock
+
+package-lock.json
