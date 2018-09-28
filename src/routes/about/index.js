@@ -1,9 +1,8 @@
 import { h } from 'preact'
-// import style from './style'
 
 const About = () => (
-  <div style="padding: 1em;">
-    <p><a href="javascript:history.go(-1);">&lt; Back</a></p>
+  <div>
+    <p><a href="javascript:history.go(-1);" class="backButton">&laquo; Back</a></p>
     <p>
       This is a for-fun project by Fresh Codes LLC.
       We're always exploring new technology and hopefully this site also

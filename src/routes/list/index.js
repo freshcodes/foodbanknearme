@@ -1,5 +1,5 @@
 import { h } from 'preact'
-import style from './style'
+import Location from '../../components/location'
 import { banks } from '../../assets/banks.js'
 
 function banksByState (state) {
@@ -9,10 +9,10 @@ function banksByState (state) {
 }
 
 const List = (props) => (
-  <div class={style.list}>
-    <p><a href="javascript:history.go(-1);">&lt; Back</a></p>
+  <div>
+    <p><a href="javascript:history.go(-1);" class="backButton">&laquo; Back</a></p>
     <ul>
-      {banksByState(props.state).map((bank, i) => <li>{bank.geometry.properties.name}</li>)}
+      {banksByState(props.state).map((bank, i) => <li><Location bank={bank} /></li>)}
     </ul>
   </div>
 )

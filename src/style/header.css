@@ -1,16 +1,16 @@
-#header {
+header {
 	position: relative;
 	padding: 1em;
 	background: linear-gradient(to bottom, #008813 0%,#00420a 100%);
 	color: #fff;
 	height: 50px;
 }
-#header a {
+header a {
 	color: #fff;
 	text-decoration: none;
 	font-weight: bold;
 }
-#header button {
+header button {
 	position: absolute;
 	top: 0;
 	right: 0;
@@ -21,19 +21,19 @@
 	width: 52px;
 	background: transparent;
 }
-#header button svg {
+header button svg {
 	width: 75%;
 	height: 75%;
 	fill: #fff;
 }
 
-#app.map #header button {
+#app.map header button {
 	background-color: #fff;
 }
-#app.map #header button svg {
+#app.map header button svg {
 	fill: #00420a;
 }
 
 @media only screen and (min-width: 640px) {
-	#header button { display: none; }
+	header button { display: none; }
 }
