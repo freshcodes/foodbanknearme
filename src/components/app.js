@@ -18,7 +18,7 @@ export default class App extends Component {
 		let timeout = null
 		window.addEventListener('resize', () => {
 			if (timeout) clearTimeout(timeout)
-			timeout = setTimeout(() => this.toggleMapByWindowWidth(), 16)
+			timeout = setTimeout(() => this.toggleMapByWindowWidth(), 50)
 		})
 	}
 
