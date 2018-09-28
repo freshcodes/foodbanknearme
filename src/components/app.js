@@ -1,7 +1,6 @@
 import { h, Component } from 'preact'
 import { Router } from 'preact-router'
 
-import Header from './header'
 import Map from './map'
 
 // Code-splitting is automated for routes
