@@ -1,0 +1,32 @@
+#nav {
+	display: table;
+	width: 100%;
+	text-align: center;
+}
+#nav a {
+	display: table-cell;
+	width: 50%;
+	padding: 0.5em;
+	text-decoration: none;
+}
+#showList {
+	background-color: #fff;
+	color: #00420a;
+}
+#showMap {
+	background-color: #00420a;
+	color: #fff;
+}
+
+#app.map #showList {
+	background-color: #00420a;
+	color: #fff;
+}
+#app.map #showMap {
+	background-color: #fff;	
+	color: #00420a;
+}
+
+@media only screen and (min-width: 640px) {
+  #nav { display: none; }
+}

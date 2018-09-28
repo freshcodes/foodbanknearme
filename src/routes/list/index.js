@@ -10,6 +10,7 @@ function banksByState (state) {
 
 const List = (props) => (
   <div class={style.list}>
+    <p><a href="javascript:history.go(-1);">&lt; Back</a></p>
     <ul>
       {banksByState(props.state).map((bank, i) => <li>{bank.geometry.properties.name}</li>)}
     </ul>

@@ -1,24 +1,32 @@
 import { h, Component } from 'preact'
 import { banks } from '../../assets/banks.js'
 
+let mapboxAddedToDOM = false
 function loadmapbox () {
   return new Promise((resolve, reject) => {
+    if (mapboxAddedToDOM) return resolve()
     const js = 'https://api.tiles.mapbox.com/mapbox-gl-js/v0.49.0/mapbox-gl.js'
     const css = 'https://api.tiles.mapbox.com/mapbox-gl-js/v0.49.0/mapbox-gl.css'
-    const script = document.createElement('script')
-    script.onload = resolve
-    script.onerror = reject
-    script.src = js
-    const link = document.createElement('link')
-    link.href = css
-    link.rel = 'stylesheet'
-    document.head.appendChild(link)
-    document.head.appendChild(script)
-    // <script src='https://api.tiles.mapbox.com/mapbox-gl-js/v0.49.0/mapbox-gl.js'></script>
-    // <link href='https://api.tiles.mapbox.com/mapbox-gl-js/v0.49.0/mapbox-gl.css' rel='stylesheet' />
+    addJS(js, resolve, reject)
+    addCSS(css)
+    mapboxAddedToDOM = true
   })
 }
 
+function addJS (path, resolve, reject) {
+  const script = document.createElement('script')
+  script.onload = resolve
+  script.onerror = reject
+  script.src = path
+  document.head.appendChild(script)
+}
+
+function addCSS (path) {
+  const link = document.createElement('link')
+  link.href = path
+  link.rel = 'stylesheet'
+  document.head.appendChild(link)
+}
 
 export default class Map extends Component {
   constructor () {
@@ -28,6 +36,7 @@ export default class Map extends Component {
 
   setupMap () {
     mapboxgl.accessToken = 'pk.eyJ1IjoiZnJlc2hjb2RlcyIsImEiOiJjaXlkM2gwMHkwMHQ4Mndxa3V1bjA4djQ1In0.ORaR0rEPEdgA9EbMx7as0Q'
+    // TODO: cache/store last zoom level and center point and restore here
     this.map = new mapboxgl.Map({
       container: 'map',
       style: 'mapbox://styles/mapbox/streets-v10',
@@ -59,7 +68,7 @@ export default class Map extends Component {
   }
 
   componentWillUnmount () {
-
+    this.map.remove()
   }
 
   render (props, state) {
