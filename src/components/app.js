@@ -35,7 +35,7 @@ export default class App extends Component {
 
 	resetScroll () {
 		const container = document.getElementById('contentContainer')
-		if (container) contentContainer.scrollTop = 0
+		if (container) container.scrollTop = 0
 	}
 
 	render (props, state) {
