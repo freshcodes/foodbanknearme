@@ -29,19 +29,27 @@ function addCSS (path) {
 }
 
 export default class Map extends Component {
-  constructor () {
-    super()
-    this.state.loaded = false
+  state = {
+    loaded: false,
+    offline: !navigator.onLine
+  }
+
+  loadMap () {
+    loadmapbox()
+      .then(() => this.setState({loaded:true}))
+      .then(() => this.setupMap())
   }
 
   setupMap () {
     mapboxgl.accessToken = 'pk.eyJ1IjoiZnJlc2hjb2RlcyIsImEiOiJjaXlkM2gwMHkwMHQ4Mndxa3V1bjA4djQ1In0.ORaR0rEPEdgA9EbMx7as0Q'
     // TODO: cache/store last zoom level and center point and restore here
+    const zoom = parseInt(localStorage.getItem('lastMapZoom'), 10) || 2
+    const center = JSON.parse(localStorage.getItem('lastMapCenter') || '0') || [-98.5795, 39.8283]
     this.map = new mapboxgl.Map({
       container: 'map',
       style: 'mapbox://styles/mapbox/streets-v10',
-      zoom: 2,
-      center: [-98.5795, 39.8283],
+      zoom: zoom,
+      center: center,
       attributionControl: false
     })
     this.map.addControl(new mapboxgl.AttributionControl({ compact: true }))
@@ -98,22 +106,46 @@ export default class Map extends Component {
       this.flyToBank(bank)
       this.showPopup(bank)
     })
+
+    this.map.on('moveend', this.mapMoveEnd)
+  }
+
+  mapMoveEnd = () => {
+    localStorage.setItem('lastMapZoom', this.map.getZoom().toString())
+    localStorage.setItem('lastMapCenter', JSON.stringify(this.map.getCenter()))
+  }
+
+  offline = () => {
+    this.setState({ offline: true })
+    this.map.remove()
+  }
+
+  online = () => {
+    this.setState({ offline: false })
+    this.loadMap()
   }
 
   componentWillMount () {
-    loadmapbox()
-      .then(() => this.setState({loaded:true}))
-      .then(() => this.setupMap())
+    window.addEventListener('offline', this.offline)
+    window.addEventListener('online', this.online)
+    if (!this.state.offline) this.loadMap()
   }
 
   componentWillUnmount () {
+    window.removeEventListener('offline', this.offline)
+    window.removeEventListener('online', this.online)
     this.map.remove()
   }
 
   render (props, state) {
+    let offline = state.offline && <p>You're currently offline. The map will load once reconnected.</p>
+    let loading = !state.loaded && <p>Loading the map...</p>
+    let message = offline || loading || ''
     return (
       <div id="mapContainer">
-        <div id="map">{state.loaded ? '' : <p>Loading map...</p>}</div>
+        <div id="map">
+          {message}
+        </div>
       </div>
     )
   }
