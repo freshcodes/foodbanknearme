@@ -41,14 +41,45 @@ export default class Map extends Component {
       container: 'map',
       style: 'mapbox://styles/mapbox/streets-v10',
       zoom: 2,
-      center: [-98.5795, 39.8283]
+      center: [-98.5795, 39.8283],
+      attributionControl: false
     })
+    this.map.addControl(new mapboxgl.AttributionControl({ compact: true }))
+    let nav = new mapboxgl.NavigationControl({ showCompass: false })
+    this.map.addControl(nav, 'bottom-right')
+    this.map.addControl(new mapboxgl.GeolocateControl())
     this.map.on('load', () => this.addBanksToMap())
+  }
+
+  flyToBank (bank) {
+    this.map.flyTo({
+      center: bank.geometry.coordinates,
+      zoom: 12
+    })
+  }
+
+  showPopup (bank) {
+    let popups = document.getElementsByClassName('mapboxgl-popup')
+    if (popups[0]) popups[0].remove()
+    let html = `
+      <h3>${bank.properties.name}</h3>
+      <p>
+        ${bank.properties.address}
+        ${bank.properties.address2 ? '<br>' + bank.properties.address2 + '<br>' : ''}
+        ${bank.properties.city}, ${bank.properties.state}  ${bank.properties.zip}<br>
+        ${bank.properties.phone}<br>
+        <a href="http://${bank.properties.url}">${bank.properties.url}</a>
+      </p>
+    `
+    let popup = new mapboxgl.Popup({ closeOnClick: false })
+      .setLngLat(bank.geometry.coordinates)
+      .setHTML(html)
+      .addTo(this.map)
   }
 
   addBanksToMap () {
     this.map.addLayer({
-      id: 'locations',
+      id: 'banks',
       type: 'symbol',
       source: {
         type: 'geojson',
@@ -58,6 +89,14 @@ export default class Map extends Component {
         'icon-image': 'circle-15',
         'icon-allow-overlap': true
       }
+    })
+
+    this.map.on('click', (event) => {
+      let features = this.map.queryRenderedFeatures(event.point, { layers: ['banks'] })
+      let bank = features[0]
+      if (!bank) return
+      this.flyToBank(bank)
+      this.showPopup(bank)
     })
   }
 

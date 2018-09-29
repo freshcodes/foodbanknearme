@@ -22,17 +22,17 @@ geoObj.features = jsonObj['ArrayOfOrganization']['Organization'].map((organizati
       coordinates: [
         organization.MailAddress.Longitude,
         organization.MailAddress.Latitude
-      ],
-      properties: {
-        name: organization.FullName,
-        address: organization.MailAddress.Address1,
-        address2: organization.MailAddress.Address2,
-        city: organization.MailAddress.City,
-        state: organization.MailAddress.State,
-        zip: organization.MailAddress.Zip,
-        url: organization.URL,
-        phone: organization.Phone
-      }
+      ]
+    },
+    properties: {
+      name: organization.FullName,
+      address: organization.MailAddress.Address1,
+      address2: organization.MailAddress.Address2,
+      city: organization.MailAddress.City,
+      state: organization.MailAddress.State,
+      zip: organization.MailAddress.Zip,
+      url: organization.URL,
+      phone: organization.Phone
     }
   }
 })

@@ -4,7 +4,7 @@ import { banks } from '../../assets/banks.js'
 
 function banksByState (state) {
   return banks.features.filter((bank) => {
-    return bank.geometry.properties.state.toLowerCase() == state
+    return bank.properties.state.toLowerCase() == state
   })
 }
 
