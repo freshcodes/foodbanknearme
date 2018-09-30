@@ -37,6 +37,7 @@ main {
 		right: 0;
 		bottom: 0;
 	}
+	#app.map #contentContainer main { display: none; }
 }
 
 #map {
