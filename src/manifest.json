@@ -1,6 +1,6 @@
 {
   "name": "foodbanknear.me",
-  "short_name": "foodbanknear.me",
+  "short_name": "food banks",
   "start_url": "/",
   "display": "standalone",
   "orientation": "portrait",
