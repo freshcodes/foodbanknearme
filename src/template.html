@@ -9,9 +9,22 @@
     <link rel="preconnect" href="https://events.mapbox.com">
     <link rel="preconnect" href="https://api.tiles.mapbox.com">
     <link rel="manifest" href="<%= htmlWebpackPlugin.files.publicPath %>manifest.json">
-    <% if (htmlWebpackPlugin.options.manifest.theme_color) { %>
-      <meta name="theme-color" content="<%= htmlWebpackPlugin.options.manifest.theme_color %>">
-    <% } %>
+    <link rel="apple-touch-icon" sizes="180x180" href="/assets/icons/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/assets/icons/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/assets/icons/favicon-16x16.png">
+    <link rel="mask-icon" href="/assets/icons/safari-pinned-tab.svg" color="<%= htmlWebpackPlugin.options.manifest.theme_color %>">
+    <meta name="msapplication-config" content="/browserconfig.xml">
+    <meta name="msapplication-TileColor" content="<%= htmlWebpackPlugin.options.manifest.theme_color %>">
+    <meta name="theme-color" content="<%= htmlWebpackPlugin.options.manifest.theme_color %>">
+    <meta name="twitter:site_name" content="FoodBankNear.Me">
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:description" content="Find your local Feeding America member food bank.">
+    <meta property="og:site_name" content="FoodBankNear.Me">
+    <meta property="og:title" content="Food Banks Near Me">
+    <meta property="og:url" content="https://foodbanknear.me">
+    <meta property="og:description" content="Find your local Feeding America member food bank.">
+    <meta property="og:type" content="website">
+    <meta name="description" content="Find your local Feeding America member food bank.">
     <% for (var chunk of webpack.chunks) { %>
      <% if (chunk.names.length === 1 && chunk.names[0] === 'polyfills') continue; %>
       <% for (var file of chunk.files) { %>
