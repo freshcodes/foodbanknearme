@@ -8,7 +8,7 @@ workbox.routing.registerRoute(
     cacheName: 'mapbox-gl',
     plugins: [
       new workbox.expiration.Plugin({
-        maxEntries: 30,
+        maxEntries: 30
       }),
       new workbox.cacheableResponse.Plugin({
         statuses: [0, 200]

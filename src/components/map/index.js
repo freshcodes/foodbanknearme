@@ -36,7 +36,7 @@ export default class Map extends Component {
 
   loadMap () {
     loadmapbox()
-      .then(() => this.setState({loaded:true}))
+      .then(() => this.setState({ loaded: true }))
       .then(() => this.setupMap())
   }
 
@@ -79,7 +79,7 @@ export default class Map extends Component {
         <a href="http://${bank.properties.url}">${bank.properties.url}</a>
       </p>
     `
-    let popup = new mapboxgl.Popup({ closeOnClick: false })
+    new mapboxgl.Popup({ closeOnClick: false })
       .setLngLat(bank.geometry.coordinates)
       .setHTML(html)
       .addTo(this.map)
@@ -142,8 +142,8 @@ export default class Map extends Component {
     let loading = !state.loaded && <p>Loading the map...</p>
     let message = offline || loading || ''
     return (
-      <div id="mapContainer">
-        <div id="map">
+      <div id='mapContainer'>
+        <div id='map'>
           {message}
         </div>
       </div>
