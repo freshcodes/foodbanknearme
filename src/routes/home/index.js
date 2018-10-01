@@ -1,7 +1,7 @@
 import { h } from 'preact'
 
-import { states } from '../../assets/states.js'
-import { stateCounts } from '../../assets/banks.js'
+const states = require('../../assets/states.js')
+const stateCounts = require('../../assets/banks.js').stateCounts
 
 const Home = () => (
   <div>
@@ -12,8 +12,7 @@ const Home = () => (
 
 const listItems = () => {
   return Object.entries(states).map(([st, name]) => {
-    if (stateCounts[st])
-      return <li><a href={`/${st.toLowerCase()}`}>{name}&nbsp;({stateCounts[st]})</a></li>
+    if (stateCounts[st]) { return <li><a href={`/${st.toLowerCase()}`}>{name}&nbsp;({stateCounts[st]})</a></li> }
   })
 }
 

@@ -12,13 +12,17 @@ export default class App extends Component {
   constructor () {
     super()
 
-    this.state.showMap = window.innerWidth > 639
+    this.state.showMap = false
 
-    let timeout = null
-    window.addEventListener('resize', () => {
-      if (timeout) clearTimeout(timeout)
-      timeout = setTimeout(() => this.toggleMapByWindowWidth(), 50)
-    })
+    if (typeof window !== 'undefined') {
+      this.state.showMap = window.innerWidth > 639
+
+      let timeout = null
+      window.addEventListener('resize', () => {
+        if (timeout) clearTimeout(timeout)
+        timeout = setTimeout(() => this.toggleMapByWindowWidth(), 50)
+      })
+    }
   }
 
   toggleMapByWindowWidth () {
@@ -34,6 +38,7 @@ export default class App extends Component {
   }
 
   resetScroll () {
+    if (typeof window === 'undefined') return
     const container = document.getElementById('contentContainer')
     if (container) container.scrollTop = 0
     window.scrollTo(0, 0)

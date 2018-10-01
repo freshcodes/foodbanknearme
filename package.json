@@ -6,9 +6,10 @@
   "scripts": {
     "downloadxml": "curl -s http://ws.feedingamerica.org/FAWebService.asmx/GetAllOrganizations > src/assets/FeedingAmericaOrganizations.xml",
     "buildgeojson": "node src/buildgeojson.js",
+    "buildprerenderurls": "node src/buildprerenderurls.js",
     "start": "if-env NODE_ENV=production && npm run -s serve || npm run -s dev",
-    "build": "preact build --no-service-worker --no-prerender --template src/template.html",
-    "serve": "preact build --no-service-worker --no-prerender --template src/template.html && preact serve",
+    "build": "preact build --no-service-worker --template src/template.html --prerenderUrls prerender-urls.json",
+    "serve": "preact build --no-service-worker --template src/template.html --prerenderUrls prerender-urls.json && preact serve",
     "dev": "preact watch --template src/template.html",
     "lint": "eslint --fix src *.js",
     "test": "jest"
@@ -61,6 +62,7 @@
     "workbox-webpack-plugin": "^3.6.1"
   },
   "dependencies": {
+    "esm": "^3.0.84",
     "mapbox-gl": "^0.49.0",
     "preact": "^8.2.6",
     "preact-compat": "^3.17.0",

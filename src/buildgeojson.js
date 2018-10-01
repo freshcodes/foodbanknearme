@@ -40,7 +40,9 @@ geoObj.features = jsonObj['ArrayOfOrganization']['Organization'].map((organizati
 console.log(`\nGenerated ${geoObj.features.length} points from ${count} banks found in the XML file.`)
 
 const js = `
-export const banks = ${JSON.stringify(geoObj)}
-export const stateCounts = ${JSON.stringify(stateCounts)}
+module.exports = {
+  banks: ${JSON.stringify(geoObj)},
+  stateCounts: ${JSON.stringify(stateCounts)}
+}
 `
 fs.writeFileSync('src/assets/banks.js', js)

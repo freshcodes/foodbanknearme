@@ -1,4 +1,4 @@
-export const states = {
+const states = {
   'AL': 'Alabama',
   'AK': 'Alaska',
   'AS': 'American Samoa',
@@ -59,3 +59,4 @@ export const states = {
   'WI': 'Wisconsin',
   'WY': 'Wyoming'
 }
+module.exports = states

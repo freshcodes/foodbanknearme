@@ -1,5 +1,5 @@
 import { h, Component } from 'preact'
-import { banks } from '../../assets/banks.js'
+const banks = require('../../assets/banks.js').banks
 
 let mapboxAddedToDOM = false
 function loadmapbox () {
