@@ -47,8 +47,10 @@ main {
 }
 #map p {
 	text-align: center;
+	margin: 0;
+	padding: 1em;
 }
-#map .mapboxgl-popup-content p { text-align: left; }
+#map .mapboxgl-popup-content p { padding: 0; margin: 1em; text-align: left; }
 #map .mapboxgl-popup-content h3 { margin: 1em; }
 
 
