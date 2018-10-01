@@ -1,6 +1,6 @@
 workbox.precaching.precacheAndRoute(self.__precacheManifest || [])
 
-workbox.routing.registerNavigationRoute('/index.html')
+// workbox.routing.registerNavigationRoute('/index.html')
 
 workbox.routing.registerRoute(
   new RegExp('https://api.tiles.mapbox.com/mapbox-gl-js/(.*)'),

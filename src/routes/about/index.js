@@ -2,7 +2,7 @@ import { h } from 'preact'
 
 const About = () => (
   <div>
-    <p><a href='javascript:history.go(-1);' class='backButton'>&laquo; Back</a></p>
+    <p><a href='/' class='backButton'>&laquo; Back</a></p>
     <p>
       This is a for-fun project by Fresh Codes LLC.
       We're always exploring new technology and hopefully this site also
