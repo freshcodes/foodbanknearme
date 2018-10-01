@@ -5,7 +5,7 @@ const stateCounts = require('../../assets/banks.js').stateCounts
 
 const Home = () => (
   <div>
-    <p>Pick a state below to see the Feeding America partner food banks.</p>
+    <p>Choose a state to see <a href='http://www.feedingamerica.org/find-your-local-foodbank/'>Feeding America</a> partner food banks.</p>
     <ul>{listItems()}</ul>
   </div>
 )
