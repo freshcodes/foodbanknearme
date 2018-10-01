@@ -8,7 +8,7 @@ export default class Location extends Component {
       address2 = <span itemprop='postOfficeBoxNumber'> {details.address2} </span>
     }
     return (
-      <div itemscope itemtype='http://schema.org/LocalBusiness'>
+      <div class="bankDetails" itemscope itemtype='http://schema.org/LocalBusiness'>
         <strong><span itemprop='name'>{details.name}</span></strong>
         <div itemprop='address' itemscope itemtype='http://schema.org/PostalAddress'>
           <span itemprop='streetAddress'> {details.address} </span><br />

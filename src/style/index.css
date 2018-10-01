@@ -87,12 +87,18 @@ ul {
 
 li {
 	margin: 0;
-	padding: 1em;
 	border-bottom: 1px solid #00420a;
 }
 li a {
 	position: relative;
 	display: block;
+	padding: 1em;
 	text-decoration: none;
+}
+li div.bankDetails {
+	padding: 1em;	
+}
+li div.bankDetails a {
+	padding: 0;
 }
 p { margin-right: 1em; margin-left: 1em;}
