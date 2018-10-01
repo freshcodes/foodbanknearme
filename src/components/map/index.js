@@ -52,6 +52,8 @@ export default class Map extends Component {
       center: center,
       attributionControl: false
     })
+    this.map.dragRotate.disable()
+    this.map.touchZoomRotate.disableRotation()
     this.map.addControl(new mapboxgl.AttributionControl({ compact: true }))
     let nav = new mapboxgl.NavigationControl({ showCompass: false })
     this.map.addControl(nav, 'bottom-right')
