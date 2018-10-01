@@ -6,6 +6,8 @@
 .backButton {
 	text-decoration: none;
 	color: #00420a;
+	display: block;
+	padding: 1em;
 }
 
 #app {

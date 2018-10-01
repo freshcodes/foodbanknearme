@@ -10,7 +10,7 @@ function banksByState (state) {
 
 const List = (props) => (
   <div>
-    <p><a href='/' class='backButton'>&laquo; Back</a></p>
+    <a href='/' class='backButton'>&laquo; Back</a>
     <ul>
       {banksByState(props.state).map((bank, i) => <li><Location bank={bank} /></li>)}
     </ul>
