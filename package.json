@@ -57,16 +57,16 @@
     "identity-obj-proxy": "^3.0.0",
     "if-env": "^1.0.0",
     "jest": "^21.2.1",
-    "preact-cli": "^2.1.0",
-    "preact-render-spy": "^1.2.1",
-    "workbox-webpack-plugin": "^3.6.1"
+    "preact-render-spy": "^1.2.1"
   },
   "dependencies": {
     "esm": "^3.0.84",
     "mapbox-gl": "^0.49.0",
     "preact": "^8.2.6",
+    "preact-cli": "^2.1.0",
     "preact-compat": "^3.17.0",
-    "preact-router": "^2.5.7"
+    "preact-router": "^2.5.7",
+    "workbox-webpack-plugin": "^3.6.2"
   },
   "jest": {
     "verbose": true,
