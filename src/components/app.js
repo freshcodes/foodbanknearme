@@ -37,8 +37,11 @@ export default class App extends Component {
     this.setState({ showMap: !this.state.showMap, showMapViaButton: !this.state.showMap })
   }
 
-  resetScroll () {
+  routeChange (event) {
     if (typeof window === 'undefined') return
+
+    if (window.ga) ga('send', 'pageview', event.url)
+
     const container = document.getElementById('contentContainer')
     if (container) container.scrollTop = 0
     window.scrollTo(0, 0)
@@ -55,7 +58,7 @@ export default class App extends Component {
             </button>
           </header>
           <main>
-            <Router onChange={this.resetScroll}>
+            <Router onChange={this.routeChange}>
               <Home path='/' />
               <About path='/about' />
               <List path='/:state' />
