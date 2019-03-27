@@ -42,7 +42,6 @@ export default class Map extends Component {
 
   setupMap () {
     mapboxgl.accessToken = 'pk.eyJ1IjoiZnJlc2hjb2RlcyIsImEiOiJjaXlkM2gwMHkwMHQ4Mndxa3V1bjA4djQ1In0.ORaR0rEPEdgA9EbMx7as0Q'
-    // TODO: cache/store last zoom level and center point and restore here
     const zoom = parseInt(localStorage.getItem('lastMapZoom'), 10) || 2
     const center = JSON.parse(localStorage.getItem('lastMapCenter') || '0') || [-98.5795, 39.8283]
     this.map = new mapboxgl.Map({
