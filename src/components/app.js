@@ -12,7 +12,7 @@ export default class App extends Component {
   constructor () {
     super()
 
-    this.state.showMap = false
+    this.state = { showMap: false }
 
     if (typeof window !== 'undefined') {
       this.state.showMap = window.innerWidth > 639

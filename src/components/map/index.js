@@ -5,8 +5,8 @@ let mapboxAddedToDOM = false
 function loadmapbox () {
   return new Promise((resolve, reject) => {
     if (mapboxAddedToDOM) return resolve()
-    const js = 'https://api.tiles.mapbox.com/mapbox-gl-js/v0.49.0/mapbox-gl.js'
-    const css = 'https://api.tiles.mapbox.com/mapbox-gl-js/v0.49.0/mapbox-gl.css'
+    const js = 'https://api.tiles.mapbox.com/mapbox-gl-js/v1.5.0/mapbox-gl.js'
+    const css = 'https://api.tiles.mapbox.com/mapbox-gl-js/v1.5.0/mapbox-gl.css'
     addJS(js, resolve, reject)
     addCSS(css)
     mapboxAddedToDOM = true
