@@ -14,5 +14,3 @@ workbox.routing.registerRoute(
     ]
   })
 )
-
-workbox.googleAnalytics.initialize()

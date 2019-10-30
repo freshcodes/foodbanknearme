@@ -10,8 +10,8 @@
     "start": "per-env",
     "start:production": "npm run -s serve",
     "start:development": "npm run -s dev",
-    "build": "preact build --no-service-worker --template src/template.html --prerenderUrls prerender-urls.json",
-    "serve": "preact build --no-service-worker --template src/template.html --prerenderUrls prerender-urls.json && preact serve",
+    "build": "preact build --no-sw --template src/template.html --prerenderUrls prerender-urls.json",
+    "serve": "preact build --no-sw --template src/template.html --prerenderUrls prerender-urls.json && preact serve",
     "dev": "preact watch --template src/template.html",
     "lint": "eslint --fix src *.js",
     "test": "jest"
