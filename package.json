@@ -3,6 +3,7 @@
   "name": "foodbanknear.me",
   "version": "0.0.0",
   "license": "MIT",
+  "author": "Fresh Codes <hello@fresh.codes> (https://fresh.codes/)",
   "scripts": {
     "downloadxml": "curl -s http://ws.feedingamerica.org/FAWebService.asmx/GetAllOrganizations > src/assets/FeedingAmericaOrganizations.xml",
     "buildgeojson": "node src/buildgeojson.js",
