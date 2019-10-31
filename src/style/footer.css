@@ -1,4 +1,9 @@
 footer {
   padding: 1em;
   width: 100%;
+  text-align: center;
+}
+
+footer img {
+  width: 200px;
 }

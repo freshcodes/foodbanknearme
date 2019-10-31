@@ -65,7 +65,8 @@ export default class App extends Component {
             </Router>
           </main>
           <footer>
-            <p>&copy; 2018 Fresh Codes LLC | <a href='/about'>About</a></p>
+            <p><a href='/about'>About</a></p>
+            <p><a href="https://fresh.codes"><img src="/assets/fresh-codes.svg" alt="By Fresh Codes" /></a></p>
           </footer>
         </div>
         { state.showMap ? <Map /> : '' }
