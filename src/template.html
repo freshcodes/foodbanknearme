@@ -1,45 +1,45 @@
 <!DOCTYPE html>
 <html lang="en">
-	<head>
-		<meta charset="utf-8">
-		<title><% preact.title %></title>
-    <meta name="viewport" content="width=device-width,initial-scale=1">
-    <meta name="mobile-web-app-capable" content="yes">
-    <meta name="apple-mobile-web-app-capable" content="yes">
-    <link rel="preconnect" href="https://events.mapbox.com">
-    <link rel="preconnect" href="https://api.tiles.mapbox.com">
-    <link rel="apple-touch-icon" sizes="180x180" href="/assets/icons/apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="/assets/icons/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="/assets/icons/favicon-16x16.png">
-    <link rel="mask-icon" href="/assets/icons/safari-pinned-tab.svg" color="<%= htmlWebpackPlugin.options.manifest.theme_color %>">
-    <meta name="msapplication-config" content="/browserconfig.xml">
-    <meta name="msapplication-TileColor" content="<%= htmlWebpackPlugin.options.manifest.theme_color %>">
-    <meta name="twitter:site_name" content="FoodBankNear.Me">
-    <meta name="twitter:card" content="summary">
-    <meta name="twitter:description" content="Find your local Feeding America member food bank.">
-    <meta property="og:site_name" content="FoodBankNear.Me">
-    <meta property="og:title" content="Food Banks Near Me">
-    <meta property="og:url" content="https://foodbanknear.me">
-    <meta property="og:description" content="Find your local Feeding America member food bank.">
-    <meta property="og:type" content="website">
-    <meta name="description" content="Find your local Feeding America member food bank.">
-		<% preact.headEnd %>
-	</head>
-	<body>
-		<% preact.bodyEnd %>
-    <% if (htmlWebpackPlugin.options.config.isProd) { %>
-    <script>
-      if ('serviceWorker' in navigator) {
-        navigator.serviceWorker.register('/service-worker.js')
-          .then(function (registration) {
-            console.log('Service Worker registration successful with scope: ', registration.scope)
-          })
-          .catch(function (err) {
-            console.log('Service Worker registration failed: ', err)
-          })
-      }
-    </script>
-    <% } %>
-    <noscript>Please enable javascript to use the map.</noscript>
-	</body>
+    <head>
+        <meta charset="utf-8">
+        <title><% preact.title %></title>
+        <meta name="viewport" content="width=device-width,initial-scale=1">
+        <meta name="mobile-web-app-capable" content="yes">
+        <meta name="apple-mobile-web-app-capable" content="yes">
+        <link rel="preconnect" href="https://events.mapbox.com">
+        <link rel="preconnect" href="https://api.tiles.mapbox.com">
+        <link rel="apple-touch-icon" sizes="180x180" href="/assets/icons/apple-touch-icon.png">
+        <link rel="icon" type="image/png" sizes="32x32" href="/assets/icons/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="/assets/icons/favicon-16x16.png">
+        <link rel="mask-icon" href="/assets/icons/safari-pinned-tab.svg" color="<%= htmlWebpackPlugin.options.manifest.theme_color %>">
+        <meta name="msapplication-config" content="/browserconfig.xml">
+        <meta name="msapplication-TileColor" content="<%= htmlWebpackPlugin.options.manifest.theme_color %>">
+        <meta name="twitter:site_name" content="FoodBankNear.Me">
+        <meta name="twitter:card" content="summary">
+        <meta name="twitter:description" content="Find your local Feeding America member food bank.">
+        <meta property="og:site_name" content="FoodBankNear.Me">
+        <meta property="og:title" content="Food Banks Near Me">
+        <meta property="og:url" content="https://foodbanknear.me">
+        <meta property="og:description" content="Find your local Feeding America member food bank.">
+        <meta property="og:type" content="website">
+        <meta name="description" content="Find your local Feeding America member food bank.">
+        <% preact.headEnd %>
+    </head>
+    <body>
+        <% preact.bodyEnd %>
+        <% if (htmlWebpackPlugin.options.config.isProd) { %>
+        <script>
+          if ('serviceWorker' in navigator) {
+            navigator.serviceWorker.register('/service-worker.js')
+              .then(function (registration) {
+                console.log('Service Worker registration successful with scope: ', registration.scope)
+              })
+              .catch(function (err) {
+                console.log('Service Worker registration failed: ', err)
+              })
+          }
+        </script>
+        <% } %>
+        <noscript>Please enable javascript to use the map.</noscript>
+    </body>
 </html>
