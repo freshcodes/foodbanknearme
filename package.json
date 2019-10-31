@@ -8,6 +8,7 @@
     "downloadxml": "curl -s http://ws.feedingamerica.org/FAWebService.asmx/GetAllOrganizations > src/assets/FeedingAmericaOrganizations.xml",
     "buildgeojson": "node src/buildgeojson.js",
     "buildprerenderurls": "node src/buildprerenderurls.js",
+    "updatedata": "npm run -s downloadxml && npm run -s buildgeojson && npm run -s buildprerenderurls && npm run -s lint",
     "start": "per-env",
     "start:production": "npm run -s serve",
     "start:development": "npm run -s dev",
