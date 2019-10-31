@@ -1,3 +1,4 @@
+/* global MAPBOX_TOKEN */
 import { h, Component } from 'preact'
 const banks = require('../../assets/banks.js').banks
 
