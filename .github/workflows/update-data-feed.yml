@@ -1,6 +1,8 @@
-name: Node CI
+name: Update Data Feed
 
-on: [push]
+on:
+  schedule:
+    - cron: '0 0 * * MON'
 
 jobs:
   build:
@@ -25,4 +27,3 @@ jobs:
         commit-message: Update data feed
         title: Update data feed
         assignees: brandonaaron
-        reviewers: brandonaaron
