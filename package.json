@@ -9,11 +9,8 @@
     "buildgeojson": "node src/buildgeojson.js",
     "buildprerenderurls": "node src/buildprerenderurls.js",
     "updatedata": "npm run -s downloadxml && npm run -s buildgeojson && npm run -s buildprerenderurls && npm run -s lint",
-    "start": "per-env",
-    "start:production": "npm run -s serve",
-    "start:development": "npm run -s dev",
+    "start": "npm run -s dev",
     "build": "preact build --no-sw --template src/template.html --prerenderUrls prerender-urls.json",
-    "serve": "preact build --no-sw --template src/template.html --prerenderUrls prerender-urls.json && preact serve",
     "dev": "preact watch --template src/template.html",
     "lint": "eslint --fix src *.js",
     "test": "jest"
@@ -83,10 +80,8 @@
     "identity-obj-proxy": "^3.0.0",
     "jest": "^24.9.0",
     "jest-preset-preact": "^1.0.0",
-    "per-env": "^1.0.2",
     "preact-cli": "^3.0.0-rc.6",
     "preact-render-spy": "^1.2.1",
-    "serve": "^11.1.0"
   },
   "dependencies": {
     "mapbox-gl": "^1.5.0",
