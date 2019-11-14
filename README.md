@@ -1,5 +1,7 @@
 # FoodBankNear.Me
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/freshcodes/foodbanknearme.svg)](https://greenkeeper.io/)
+
 This is an example of a [Progressive Web App](https://developer.mozilla.org/en-US/docs/Web/Apps/Progressive) using [Preact](https://preactjs.com/).
 
 The food banks found in this site are [Feeding America](http://www.feedingamerica.org/) members. These banks can connect you to local services offering support to your community.
