@@ -69,7 +69,7 @@ export default class App extends Component {
             <p><a href='https://fresh.codes'><img src='/assets/fresh-codes.svg' alt='By Fresh Codes' /></a></p>
           </footer>
         </div>
-        { state.showMap ? <Map /> : '' }
+        {state.showMap ? <Map /> : ''}
       </div>
     )
   }
