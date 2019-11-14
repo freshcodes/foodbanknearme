@@ -55,7 +55,7 @@ export default class Map extends Component {
     this.map.dragRotate.disable()
     this.map.touchZoomRotate.disableRotation()
     this.map.addControl(new mapboxgl.AttributionControl({ compact: true }))
-    let nav = new mapboxgl.NavigationControl({ showCompass: false })
+    const nav = new mapboxgl.NavigationControl({ showCompass: false })
     this.map.addControl(nav, 'bottom-right')
     this.map.addControl(new mapboxgl.GeolocateControl())
     this.map.on('load', () => this.addBanksToMap())
@@ -69,9 +69,9 @@ export default class Map extends Component {
   }
 
   showPopup (bank) {
-    let popups = document.getElementsByClassName('mapboxgl-popup')
+    const popups = document.getElementsByClassName('mapboxgl-popup')
     if (popups[0]) popups[0].remove()
-    let html = `
+    const html = `
       <h3>${bank.properties.name}</h3>
       <p>
         ${bank.properties.address}
@@ -102,8 +102,8 @@ export default class Map extends Component {
     })
 
     this.map.on('click', (event) => {
-      let features = this.map.queryRenderedFeatures(event.point, { layers: ['banks'] })
-      let bank = features[0]
+      const features = this.map.queryRenderedFeatures(event.point, { layers: ['banks'] })
+      const bank = features[0]
       if (!bank) return
       this.flyToBank(bank)
       this.showPopup(bank)
@@ -140,9 +140,9 @@ export default class Map extends Component {
   }
 
   render (props, state) {
-    let offline = state.offline && <p>You're currently offline. The map will load once reconnected.</p>
-    let loading = !state.loaded && <p>Loading the map...</p>
-    let message = offline || loading || ''
+    const offline = state.offline && <p>You're currently offline. The map will load once reconnected.</p>
+    const loading = !state.loaded && <p>Loading the map...</p>
+    const message = offline || loading || ''
     return (
       <div id='mapContainer'>
         <div id='map'>

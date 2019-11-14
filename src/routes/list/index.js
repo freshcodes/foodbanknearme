@@ -12,7 +12,7 @@ const List = (props) => (
   <div>
     <a href='/' class='backButton'>&laquo; Back</a>
     <ul>
-      {banksByState(props.state).map((bank, i) => <li><Location bank={bank} /></li>)}
+      {banksByState(props.state).map((bank, i) => <li key={`${bank.properties.name}-${bank.properties.zip}`}><Location bank={bank} /></li>)}
     </ul>
   </div>
 )

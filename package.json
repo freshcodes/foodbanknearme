@@ -47,7 +47,8 @@
       "react/no-unknown-property": 0,
       "react/no-did-update-set-state": 2,
       "react/react-in-jsx-scope": 2,
-      "react/prop-types": 0
+      "react/prop-types": 0,
+      "react/jsx-handler-names": 0
     }
   },
   "eslintIgnore": [

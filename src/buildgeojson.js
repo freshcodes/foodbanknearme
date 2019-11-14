@@ -2,13 +2,13 @@ const parser = require('fast-xml-parser')
 const fs = require('fs')
 const xml = fs.readFileSync('src/assets/FeedingAmericaOrganizations.xml', 'utf8')
 const jsonObj = parser.parse(xml)
-const count = jsonObj['ArrayOfOrganization']['Organization'].length
+const count = jsonObj.ArrayOfOrganization.Organization.length
 
-let stateCounts = {}
-let geoObj = {
+const stateCounts = {}
+const geoObj = {
   type: 'FeatureCollection'
 }
-geoObj.features = jsonObj['ArrayOfOrganization']['Organization'].map((organization) => {
+geoObj.features = jsonObj.ArrayOfOrganization.Organization.map((organization) => {
   process.stdout.write('.')
 
   const state = organization.MailAddress.State
