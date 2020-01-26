@@ -23,7 +23,7 @@ jobs:
       uses: peter-evans/create-pull-request@v2.2.0
       with:
         token: ${{ secrets.ACCESS_TOKEN }}
-        branch-suffix: none
+        branch: automated/datafeed
         commit-message: Update data feed
         title: Update data feed
         assignees: brandonaaron
