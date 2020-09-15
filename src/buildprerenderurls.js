@@ -26,7 +26,7 @@ const json = [
         property: 'og:url',
         content: 'https://foodbanknear.me'
       }
-    ],
+    ]
   },
   {
     url: '/about',
