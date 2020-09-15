@@ -11,14 +11,21 @@ jobs:
 
     steps:
     - uses: actions/checkout@v2
-    - name: Use Node.js 10.15.3
-      uses: actions/setup-node@v1
+
+    - name: Read .nvmrc
+      run: echo "##[set-output name=NVMRC;]$(cat .nvmrc)"
+      id: nvm
+
+    - name: Use Node.js (.nvmrc)
+      uses: actions/setup-node@v2.1.1
       with:
-        node-version: 10.15.3
+        node-version: "${{ steps.nvm.outputs.NVMRC }}"
+
     - name: npm install
       run: |
         npm ci
         npm run updatedata
+
     - name: Create Pull Request
       uses: peter-evans/create-pull-request@v3.3.0
       with:
