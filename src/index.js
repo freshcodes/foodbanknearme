@@ -1,4 +1,5 @@
 import './style'
+import { h } from 'preact'
 import App from './components/app'
 import { Provider as PrerenderProvider } from '@preact/prerender-data-provider'
 

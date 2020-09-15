@@ -1,4 +1,3 @@
-import { h } from 'preact'
 import { usePrerenderData } from '@preact/prerender-data-provider'
 
 const SetTitle = ({ url }) => {

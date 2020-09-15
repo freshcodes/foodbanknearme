@@ -4,103 +4,115 @@
 @import './footer.css';
 
 .backButton {
-	text-decoration: none;
-	color: #00420a;
-	display: block;
-	padding: 1em;
+  text-decoration: none;
+  color: #00420a;
+  display: block;
+  padding: 1em;
 }
 
 #app {
-	width: 100%;
-	height: 100%;
+  width: 100%;
+  height: 100%;
 }
 
 #contentContainer {
-	width: 100%;
-	background-color: #dfdfdf;
+  width: 100%;
+  background-color: #dfdfdf;
 }
 
 main {
-	width: 100%;
-	border-top: 1px solid #fff;
-	border-bottom: 1px solid #ccc;
-	background-color: #fff;
+  width: 100%;
+  border-top: 1px solid #fff;
+  border-bottom: 1px solid #ccc;
+  background-color: #fff;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  border-top: 1px solid #00420a;
+}
+
+li {
+  margin: 0;
+  border-bottom: 1px solid #00420a;
+}
+
+li a {
+  position: relative;
+  display: block;
+  padding: 1em;
+  text-decoration: none;
+}
+
+li div.bankDetails {
+  padding: 1em;
+}
+
+li div.bankDetails a {
+  padding: 0;
+}
+
+p {
+  margin-right: 1em;
+  margin-left: 1em;
 }
 
 #mapContainer { display: none; }
 
 @media only screen and (max-width: 639px) {
-	#app.map #mapContainer {
-		display: block;
-		z-index: 5;
-		position: absolute;
-		top: 50px;
-		left: 0;
-		right: 0;
-		bottom: 0;
-	}
-	#app.map #contentContainer main { display: none; }
+  #app.map #mapContainer {
+    display: block;
+    z-index: 5;
+    position: absolute;
+    top: 50px;
+    left: 0;
+    right: 0;
+    bottom: 0;
+  }
+  #app.map #contentContainer main { display: none; }
 }
 
 #map {
-	width: 100%;
-	height: 100%;
-	background-color: #fff;
+  width: 100%;
+  height: 100%;
+  background-color: #fff;
 }
+
 #map p {
-	text-align: center;
-	margin: 0;
-	padding: 1em;
+  text-align: center;
+  margin: 0;
+  padding: 1em;
 }
-#map .mapboxgl-popup-content p { padding: 0; margin: 1em; text-align: left; }
+
+#map .mapboxgl-popup-content p {
+  padding: 0;
+  margin: 1em;
+  text-align: left;
+}
 #map .mapboxgl-popup-content h3 { margin: 1em; }
 
-
 @media only screen and (min-width: 640px) {
-	#mapContainer {
-		display: block;
-		position: absolute;
-		top: 0;
-		left: 320px;
-		right: 0;
-		bottom: 0;
-		z-index: 1;
-	}
+  #mapContainer {
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 320px;
+    right: 0;
+    bottom: 0;
+    z-index: 1;
+  }
 
-	#contentContainer {
-		position: absolute;
-		top: 0;
-		left: 0;
-		bottom: 0;
-		width: 320px;	
-		height: 100%;
-		z-index: 2;
-		overflow: auto;
-		border-right: 1px solid #000;
-	}
+  #contentContainer {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    width: 320px;
+    height: 100%;
+    z-index: 2;
+    overflow: auto;
+    border-right: 1px solid #000;
+  }
 }
-
-ul {
-	margin: 0;
-	padding: 0;
-	list-style: none;
-	border-top: 1px solid #00420a;
-}
-
-li {
-	margin: 0;
-	border-bottom: 1px solid #00420a;
-}
-li a {
-	position: relative;
-	display: block;
-	padding: 1em;
-	text-decoration: none;
-}
-li div.bankDetails {
-	padding: 1em;	
-}
-li div.bankDetails a {
-	padding: 0;
-}
-p { margin-right: 1em; margin-left: 1em;}

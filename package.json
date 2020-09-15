@@ -12,7 +12,7 @@
     "start": "npm run -s dev",
     "build": "preact build --brotli",
     "dev": "preact watch",
-    "lint": "eslint --fix src *.js",
+    "lint": "eslint --fix src *.js && stylelint --fix \"**/*.css\"",
     "test": "jest"
   },
   "eslintConfig": {
@@ -54,6 +54,17 @@
   "eslintIgnore": [
     "build/*"
   ],
+  "stylelint": {
+    "extends": "stylelint-config-standard",
+    "rules": {
+      "font-family-no-missing-generic-family-keyword": null,
+      "at-rule-no-unknown": null
+    },
+    "ignoreFiles": [
+      "node_modules/**",
+      "build/**"
+    ]
+  },
   "browserslist": [
     "> 5%",
     "last 2 versions",
@@ -66,23 +77,27 @@
   ],
   "devDependencies": {
     "babel-eslint": "^10.1.0",
+    "enzyme": "^3.11.0",
+    "enzyme-adapter-preact-pure": "^2.2.3",
     "eslint": "^7.9.0",
     "eslint-config-standard": "^14.1.0",
     "eslint-config-standard-react": "^9.2.0",
+    "eslint-config-synacor": "^3.0.4",
     "eslint-plugin-import": "^2.22.0",
     "eslint-plugin-node": "^11.0.0",
     "eslint-plugin-promise": "^4.0.1",
     "eslint-plugin-react": "^7.20.6",
     "eslint-plugin-standard": "^4.0.0",
     "fast-xml-parser": "^3.17.4",
-    "enzyme": "^3.11.0",
-    "enzyme-adapter-preact-pure": "^2.2.3",
-    "eslint-config-synacor": "^3.0.4",
+    "husky": "^4.3.0",
     "identity-obj-proxy": "^3.0.0",
     "jest": "^26.4.2",
     "jest-preset-preact": "^4.0.2",
+    "lint-staged": "^10.3.0",
     "preact-cli": "^3.0.1",
-    "preact-render-spy": "^1.2.1"
+    "preact-render-spy": "^1.2.1",
+    "stylelint": "^13.7.1",
+    "stylelint-config-standard": "^20.0.0"
   },
   "dependencies": {
     "@preact/prerender-data-provider": "^3.0.1",
@@ -97,5 +112,15 @@
       "<rootDir>/tests/__mocks__/browserMocks.js",
       "<rootDir>/tests/__mocks__/setupTests.js"
     ]
+  },
+  "lint-staged": {
+    "*.js": "eslint --fix",
+    "*.scss": "stylelint --fix"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged",
+      "pre-push": "npm run test"
+    }
   }
 }
