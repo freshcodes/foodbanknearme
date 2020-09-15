@@ -40,8 +40,6 @@ export default class App extends Component {
   routeChange (event) {
     if (typeof window === 'undefined') return
 
-    if (window.ga) window.ga('send', 'pageview', event.url)
-
     const container = document.getElementById('contentContainer')
     if (container) container.scrollTop = 0
     window.scrollTo(0, 0)
