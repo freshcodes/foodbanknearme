@@ -6,8 +6,8 @@ let mapboxAddedToDOM = false
 function loadmapbox () {
   return new Promise((resolve, reject) => {
     if (mapboxAddedToDOM) return resolve()
-    const js = 'https://api.tiles.mapbox.com/mapbox-gl-js/v1.5.0/mapbox-gl.js'
-    const css = 'https://api.tiles.mapbox.com/mapbox-gl-js/v1.5.0/mapbox-gl.css'
+    const js = 'https://api.tiles.mapbox.com/mapbox-gl-js/v2.4.0/mapbox-gl.js'
+    const css = 'https://api.tiles.mapbox.com/mapbox-gl-js/v2.4.0/mapbox-gl.css'
     addJS(js, resolve, reject)
     addCSS(css)
     mapboxAddedToDOM = true
@@ -47,7 +47,7 @@ export default class Map extends Component {
     const center = JSON.parse(localStorage.getItem('lastMapCenter') || '0') || [-98.5795, 39.8283]
     this.map = new mapboxgl.Map({
       container: 'map',
-      style: 'mapbox://styles/mapbox/streets-v10',
+      style: 'mapbox://styles/mapbox/streets-v11',
       zoom: zoom,
       center: center,
       attributionControl: false
@@ -90,14 +90,16 @@ export default class Map extends Component {
   addBanksToMap () {
     this.map.addLayer({
       id: 'banks',
-      type: 'symbol',
+      type: 'circle',
       source: {
         type: 'geojson',
         data: banks
       },
-      layout: {
-        'icon-image': 'circle-15',
-        'icon-allow-overlap': true
+      paint: {
+        'circle-radius': 8,
+        'circle-color': '#B42222',
+        'circle-stroke-width': 1,
+        'circle-stroke-color': '#fff'
       }
     })
 
