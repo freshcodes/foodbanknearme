@@ -98,8 +98,8 @@
     "lint-staged": "^10.4.0",
     "preact-cli": "^3.0.5",
     "preact-render-spy": "^1.2.1",
-    "stylelint": "^13.8.0",
-    "stylelint-config-standard": "^20.0.0"
+    "stylelint": "^13.13.1",
+    "stylelint-config-standard": "^22.0.0"
   },
   "dependencies": {
     "@preact/prerender-data-provider": "^3.0.1",
