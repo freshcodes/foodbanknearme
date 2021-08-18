@@ -14,7 +14,9 @@ const Home = ({ url }) => (
 
 const listItems = () => {
   return Object.entries(states).map(([st, name]) => {
-    if (stateCounts[st]) { return <li><a href={`/${st.toLowerCase()}`}>{name}&nbsp;({stateCounts[st]})</a></li> }
+    const count = stateCounts[st]
+    const ref = st.toLowerCase()
+    return count ? <li key={ref}><a href={`/${ref}`}>{name}&nbsp;({stateCounts[st]})</a></li> : null
   })
 }
 

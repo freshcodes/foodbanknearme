@@ -25,6 +25,7 @@
     "parser": "babel-eslint",
     "extends": [
       "standard",
+      "standard-jsx",
       "standard-react"
     ],
     "settings": {
@@ -48,7 +49,8 @@
       "react/no-did-update-set-state": 2,
       "react/react-in-jsx-scope": 2,
       "react/prop-types": 0,
-      "react/jsx-handler-names": 0
+      "react/jsx-handler-names": 0,
+      "react/no-deprecated": 0
     }
   },
   "eslintIgnore": [
@@ -79,15 +81,15 @@
     "babel-eslint": "^10.1.0",
     "enzyme": "^3.11.0",
     "enzyme-adapter-preact-pure": "^2.2.3",
-    "eslint": "^7.17.0",
-    "eslint-config-standard": "^14.1.0",
-    "eslint-config-standard-react": "^9.2.0",
-    "eslint-config-synacor": "^3.0.4",
-    "eslint-plugin-import": "^2.22.1",
+    "eslint": "^7.32.0",
+    "eslint-config-standard": "^16.0.3",
+    "eslint-config-standard-jsx": "^10.0.0",
+    "eslint-config-standard-react": "^11.0.1",
+    "eslint-plugin-import": "^2.24.0",
     "eslint-plugin-node": "^11.0.0",
-    "eslint-plugin-promise": "^4.0.1",
+    "eslint-plugin-promise": "^5.1.0",
     "eslint-plugin-react": "^7.24.0",
-    "eslint-plugin-standard": "^4.0.0",
+    "eslint-plugin-standard": "^5.0.0",
     "fast-xml-parser": "^3.19.0",
     "husky": "^4.3.0",
     "identity-obj-proxy": "^3.0.0",
