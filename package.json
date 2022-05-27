@@ -95,7 +95,7 @@
     "identity-obj-proxy": "^3.0.0",
     "jest": "^27.2.4",
     "jest-preset-preact": "^4.0.5",
-    "lint-staged": "^10.4.0",
+    "lint-staged": "^12.4.2",
     "preact-cli": "^3.2.2",
     "stylelint": "^13.13.1",
     "stylelint-config-standard": "^22.0.0"
