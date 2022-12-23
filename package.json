@@ -96,7 +96,7 @@
     "jest": "^27.2.4",
     "jest-preset-preact": "^4.0.5",
     "lint-staged": "^10.4.0",
-    "preact-cli": "^3.2.2",
+    "preact-cli": "^3.4.3",
     "stylelint": "^13.13.1",
     "stylelint-config-standard": "^22.0.0"
   },
